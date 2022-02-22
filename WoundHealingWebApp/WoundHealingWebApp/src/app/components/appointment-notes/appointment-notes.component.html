@@ -1,0 +1,29 @@
+<div class="main-container">
+    <div>
+        <div class="image"></div>
+    </div>
+    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <div class="item item-1"  fxFlex>
+            <span>APPOINTMENT NOTES</span><br/><br/>
+            <mat-form-field appearance="legacy" class="note">
+                <textarea matInput class="note" [(ngModel)]="note" [disabled]="isPatient">{{note}}</textarea>
+            </mat-form-field>
+            <br/>
+        </div>
+    </div><br/>
+    <div></div>
+    <div class="center" *ngIf="!isPatient">
+        <button mat-fab (click)="onSave()" color="primary">
+            <span class="material-icons">
+                add
+            </span>
+        </button>
+    </div>
+    <div class="center" *ngIf="isPatient">
+        <button mat-fab (click)="onCancel()" color="primary">
+            <span class="material-icons">
+                cancel
+            </span>
+        </button>
+    </div>
+</div>

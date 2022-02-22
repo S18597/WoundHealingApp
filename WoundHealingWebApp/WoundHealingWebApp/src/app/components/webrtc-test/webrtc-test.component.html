@@ -1,0 +1,31 @@
+<h2>1. Start your Webcam</h2><br/>
+<div class="videos">
+    <span>
+        <h3>Local Stream</h3>
+        <video id="webcamVideo" autoplay playsinline #webcamVideo></video>
+      </span>
+      <span>
+        <h3>Remote Stream</h3>
+        <video id="remoteVideo" autoplay playsinline #remoteVideo></video>
+      </span>
+</div>
+<br/>
+
+<button id="webcamButton" (click)="webcamButton()" [disabled]="webcamButtonDisabled">Start WebCam</button><br/>
+<br/>
+<h2>2. Create a new Call</h2>
+<button id="callButton" (click)="callButton()" [disabled]="callButtonDisabled">Create Call (offer)</button>
+<br/><br/>
+
+<h2>3. Join a Call</h2>
+<p>Answer the call from a different browser window or device</p>
+
+
+<!-- <input id="callInput" [value]="callInput" /> -->
+<input type="text" [(ngModel)]="callInput">
+<button id="answerButton" (click)="answerButton()" [disabled]="answerButtonDisabled">Answer</button>
+<br/><br/>
+
+
+<h2>4. Hangup</h2>
+<button id="hangupButton" (click)="hangupButton()" [disabled]="hangupButtonDisabled">Hangup</button>

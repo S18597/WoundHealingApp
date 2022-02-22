@@ -1,0 +1,138 @@
+<div class="main-container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons"> 
+                arrow_back
+            </span>
+          </button>
+    </div>
+    <div>
+        <mat-drawer-container>
+            <mat-drawer #drawer mode="side" opened="true"> 
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <!-- images -->
+                    <div class="item2" fxFlex>
+                        <span class="title-big">PHOTO LIBRARY</span><br/><br/><br/>
+                        <div *ngIf="isPatient">
+                            <mat-accordion class="example-headers-align" multi>
+                                <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                        <mat-panel-description>
+                                            <div class="center">
+                                                Upload photo
+                                            </div>
+                                        </mat-panel-description>
+                                    </mat-expansion-panel-header>
+                                    <div>
+                                        <input
+                                            style="display: none"
+                                            type="file" (change)="onFileChanged($event)"
+                                            #fileInput />
+                                        <button (click)="fileInput.click()" [disabled]="isFileSelected">Select photo</button>
+                                        <button (click)="onUpload()" [disabled]="!isFileSelected">Upload</button>
+                                    </div>
+                                </mat-expansion-panel>
+                            </mat-accordion><br/><br/>
+                        </div>
+                        <div>
+                            <mat-selection-list #photos [multiple]="false" *ngFor="let photo of photoDetails">
+                                <mat-list-option [value]="photo" (click)="onImageClick(photo)">
+                                  {{photo?.woundPhotoName}}
+                                </mat-list-option>
+                            </mat-selection-list>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <button mat-mini-fab mat-button color="white" (click)="drawer.toggle()">
+                <span class="material-icons">
+                    healing
+                </span>
+            </button>
+            <div style="margin-left:35px">
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Type:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundType" />
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Location:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundLocation" />
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Size:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundSize" />
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Color:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundColor" />
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Odor:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundOdor" />
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Exudate:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundExudate" />
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Bleeding:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.woundBleeding" />
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Skin:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.surroundingSkin" />
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Pain type:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.painType" />
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Pain level:</span> &nbsp;
+                        <mat-form-field appearance="legacy">
+                            <input matInput class="text" [(ngModel)]="woundDetails.painLevel" />
+                        </mat-form-field>
+                    </div>
+                </div>
+            </div>
+        </mat-drawer-container>    
+    </div>
+</div>
+
+<!-- <div>
+    <input
+      style="display: none"
+      type="file" (change)="onFileChanged($event)"
+      #fileInput>
+    <button (click)="fileInput.click()">Select photo</button>
+    <button (click)="onUpload()">Upload</button>
+</div> -->

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WoundHealingWebApi", "WoundHealingWebApi\WoundHealingWebApi.csproj", "{6A1FFDB0-FFCC-4A52-AAF9-D1292C691896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoundHealingDb", "WoundHealingDb\WoundHealingDb.csproj", "{98683983-FE86-4462-9812-C6CCA6723EA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A1FFDB0-FFCC-4A52-AAF9-D1292C691896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A1FFDB0-FFCC-4A52-AAF9-D1292C691896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A1FFDB0-FFCC-4A52-AAF9-D1292C691896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A1FFDB0-FFCC-4A52-AAF9-D1292C691896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98683983-FE86-4462-9812-C6CCA6723EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98683983-FE86-4462-9812-C6CCA6723EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98683983-FE86-4462-9812-C6CCA6723EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98683983-FE86-4462-9812-C6CCA6723EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C93A3A6B-F0BA-4D41-B882-D4E927AC3845}
+	EndGlobalSection
+EndGlobal

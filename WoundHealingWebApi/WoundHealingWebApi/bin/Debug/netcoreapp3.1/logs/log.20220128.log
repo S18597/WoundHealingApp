@@ -1,0 +1,1836 @@
+10:33:41.167 103  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+10:33:41.247 101  INFO UserController GetUserAuthByUserId: 3 | 
+10:33:44.405 113  INFO WoundController GetMyWounds userId: 3 | 
+10:33:46.785 113  INFO WoundTypesController GetWoundTypes | 
+10:33:46.900 113  INFO WoundTypesController GetWoundLocations | 
+10:33:46.940 113  INFO WoundTypesController GetWoundSizes | 
+10:33:46.954 113  INFO WoundTypesController GetWoundColors | 
+10:33:46.971 113  INFO WoundTypesController GetWoundOdors | 
+10:33:47.008 97  INFO WoundTypesController GetWoundExudates | 
+10:33:47.029 113  INFO WoundTypesController GetWoundBleedings | 
+10:33:47.064 101  INFO WoundTypesController GetSurroundingSkins | 
+10:33:47.075 97  INFO WoundTypesController GetPainTypes | 
+10:33:47.090 97  INFO WoundTypesController GetPainLevels | 
+10:33:51.311 97  INFO WoundTypesController GetWoundTypes | 
+10:33:51.378 97  INFO WoundTypesController GetWoundLocations | 
+10:33:51.413 101  INFO WoundTypesController GetWoundSizes | 
+10:33:51.413 103  INFO WoundTypesController GetWoundColors | 
+10:33:51.430 103  INFO WoundTypesController GetWoundOdors | 
+10:33:51.430 103  INFO WoundTypesController GetWoundExudates | 
+10:33:51.449 113  INFO WoundTypesController GetWoundBleedings | 
+10:33:51.449 113  INFO WoundTypesController GetSurroundingSkins | 
+10:33:51.463 103  INFO WoundTypesController GetPainTypes | 
+10:33:51.463 97  INFO WoundTypesController GetPainLevels | 
+10:33:53.287 97  INFO WoundController GetMyWounds userId: 3 | 
+11:42:10.489 20  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+11:42:10.511  8  INFO UserController GetUserAuthByUserId: 3 | 
+12:19:58.687  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:19:58.712 86  INFO UserController GetUserAuthByUserId: 3 | 
+12:24:41.171 14  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:24:41.180 14  INFO UserController GetUserAuthByUserId: 3 | 
+12:30:06.766 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:30:06.781 28  INFO UserController GetUserAuthByUserId: 3 | 
+12:45:33.231 94  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:45:33.248 94  INFO UserController GetUserAuthByUserId: 3 | 
+12:45:33.286 94  INFO WoundController GetMyWounds userId: 3 | 
+12:46:15.351 61  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:46:15.351 73  INFO UserController GetUserAuthByUserId: 3 | 
+12:46:15.403 92  INFO WoundController GetMyWounds userId: 3 | 
+12:47:42.640 93  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:47:42.651 30  INFO UserController GetUserAuthByUserId: 3 | 
+12:47:42.689 36  INFO WoundController GetMyWounds userId: 3 | 
+12:49:35.995 22  INFO AppointmentController GetMyAppointments patientId: 3 | 
+12:50:13.755 22  INFO AppointmentController GetMyAppointments patientId: 3 | 
+12:51:29.597 16  INFO WoundController GetMyWounds userId: 3 | 
+13:11:41.552 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:17:53.327 25  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:17:53.511 32  INFO UserController GetUserAuthByUserId: 3 | 
+13:18:16.495 25  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:18:16.520 34  INFO UserController GetUserAuthByUserId: 3 | 
+13:18:48.770 34  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:18:48.799 39  INFO UserController GetUserAuthByUserId: 3 | 
+13:18:48.849 35  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:19:19.609 35  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:19:19.630 35  INFO UserController GetUserAuthByUserId: 3 | 
+13:19:19.672 40  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:19:48.825 45  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:19:48.843 49  INFO UserController GetUserAuthByUserId: 3 | 
+13:19:48.883 49  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:20:48.220 55  INFO WoundController GetMyWounds userId: 3 | 
+13:46:07.922 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:46:07.947 90  INFO UserController GetUserAuthByUserId: 3 | 
+13:46:07.989 87  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:46:15.219 86  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:46:18.352 86  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:46:20.987 83  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:48:51.912 89  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:48:51.935 89  INFO UserController GetUserAuthByUserId: 3 | 
+13:48:51.978 89  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:49:40.850 77  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:49:40.871 89  INFO UserController GetUserAuthByUserId: 3 | 
+13:49:40.920 89  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:51:04.522 67  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:51:04.541 68  INFO UserController GetUserAuthByUserId: 3 | 
+13:51:04.583 68  INFO WoundController GetMyWoundAppointments userId: 3 | 
+13:53:36.713 59  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:53:36.732 50  INFO UserController GetUserAuthByUserId: 3 | 
+13:53:36.776 51  INFO WoundController GetMyWoundAppointments userId: 3 | 
+14:08:18.033 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:08:18.057 18  INFO UserController GetUserAuthByUserId: 3 | 
+14:08:18.105 18  INFO WoundController GetMyWoundAppointments userId: 3 | 
+14:38:36.576 130  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:38:36.598 135  INFO UserController GetUserAuthByUserId: 3 | 
+14:38:36.643 139  INFO WoundController GetMyWoundAppointments userId: 3 | 
+15:34:39.351  9  INFO UserController GetMedicalData: 3 | 
+15:34:41.574  9 ERROR MedicalDataQueryHandler medical data for userId: 3 not found! | 
+15:34:41.613  9 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+15:54:23.219 49  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:54:23.409 55  INFO UserController GetUserAuthByUserId: 3 | 
+15:54:23.499 49  INFO WoundController GetMyWoundAppointments userId: 3 | 
+15:54:59.066 50  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:54:59.091 50  INFO UserController GetUserAuthByUserId: 3 | 
+15:54:59.134 58  INFO WoundController GetMyWoundAppointments userId: 3 | 
+15:58:39.703 68  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:58:39.737 68  INFO UserController GetUserAuthByUserId: 3 | 
+15:58:39.786 66  INFO WoundController GetMyWoundAppointments userId: 3 | 
+15:58:40.635 72  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:00:44.637 76  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:00:44.657 76  INFO UserController GetUserAuthByUserId: 3 | 
+16:00:44.698 79  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:00:45.352 76  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:02:25.020 81  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:02:25.042 81  INFO UserController GetUserAuthByUserId: 3 | 
+16:02:25.085 81  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:02:25.899 81  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:04:14.496 88  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:04:14.514 88  INFO UserController GetUserAuthByUserId: 3 | 
+16:04:14.552 88  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:04:15.192 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:04:43.770 91  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:04:43.791 91  INFO UserController GetUserAuthByUserId: 3 | 
+16:04:43.841 91  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:04:44.613 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:06:28.416 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:06:28.434 87  INFO UserController GetUserAuthByUserId: 3 | 
+16:06:28.475 87  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:06:29.150 104  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:06:46.824 103  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:06:46.840 103  INFO UserController GetUserAuthByUserId: 3 | 
+16:06:46.886 104  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:06:47.722 103  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:08:48.054 108  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:08:48.070 112  INFO UserController GetUserAuthByUserId: 3 | 
+16:08:48.113 110  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:08:48.775 112  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:09:29.083 112  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:09:29.083 115  INFO UserController GetUserAuthByUserId: 3 | 
+16:09:29.134 115  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:09:29.702 110  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:13:14.909 124  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:13:14.924 124  INFO UserController GetUserAuthByUserId: 3 | 
+16:13:14.962 127  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:13:15.775 128  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:17:55.967 136  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:17:55.986 144  INFO UserController GetUserAuthByUserId: 3 | 
+16:17:56.031 143  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:17:56.955 144  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:17:56.973 143  INFO UserController GetMedicalData: 3 | 
+16:17:56.973 143 ERROR MedicalDataQueryHandler medical data for userId: 3 not found! | 
+16:17:56.973 143 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+16:18:57.981 142  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:18:58.229 145  INFO MedicalDataRequestHandler Medical data created: WoundHealingDb.Models.MedicalData | 
+16:19:26.794 142  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:19:26.805 151  INFO UserController GetUserAuthByUserId: 3 | 
+16:19:26.848 151  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:19:27.594 134  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:19:27.612 151  INFO UserController GetMedicalData: 3 | 
+16:28:51.566 160  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:28:51.588 158  INFO UserController GetUserAuthByUserId: 3 | 
+16:28:51.627 152  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:28:52.471 158  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:28:52.484 152  INFO UserController GetMedicalData: 3 | 
+16:29:16.808 151  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:29:16.887 151 ERROR MedicalDataRequestHandler SaveMedicalData error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_MedicalData_UserId'. Cannot insert duplicate key in object 'dbo.MedicalData'. The duplicate key value is (3).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8c74b796-2c53-41f8-b0d0-e54188b30384
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.MedicalDataRequestHandler.Handle(SaveMedicalDataRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataRequestHandler.cs:line 50 | 
+16:34:05.620 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:34:07.885  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:34:07.898 10  INFO UserController GetUserAuthByUserId: 3 | 
+16:34:07.950  4  INFO UserController GetUserAuthByUserId: 3 | 
+16:34:07.997  4  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:34:08.873  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:34:08.909  4  INFO UserController GetMedicalData: 3 | 
+16:34:13.932  9  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:34:14.018  4  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:34:19.386 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:34:20.242  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:34:20.259  8  INFO UserController GetMedicalData: 3 | 
+16:34:31.782  4  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:34:31.788  4  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:35:48.820 22  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:35:48.820 22  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:37:54.179 27  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:37:54.198 28  INFO UserController GetUserAuthByUserId: 3 | 
+16:37:54.238 28  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:37:55.210 29  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:37:55.228 23  INFO UserController GetMedicalData: 3 | 
+16:39:04.312 36  INFO UserController SaveMedicalData request: WoundHealingWebApi.DTOs.MedicalDataDto | 
+16:39:04.330 36  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:39:54.154 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:39:55.898 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:39:55.898  8  INFO UserController GetUserAuthByUserId: 3 | 
+16:39:55.960  8  INFO UserController GetUserAuthByUserId: 3 | 
+16:39:56.007  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:39:56.996  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:39:57.040  4  INFO UserController GetMedicalData: 3 | 
+16:40:02.344  4  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDeseases":null,"Allergies":"stupid people","Medication":"none","Pregnancy":false,"Tobacco":true,"Alcohol":true,"Drugs":false} | 
+16:40:02.424  9  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:41:51.878 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:41:53.499  9  INFO UserController GetUserAuthByUserId: 3 | 
+16:41:53.603  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:41:54.371  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:41:54.402  9  INFO UserController GetMedicalData: 3 | 
+16:41:57.667  8  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test","Allergies":"stupid people","Medication":"none","Pregnancy":false,"Tobacco":true,"Alcohol":true,"Drugs":false} | 
+16:41:57.878 10  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:42:01.838  4  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:42:02.795 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:42:02.817  8  INFO UserController GetMedicalData: 3 | 
+16:42:21.998 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:42:22.017  9  INFO UserController GetUserAuthByUserId: 3 | 
+16:42:22.067 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:42:22.867 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:42:22.888 16  INFO UserController GetMedicalData: 3 | 
+16:43:51.680 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:43:51.680 17  INFO UserController GetUserAuthByUserId: 3 | 
+16:43:51.742 17  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:43:52.609 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:43:52.626 20  INFO UserController GetMedicalData: 3 | 
+16:43:56.560 22  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test 222","Allergies":"stupid people","Medication":"none","Pregnancy":false,"Tobacco":true,"Alcohol":true,"Drugs":false} | 
+16:43:56.576 22  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:43:58.749 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:43:59.364 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:43:59.399 11  INFO UserController GetMedicalData: 3 | 
+16:44:01.816 20  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test 222","Allergies":"stupid people","Medication":"none","Pregnancy":false,"Tobacco":false,"Alcohol":true,"Drugs":false} | 
+16:44:01.837 20  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:44:04.185 17  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:44:04.745 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:44:04.771 21  INFO UserController GetMedicalData: 3 | 
+16:44:09.059 17  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test 222","Allergies":"stupid people","Medication":"none","Pregnancy":false,"Tobacco":true,"Alcohol":true,"Drugs":false} | 
+16:44:09.070 11  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+16:44:11.613 19  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:44:12.340 22  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:44:12.356 11  INFO UserController GetMedicalData: 3 | 
+16:51:29.755 36  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:51:29.775 42  INFO UserController GetUserAuthByUserId: 3 | 
+16:51:29.813 42  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:31.374 42  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:51:31.394 40  INFO UserController GetMedicalData: 3 | 
+16:51:33.090 35  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:33.966 40  INFO WoundController GetMyWounds userId: 3 | 
+16:51:35.197 36  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:35.802 36  INFO WoundTypesController GetWoundTypes | 
+16:51:35.927 36  INFO WoundTypesController GetWoundLocations | 
+16:51:35.976 36  INFO WoundTypesController GetWoundSizes | 
+16:51:36.022 36  INFO WoundTypesController GetWoundColors | 
+16:51:36.072 36  INFO WoundTypesController GetWoundOdors | 
+16:51:36.111 36  INFO WoundTypesController GetWoundExudates | 
+16:51:36.163 42  INFO WoundTypesController GetWoundBleedings | 
+16:51:36.214 42  INFO WoundTypesController GetSurroundingSkins | 
+16:51:36.261 42  INFO WoundTypesController GetPainTypes | 
+16:51:36.390 35  INFO WoundTypesController GetPainLevels | 
+16:51:36.849 35  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:37.592 44  INFO AppointmentController GetMyAppointments patientId: 3 | 
+16:51:38.915 35  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:39.515 41  INFO WoundController GetMyWounds userId: 3 | 
+16:51:40.625 35  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:51:44.091 41  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:52:00.733 35  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:52:00.746 42  INFO UserController GetMedicalData: 3 | 
+16:52:08.768 42  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:53:29.768 38  INFO UserController GetUserByEmail: doc2@o2.pl | 
+16:53:29.785 38  INFO UserController GetUserAuthByUserId: 6 | 
+16:53:57.342 50  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:53:57.367 53  INFO UserController GetUserAuthByUserId: 3 | 
+16:53:57.407 50  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:54:10.544 46  INFO UserController GetUserByEmail: doc2@o2.pl | 
+16:54:10.564 46  INFO UserController GetUserAuthByUserId: 6 | 
+16:54:38.356 46  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+16:54:44.039 56  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:00:18.094 67  INFO UserController GetUserByEmail: doc2@o2.pl | 
+17:00:18.118 70  INFO UserController GetUserAuthByUserId: 6 | 
+17:00:18.159 70  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:01:42.682 70  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:01:42.695 74  INFO UserController GetUserAuthByUserId: 3 | 
+17:01:42.738 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:01:44.161 77  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:01:44.178 77  INFO UserController GetMedicalData: 3 | 
+17:01:45.585 77  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:01:47.175 76  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:01:47.186 68  INFO UserController GetMedicalData: 3 | 
+17:01:56.759 79  INFO UserController GetUserByEmail: doc2@o2.pl | 
+17:01:56.759 79  INFO UserController GetUserAuthByUserId: 6 | 
+17:01:56.816 76  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:04:28.590 84  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:04:28.603 90  INFO UserController GetUserAuthByUserId: 3 | 
+17:04:28.644 83  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:04:40.136 83  INFO UserController GetUserByEmail: doc2@o2.pl | 
+17:04:40.153 83  INFO UserController GetUserAuthByUserId: 6 | 
+17:04:40.192 88  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:05:29.659 83  INFO UserController GetUserByEmail: doc2@o2.pl | 
+17:05:29.676 83  INFO UserController GetUserAuthByUserId: 6 | 
+17:05:29.716 83  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:05:31.640 83  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:05:49.457 83  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+17:05:54.585 96  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:05:54.585 91  INFO UserController GetUserAuthByUserId: 3 | 
+17:05:54.634 96  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:05:55.397 95  INFO WoundTypesController GetWoundTypes | 
+17:05:55.519 96  INFO WoundTypesController GetWoundLocations | 
+17:05:55.573 96  INFO WoundTypesController GetWoundSizes | 
+17:05:55.601 95  INFO WoundTypesController GetWoundColors | 
+17:05:55.622 95  INFO WoundTypesController GetWoundOdors | 
+17:05:55.642 83  INFO WoundTypesController GetWoundExudates | 
+17:05:55.673 95  INFO WoundTypesController GetWoundBleedings | 
+17:05:55.718 95  INFO WoundTypesController GetSurroundingSkins | 
+17:05:55.756 95  INFO WoundTypesController GetPainTypes | 
+17:05:55.798 95  INFO WoundTypesController GetPainLevels | 
+17:05:57.034 96  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:05:57.778 91  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:06:04.099 91  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:24:01.052 86  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:24:01.069 84  INFO UserController GetUserAuthByUserId: 3 | 
+17:24:01.110 82  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:24:06.942 82  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:25:03.985 91  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:25:03.998 91  INFO UserController GetUserAuthByUserId: 3 | 
+17:25:04.039 80  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:25:42.261 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:25:42.277 74  INFO UserController GetUserAuthByUserId: 3 | 
+17:25:42.318 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:25:49.305 74  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:27:25.615 76  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:27:25.615 71  INFO UserController GetUserAuthByUserId: 3 | 
+17:27:25.669 70  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:27:26.595 76  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:32:47.838 59  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:32:47.854 60  INFO UserController GetUserAuthByUserId: 3 | 
+17:32:47.898 61  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:32:49.579 61  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:43:56.775 40  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:43:56.812 35  INFO UserController GetUserAuthByUserId: 3 | 
+17:43:56.863 41  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:43:59.089 33  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:45:17.641 32  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:45:17.655 39  INFO UserController GetUserAuthByUserId: 3 | 
+17:45:17.704 40  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:45:19.787 39  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:50:43.926 50  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:50:43.941 50  INFO UserController GetUserAuthByUserId: 3 | 
+17:50:43.982 56  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:50:46.296 55  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:52:39.305 49  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:52:39.305 49  INFO UserController GetUserAuthByUserId: 3 | 
+17:52:39.354 60  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:52:40.005 60  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:55:23.389 64  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:55:23.408 72  INFO UserController GetUserAuthByUserId: 3 | 
+17:55:23.444 64  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:55:24.540 64  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:56:24.646 68  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:56:24.646 67  INFO UserController GetUserAuthByUserId: 3 | 
+17:56:24.695 68  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:56:26.765 75  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:57:13.877 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:57:13.895 69  INFO UserController GetUserAuthByUserId: 3 | 
+17:57:13.940 79  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:57:15.380 79  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:57:48.888 79  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:57:48.900 69  INFO UserController GetUserAuthByUserId: 3 | 
+17:57:48.950 69  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:57:50.972 90  INFO AppointmentController GetMyAppointments patientId: 3 | 
+17:58:09.915 90  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:58:09.915 90  INFO UserController GetUserAuthByUserId: 3 | 
+17:58:09.981 90  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:58:12.573 90  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:03:50.317 99  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:03:50.338 99  INFO UserController GetUserAuthByUserId: 3 | 
+18:03:50.375 105  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:03:51.971 105  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:05:14.612 100  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:05:14.627 28  INFO UserController GetUserAuthByUserId: 3 | 
+18:05:14.676 100  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:05:15.774 29  INFO WoundController GetMyWounds userId: 3 | 
+18:05:18.414 29  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:05:19.621 101  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:37:08.132  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:37:09.794  4  INFO UserController GetUserAuthByUserId: 3 | 
+18:37:09.911  4  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:37:10.056 13  INFO WoundController GetMyWounds userId: 3 | 
+18:37:11.610  4  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:37:12.989 11  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:37:48.961 12  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:37:48.985 20  INFO UserController GetUserAuthByUserId: 3 | 
+18:37:49.033 20  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:37:50.286 12  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:37:51.400 20  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:41:46.499 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:41:46.519 28  INFO UserController GetUserAuthByUserId: 3 | 
+18:41:46.563 28  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:41:47.627 28  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:41:48.440 28  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:43:49.733 31  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:43:49.749 31  INFO UserController GetUserAuthByUserId: 3 | 
+18:43:49.793 34  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:43:50.748 31  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:43:51.563 34  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:45:38.670 38  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:45:38.691 43  INFO UserController GetUserAuthByUserId: 3 | 
+18:45:38.740 43  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:45:39.574 43  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:45:40.469 39  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:47:07.794 46  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:47:07.813 48  INFO UserController GetUserAuthByUserId: 3 | 
+18:47:07.852 52  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:47:09.585 52  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:47:11.266 52  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:48:07.476 49  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:48:07.491 49  INFO UserController GetUserAuthByUserId: 3 | 
+18:48:07.547 49  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:48:08.819 49  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:48:09.669 59  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:49:22.528 49  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:49:22.542 49  INFO UserController GetUserAuthByUserId: 3 | 
+18:49:22.584 63  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:49:23.905 58  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:49:24.957 63  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:49:54.160 65  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:49:54.173 65  INFO UserController GetUserAuthByUserId: 3 | 
+18:49:54.221 65  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:49:55.335 64  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:49:56.342 67  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:51:41.364 68  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:51:41.386 72  INFO UserController GetUserAuthByUserId: 3 | 
+18:51:41.427 71  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:51:42.333 72  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:51:43.186 72  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+18:52:24.216 71  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:24.229 71  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:24.274 71  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:52:25.310 71  INFO AppointmentController GetMyAppointments patientId: 3 | 
+18:52:26.013 76  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:01:26.817 93  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:01:26.837 93  INFO UserController GetUserAuthByUserId: 3 | 
+19:01:26.883 96  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:01:28.270 96  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:01:29.518 92  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:02:09.867 94  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:02:09.867 100  INFO UserController GetUserAuthByUserId: 3 | 
+19:02:09.920 100  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:02:22.064 99  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:02:22.078 101  INFO UserController GetUserAuthByUserId: 3 | 
+19:02:22.118 99  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:02:35.945 99  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:02:35.945 98  INFO UserController GetUserAuthByUserId: 3 | 
+19:02:35.993 99  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:02:44.521 104  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:02:44.547 104  INFO UserController GetMedicalData: 3 | 
+19:02:57.204 104  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test","Allergies":"stupid p","Medication":"none","Pregnancy":true,"Tobacco":false,"Alcohol":true,"Drugs":false} | 
+19:02:57.402 98  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+19:03:18.501 98  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:03:20.028 103  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:03:21.521 103  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:03:30.356 103  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:03:30.375 98  INFO UserController GetMedicalData: 3 | 
+19:03:32.976 98  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:03:34.122 110  INFO WoundController GetMyWounds userId: 3 | 
+19:03:36.198 110  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:16:03.696  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:16:05.283 13  INFO UserController GetUserAuthByUserId: 3 | 
+19:16:05.387 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:16:13.618 11  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:16:15.068 13  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:16:20.087 13  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:16:27.158 13  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:19:54.836 20  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:19:54.859 19  INFO UserController GetUserAuthByUserId: 3 | 
+19:19:54.909 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:19:56.157 20  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:19:57.027 24  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:20:55.124 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:20:55.147 24  INFO UserController GetUserAuthByUserId: 3 | 
+19:20:55.194 26  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:20:55.839 26  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:20:56.764 26  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:23:09.375 32  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:23:09.392 34  INFO UserController GetUserAuthByUserId: 3 | 
+19:23:09.427 29  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:23:10.379 31  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:23:11.227 29  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:43:21.955  6  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:43:23.619  6  INFO UserController GetUserAuthByUserId: 3 | 
+19:43:23.723  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:43:25.056 13  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:43:25.976  8  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:44:29.847 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:44:29.866 16  INFO UserController GetUserAuthByUserId: 3 | 
+19:44:29.919 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:44:31.060 16  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:44:32.052 15  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:45:01.741 19  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:45:01.763 12  INFO UserController GetUserAuthByUserId: 3 | 
+19:45:01.805 21  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:45:02.879 23  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:45:03.925 12  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:45:28.326 12  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:45:28.346 26  INFO UserController GetUserAuthByUserId: 3 | 
+19:45:28.394 19  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:45:29.973 19  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:45:30.779 12  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:46:55.043 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:46:55.062 31  INFO UserController GetUserAuthByUserId: 3 | 
+19:46:55.101 32  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:46:56.405 33  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:46:57.731 32  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:54:19.885 47  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:54:19.910 47  INFO UserController GetUserAuthByUserId: 3 | 
+19:54:19.951 53  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:54:21.135 52  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:54:21.939 50  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:55:15.231 52  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:55:15.256 49  INFO UserController GetUserAuthByUserId: 3 | 
+19:55:15.300 55  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:55:16.980 49  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:55:20.082 55  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:55:21.874 56  INFO WoundController GetWoundDetails woundId: 13 | 
+19:55:21.946 56 ERROR WoundQueryHandler GetWoundDetailsQuery error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WoundHealingWebApi.Handlers.WoundQueryHandler.Handle(GetWoundDetailsQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundQueryHandler.cs:line 129 | 
+19:55:52.325 52  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:55:52.348 56  INFO UserController GetUserAuthByUserId: 3 | 
+19:55:52.395 56  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:55:53.990 59  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:55:54.833 52  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:55:55.756 52  INFO WoundController GetWoundDetails woundId: 13 | 
+19:55:55.756 52 ERROR WoundQueryHandler GetWoundDetailsQuery error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WoundHealingWebApi.Handlers.WoundQueryHandler.Handle(GetWoundDetailsQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundQueryHandler.cs:line 129 | 
+19:57:44.584 62  INFO WoundController GetWoundDetails woundId: 13 | 
+19:57:44.584 62 ERROR WoundQueryHandler GetWoundDetailsQuery error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WoundHealingWebApi.Handlers.WoundQueryHandler.Handle(GetWoundDetailsQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundQueryHandler.cs:line 129 | 
+20:00:03.029 10  INFO WoundController GetWoundDetails woundId: 10 | 
+20:00:04.678 12 ERROR WoundQueryHandler GetWoundDetailsQuery error: System.NullReferenceException: Object reference not set to an instance of an object.
+   at WoundHealingWebApi.Handlers.WoundQueryHandler.Handle(GetWoundDetailsQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundQueryHandler.cs:line 129 | 
+20:03:16.275  9  INFO WoundController GetWoundDetails woundId: 13 | 
+20:06:37.631 10  INFO WoundController GetWoundDetails woundId: 13 | 
+20:07:01.882  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:07:02.177  9  INFO UserController GetUserAuthByUserId: 3 | 
+20:07:02.308  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:07:03.748  9  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:07:05.142  8  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:07:06.212  8  INFO WoundController GetWoundDetails woundId: 13 | 
+20:27:12.027 52  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:27:12.054 58  INFO UserController GetUserAuthByUserId: 3 | 
+20:27:12.096 52  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:27:13.235 57  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:27:14.264 57  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:27:15.337 51  INFO WoundController GetWoundDetails woundId: 13 | 
+20:27:47.250 53  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:27:47.270 62  INFO UserController GetUserAuthByUserId: 3 | 
+20:27:47.320 62  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:27:48.208 51  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:27:49.038 51  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:27:50.348 53  INFO WoundController GetWoundDetails woundId: 13 | 
+20:28:43.972 53  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:28:43.998 64  INFO UserController GetUserAuthByUserId: 3 | 
+20:28:44.045 66  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:28:44.807 66  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:28:45.522 65  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:28:46.273 66  INFO WoundController GetWoundDetails woundId: 13 | 
+20:29:08.139 65  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:29:08.161 65  INFO UserController GetUserAuthByUserId: 3 | 
+20:29:08.208 65  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:29:09.103 66  INFO WoundController GetMyWounds userId: 3 | 
+20:29:11.580 70  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:29:12.072 66  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:29:13.213 70  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:29:14.059 65  INFO WoundController GetWoundDetails woundId: 13 | 
+20:29:41.416 72  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:29:41.430 74  INFO UserController GetUserAuthByUserId: 3 | 
+20:29:41.491 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:29:42.128 72  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:29:42.992 75  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:29:44.143 75  INFO WoundController GetWoundDetails woundId: 13 | 
+20:31:46.011 82  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:31:46.024 80  INFO UserController GetUserAuthByUserId: 3 | 
+20:31:46.066 78  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:31:47.144 78  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:31:48.022 78  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:31:49.128 84  INFO WoundController GetWoundDetails woundId: 13 | 
+20:32:52.308 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:32:52.320 78  INFO UserController GetUserAuthByUserId: 3 | 
+20:32:52.359 78  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:32:53.339 86  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:32:54.276 89  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:32:55.148 86  INFO WoundController GetWoundDetails woundId: 13 | 
+20:33:09.342 89  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:33:09.352 78  INFO UserController GetUserAuthByUserId: 3 | 
+20:33:09.387 92  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:33:10.593 92  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:33:11.663 92  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:33:12.300 92  INFO WoundController GetWoundDetails woundId: 13 | 
+20:33:42.733 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:33:42.745 96  INFO UserController GetUserAuthByUserId: 3 | 
+20:33:42.787 78  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:33:46.867 96  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:33:47.897 96  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:33:49.219 95  INFO WoundController GetWoundDetails woundId: 13 | 
+20:34:56.197 100  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:34:56.212 102  INFO UserController GetUserAuthByUserId: 3 | 
+20:34:56.248 102  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:34:57.181 102  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:34:58.018 103  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:34:59.159 105  INFO WoundController GetWoundDetails woundId: 13 | 
+20:35:30.298 104  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:35:30.313 108  INFO UserController GetUserAuthByUserId: 3 | 
+20:35:30.354 104  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:35:31.152 109  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:35:32.139 104  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:35:32.700 109  INFO WoundController GetWoundDetails woundId: 13 | 
+20:37:03.019 110  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:37:03.033 110  INFO UserController GetUserAuthByUserId: 3 | 
+20:37:03.076 116  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:37:04.007 110  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:37:05.347 110  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:37:06.133 110  INFO WoundController GetWoundDetails woundId: 13 | 
+20:37:32.167 114  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:37:32.167 118  INFO UserController GetUserAuthByUserId: 3 | 
+20:37:32.215 118  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:37:33.436 115  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:37:34.191 118  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:37:34.766 118  INFO WoundController GetWoundDetails woundId: 13 | 
+20:39:02.892 120  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:39:02.907 125  INFO UserController GetUserAuthByUserId: 3 | 
+20:39:02.955 125  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:39:03.720 125  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:39:04.634 125  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:39:05.504 126  INFO WoundController GetWoundDetails woundId: 13 | 
+20:40:04.688 125  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:40:04.706 125  INFO UserController GetUserAuthByUserId: 3 | 
+20:40:04.747 128  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:40:05.525 128  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:40:06.308 131  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:40:07.132 131  INFO WoundController GetWoundDetails woundId: 13 | 
+20:40:18.727 128  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:40:18.727 132  INFO UserController GetUserAuthByUserId: 3 | 
+20:40:18.779 131  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:40:19.403 131  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:40:20.734 128  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:40:21.930 130  INFO WoundController GetWoundDetails woundId: 13 | 
+20:40:48.191 130  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:40:48.200 136  INFO UserController GetUserAuthByUserId: 3 | 
+20:40:48.247 130  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:40:48.939 130  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:40:49.857 130  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:40:50.493 136  INFO WoundController GetWoundDetails woundId: 13 | 
+20:49:01.436 152  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:49:01.454 159  INFO UserController GetUserAuthByUserId: 3 | 
+20:49:01.498 159  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:49:03.736 152  INFO WoundTypesController GetWoundTypes | 
+20:49:03.873 152  INFO WoundTypesController GetWoundLocations | 
+20:49:03.925 160  INFO WoundTypesController GetWoundSizes | 
+20:49:03.957 160  INFO WoundTypesController GetWoundColors | 
+20:49:03.987 160  INFO WoundTypesController GetWoundOdors | 
+20:49:04.021 160  INFO WoundTypesController GetWoundExudates | 
+20:49:04.049 152  INFO WoundTypesController GetWoundBleedings | 
+20:49:04.102 160  INFO WoundTypesController GetSurroundingSkins | 
+20:49:04.142 152  INFO WoundTypesController GetPainTypes | 
+20:49:04.176 160  INFO WoundTypesController GetPainLevels | 
+21:31:24.992 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:31:26.857 11  INFO UserController GetUserAuthByUserId: 3 | 
+21:31:26.981 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:32:14.925 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:32:14.947 10  INFO UserController GetUserAuthByUserId: 3 | 
+21:32:14.999 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:32:16.544 10  INFO WoundTypesController GetWoundTypes | 
+21:32:16.660  6  INFO WoundTypesController GetWoundLocations | 
+21:32:16.713  6  INFO WoundTypesController GetWoundSizes | 
+21:32:16.746 16  INFO WoundTypesController GetWoundColors | 
+21:32:16.779  6  INFO WoundTypesController GetWoundOdors | 
+21:32:16.814 16  INFO WoundTypesController GetWoundExudates | 
+21:32:16.876 16  INFO WoundTypesController GetWoundBleedings | 
+21:32:16.934 17  INFO WoundTypesController GetSurroundingSkins | 
+21:32:16.971 17  INFO WoundTypesController GetPainTypes | 
+21:32:17.009 10  INFO WoundTypesController GetPainLevels | 
+21:35:22.567 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:35:22.593 28  INFO UserController GetUserAuthByUserId: 3 | 
+21:35:22.645 28  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:35:23.645 28  INFO WoundTypesController GetWoundTypes | 
+21:35:23.764 28  INFO WoundTypesController GetWoundLocations | 
+21:35:23.820 28  INFO WoundTypesController GetWoundSizes | 
+21:35:23.843 29  INFO WoundTypesController GetWoundColors | 
+21:35:23.861 27  INFO WoundTypesController GetWoundOdors | 
+21:35:23.880 29  INFO WoundTypesController GetWoundExudates | 
+21:35:23.880 29  INFO WoundTypesController GetWoundBleedings | 
+21:35:23.924 29  INFO WoundTypesController GetSurroundingSkins | 
+21:35:23.941 24  INFO WoundTypesController GetPainTypes | 
+21:35:23.956 24  INFO WoundTypesController GetPainLevels | 
+21:35:47.560 29  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:36:00.643 32  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:36:00.667 32  INFO UserController GetUserAuthByUserId: 3 | 
+21:36:00.718 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:36:01.722 32  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:36:02.548 24  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:36:03.192 24  INFO WoundController GetWoundDetails woundId: 13 | 
+21:38:47.351 37  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:38:47.367 45  INFO UserController GetUserAuthByUserId: 3 | 
+21:38:47.407 45  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:38:48.036 46  INFO WoundTypesController GetWoundTypes | 
+21:38:48.181 45  INFO WoundTypesController GetWoundLocations | 
+21:38:48.234 48  INFO WoundTypesController GetWoundSizes | 
+21:38:48.256 37  INFO WoundTypesController GetWoundColors | 
+21:38:48.275 37  INFO WoundTypesController GetWoundOdors | 
+21:38:48.302 37  INFO WoundTypesController GetWoundExudates | 
+21:38:48.324 37  INFO WoundTypesController GetWoundBleedings | 
+21:38:48.351 37  INFO WoundTypesController GetSurroundingSkins | 
+21:38:48.387 37  INFO WoundTypesController GetPainTypes | 
+21:38:48.446 45  INFO WoundTypesController GetPainLevels | 
+21:38:49.436 45  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:38:50.176 45  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:38:51.191 47  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:38:58.744 45  INFO WoundController GetWoundDetails woundId: 13 | 
+21:40:58.425 51  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:40:58.445 51  INFO UserController GetUserAuthByUserId: 3 | 
+21:40:58.486 51  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:40:59.996 51  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:41:01.101 42  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:41:01.764 42  INFO WoundController GetWoundDetails woundId: 13 | 
+21:44:55.663 60  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:44:55.775 61  INFO UserController GetUserAuthByUserId: 3 | 
+21:44:55.866 66  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:44:56.747 60  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:44:57.660 73  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:44:58.577 73  INFO WoundController GetWoundDetails woundId: 13 | 
+21:46:45.662 67  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:46:45.662 67  INFO UserController GetUserAuthByUserId: 3 | 
+21:46:45.716 71  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:46:46.711 62  INFO WoundTypesController GetWoundTypes | 
+21:46:46.825 62  INFO WoundTypesController GetWoundLocations | 
+21:46:46.878 68  INFO WoundTypesController GetWoundSizes | 
+21:46:46.903 68  INFO WoundTypesController GetWoundColors | 
+21:46:46.919 68  INFO WoundTypesController GetWoundOdors | 
+21:46:46.942 67  INFO WoundTypesController GetWoundExudates | 
+21:46:46.942 67  INFO WoundTypesController GetWoundBleedings | 
+21:46:46.980 67  INFO WoundTypesController GetSurroundingSkins | 
+21:46:47.000 67  INFO WoundTypesController GetPainTypes | 
+21:46:47.027 74  INFO WoundTypesController GetPainLevels | 
+21:46:47.940 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:46:48.611 75  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:46:50.078 75  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:46:51.111 77  INFO WoundController GetWoundDetails woundId: 13 | 
+21:53:53.282 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:53:54.845 10  INFO UserController GetUserAuthByUserId: 3 | 
+21:53:54.863  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:53:54.912 10  INFO UserController GetUserAuthByUserId: 3 | 
+21:53:54.967 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:53:56.809  8  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:53:57.542  8  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:53:58.169 11  INFO WoundController GetWoundDetails woundId: 13 | 
+21:54:03.282 11  INFO WoundController UploadWoundPhoto woundId: 13 | 
+21:57:40.572 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:57:42.830  9  INFO UserController GetUserAuthByUserId: 3 | 
+21:57:42.959  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:57:43.299  8  INFO WoundController GetMyWounds userId: 3 | 
+21:57:44.627 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:57:46.960  9  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:57:47.720  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:57:49.261  9  INFO WoundController GetWoundDetails woundId: 13 | 
+21:57:55.137  8  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:06:27.849  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:06:30.657  9  INFO UserController GetUserAuthByUserId: 3 | 
+22:06:30.834 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:06:32.675  4  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:06:33.528  4  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:06:35.903 11  INFO WoundController GetWoundDetails woundId: 13 | 
+22:06:42.579 11  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:06:43.026  8 ERROR WoundRequestHandler UploadWoundPhoto error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'FileData', table 'WoundHealingDb.dbo.WoundPhoto'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5465b600-881d-4c3b-8733-71794741b229
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.WoundRequestHandler.Handle(UploadWoundPhotoRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundRequestHandler.cs:line 117 | 
+22:08:46.088  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:08:48.757  8  INFO UserController GetUserAuthByUserId: 3 | 
+22:08:48.840  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:08:48.899  9  INFO UserController GetUserAuthByUserId: 3 | 
+22:08:48.964  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:08:50.740  9  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:08:52.059  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:08:53.086  4  INFO WoundController GetWoundDetails woundId: 13 | 
+22:09:01.494 10  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:09:01.586  8 ERROR WoundRequestHandler File is empty! | 
+22:09:01.609  8 ERROR WoundRequestHandler UploadWoundPhoto error: System.Exception: File is empty!
+   at WoundHealingWebApi.Handlers.WoundRequestHandler.Handle(UploadWoundPhotoRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundRequestHandler.cs:line 115 | 
+22:15:35.569 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:15:38.467 10  INFO UserController GetUserAuthByUserId: 3 | 
+22:15:38.636 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:15:41.113  4  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:15:43.257  4  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:15:44.102  8  INFO WoundController GetWoundDetails woundId: 13 | 
+22:15:50.542  4  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:15:50.542  4  INFO WoundController files count: 1, filename: photo1.PNG | 
+22:19:20.607 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:19:23.541 11  INFO UserController GetUserAuthByUserId: 3 | 
+22:19:23.778 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:19:24.900  9  INFO WoundTypesController GetWoundTypes | 
+22:19:25.093 11  INFO WoundTypesController GetWoundLocations | 
+22:19:25.177 11  INFO WoundTypesController GetWoundSizes | 
+22:19:25.219 11  INFO WoundTypesController GetWoundColors | 
+22:19:25.285 11  INFO WoundTypesController GetWoundOdors | 
+22:19:25.377 11  INFO WoundTypesController GetWoundExudates | 
+22:19:25.441  8  INFO WoundTypesController GetWoundBleedings | 
+22:19:25.485  9  INFO WoundTypesController GetSurroundingSkins | 
+22:19:25.550 10  INFO WoundTypesController GetPainTypes | 
+22:19:25.608  9  INFO WoundTypesController GetPainLevels | 
+22:19:26.584  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:19:27.134 11  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:19:28.026 14  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:19:28.753 11  INFO WoundController GetWoundDetails woundId: 13 | 
+22:19:34.036 11  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:19:34.036 11  INFO WoundController files count: 1, filename: photo1.PNG | 
+22:20:18.553 10  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:20:18.573 10  INFO WoundController files count: 1, filename: photo1.PNG | 
+22:20:20.896  4  INFO WoundRequestHandler fileName: photo1.PNG | 
+22:20:20.896  4  INFO WoundRequestHandler fileExtension: .PNG | 
+22:20:20.896  4  INFO WoundRequestHandler newFileName: 4c9944e4-4c98-4b7b-8344-dd35e5a9da0a.PNG | 
+22:20:20.896  4  INFO WoundRequestHandler Wound photo uploaded for id: 13 | 
+22:24:41.434 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:24:44.537 12  INFO UserController GetUserAuthByUserId: 3 | 
+22:24:44.701 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:24:55.082 11  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:24:56.502 11  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:24:57.563 11  INFO WoundController GetWoundDetails woundId: 13 | 
+22:25:04.936  4  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+22:25:04.936  4  INFO WoundController files count: 1, filename: photo1.PNG | 
+22:25:05.015 12  INFO WoundRequestHandler fileName: photo1.PNG | 
+22:25:05.015 12  INFO WoundRequestHandler fileExtension: .PNG | 
+22:25:05.015 12  INFO WoundRequestHandler newFileName: 0c978f4c-bfc9-4b92-9205-e5c604d9c9cf.PNG | 
+22:25:05.320 12  INFO WoundRequestHandler Wound photo uploaded for id: 13 | 
+22:57:29.337  4  INFO WoundController GetWoundPhoto: 2 | 
+22:57:31.031 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+22:58:15.850 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:58:16.061 10  INFO UserController GetUserAuthByUserId: 3 | 
+22:58:16.192 10  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:58:16.847 10  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:58:17.792 16  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:58:20.443 19  INFO WoundController GetWoundDetails woundId: 13 | 
+23:09:30.080  9  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:15:28.525 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:15:28.707 24  INFO UserController GetUserAuthByUserId: 3 | 
+23:15:28.843 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:15:30.463 28  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:15:31.431 23  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:15:32.465 23  INFO WoundController GetWoundDetails woundId: 13 | 
+23:15:32.569 23  INFO AppointmentController GetMyAppointments patientId: 13 | 
+23:16:45.411 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:16:45.430 32  INFO UserController GetUserAuthByUserId: 3 | 
+23:16:45.471 33  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:16:46.389 25  INFO WoundTypesController GetWoundTypes | 
+23:16:46.516 35  INFO WoundTypesController GetWoundLocations | 
+23:16:46.567 35  INFO WoundTypesController GetWoundSizes | 
+23:16:46.601 35  INFO WoundTypesController GetWoundColors | 
+23:16:46.631 33  INFO WoundTypesController GetWoundOdors | 
+23:16:46.662 33  INFO WoundTypesController GetWoundExudates | 
+23:16:46.699 35  INFO WoundTypesController GetWoundBleedings | 
+23:16:46.736 33  INFO WoundTypesController GetSurroundingSkins | 
+23:16:46.788 35  INFO WoundTypesController GetPainTypes | 
+23:16:46.828 33  INFO WoundTypesController GetPainLevels | 
+23:16:47.934 32  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:16:48.536 32  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:16:49.700 24  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:16:51.437 24  INFO WoundController GetWoundDetails woundId: 13 | 
+23:16:51.470 24  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:19:23.099 42  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:19:23.121 45  INFO UserController GetUserAuthByUserId: 3 | 
+23:19:23.172 45  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:19:24.214 46  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:19:25.237 45  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:19:26.368 46  INFO WoundController GetWoundDetails woundId: 13 | 
+23:19:26.408 46  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:20:51.668 47  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:20:51.684 48  INFO UserController GetUserAuthByUserId: 3 | 
+23:20:51.723 47  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:20:53.110 51  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:20:54.155 52  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:20:55.254 47  INFO WoundController GetWoundDetails woundId: 13 | 
+23:20:55.287 47  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:21:47.245 52  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:21:47.262 52  INFO UserController GetUserAuthByUserId: 3 | 
+23:21:47.305 57  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:21:48.358 56  INFO WoundTypesController GetWoundTypes | 
+23:21:48.485 57  INFO WoundTypesController GetWoundLocations | 
+23:21:48.554 56  INFO WoundTypesController GetWoundSizes | 
+23:21:48.574 57  INFO WoundTypesController GetWoundColors | 
+23:21:48.598 57  INFO WoundTypesController GetWoundOdors | 
+23:21:48.623 59  INFO WoundTypesController GetWoundExudates | 
+23:21:48.641 59  INFO WoundTypesController GetWoundBleedings | 
+23:21:48.662 59  INFO WoundTypesController GetSurroundingSkins | 
+23:21:48.687 52  INFO WoundTypesController GetPainTypes | 
+23:21:48.733 52  INFO WoundTypesController GetPainLevels | 
+23:21:49.601 60  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:21:50.168 57  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:21:51.595 57  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:21:52.389 52  INFO WoundController GetWoundDetails woundId: 13 | 
+23:21:52.432 59  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:21:53.891 59  INFO WoundController GetWoundPhoto: 2 | 
+23:21:53.926 60  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:22:33.010 59  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:22:33.027 63  INFO UserController GetUserAuthByUserId: 3 | 
+23:22:33.069 63  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:22:35.784 61  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:22:36.529 63  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:22:37.663 63  INFO WoundController GetWoundDetails woundId: 13 | 
+23:22:37.693 69  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:28:42.346 77  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:28:42.366 83  INFO UserController GetUserAuthByUserId: 3 | 
+23:28:42.407 81  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:28:44.235 81  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:28:45.347 78  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:28:46.210 77  INFO WoundController GetWoundDetails woundId: 13 | 
+23:28:46.257 81  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:28:47.954 77  INFO WoundController GetWoundPhoto: 2 | 
+23:28:47.966 83  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:29:07.874 83  INFO WoundController GetWoundPhoto: 2 | 
+23:29:07.874 83  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:29:54.596 86  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:29:54.621 86  INFO UserController GetUserAuthByUserId: 3 | 
+23:29:54.671 89  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:29:57.197 88  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:29:58.420 87  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:29:59.346 87  INFO WoundController GetWoundDetails woundId: 13 | 
+23:29:59.375 87  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:30:00.816 90  INFO WoundController GetWoundPhoto: 2 | 
+23:30:00.820 90  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:34:29.026 98  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:34:29.043 101  INFO UserController GetUserAuthByUserId: 3 | 
+23:34:29.085 98  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:34:30.106 98  INFO WoundTypesController GetWoundTypes | 
+23:34:30.230 105  INFO WoundTypesController GetWoundLocations | 
+23:34:30.287 103  INFO WoundTypesController GetWoundSizes | 
+23:34:30.329 106  INFO WoundTypesController GetWoundColors | 
+23:34:30.356 98  INFO WoundTypesController GetWoundOdors | 
+23:34:30.375 106  INFO WoundTypesController GetWoundExudates | 
+23:34:30.392 106  INFO WoundTypesController GetWoundBleedings | 
+23:34:30.416 106  INFO WoundTypesController GetSurroundingSkins | 
+23:34:30.436 106  INFO WoundTypesController GetPainTypes | 
+23:34:30.468 106  INFO WoundTypesController GetPainLevels | 
+23:34:31.378 101  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:34:31.939 101  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:34:32.955 103  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:34:33.879 101  INFO WoundController GetWoundDetails woundId: 13 | 
+23:34:33.907 103  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:34:34.761 101  INFO WoundController GetWoundPhoto: 2 | 
+23:34:34.761 101  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:36:37.976 108  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:36:37.999 107  INFO UserController GetUserAuthByUserId: 3 | 
+23:36:38.071 108  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:36:40.120 99  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:36:41.369 110  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:36:42.339 107  INFO WoundController GetWoundDetails woundId: 13 | 
+23:36:42.394 107  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:36:43.948 107  INFO WoundController GetWoundPhoto: 2 | 
+23:36:43.948 99  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:36:52.366 107  INFO WoundController GetWoundPhoto: 2 | 
+23:36:52.366 107  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:36:59.397 107  INFO WoundController GetWoundPhoto: 2 | 
+23:36:59.397 110  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:37:32.338 99  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:37:32.357 99  INFO UserController GetUserAuthByUserId: 3 | 
+23:37:32.422 116  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:37:49.606 116  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:37:49.631 116  INFO UserController GetMedicalData: 3 | 
+23:38:04.055 116  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:38:05.063 122  INFO WoundController GetMyWounds userId: 3 | 
+23:38:17.244 122  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:38:19.817 114  INFO WoundTypesController GetWoundTypes | 
+23:38:19.996 114  INFO WoundTypesController GetWoundLocations | 
+23:38:20.042 121  INFO WoundTypesController GetWoundSizes | 
+23:38:20.082 120  INFO WoundTypesController GetWoundColors | 
+23:38:20.106 120  INFO WoundTypesController GetWoundOdors | 
+23:38:20.130 120  INFO WoundTypesController GetWoundExudates | 
+23:38:20.148 118  INFO WoundTypesController GetWoundBleedings | 
+23:38:20.148 118  INFO WoundTypesController GetSurroundingSkins | 
+23:38:20.186 118  INFO WoundTypesController GetPainTypes | 
+23:38:20.219 118  INFO WoundTypesController GetPainLevels | 
+23:38:23.079 118  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:38:24.044 118  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:38:29.706 118  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:38:35.123 114  INFO WoundController GetWoundDetails woundId: 13 | 
+23:38:35.156 114  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:38:43.472 125  INFO WoundController GetWoundPhoto: 2 | 
+23:38:43.475 114  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:38:44.155 114  INFO WoundController GetWoundPhoto: 2 | 
+23:38:44.155 120  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:38:47.724 125  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:38:54.637 125  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:38:54.663 127  INFO UserController GetMedicalData: 3 | 
+23:38:57.702 125  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:38:59.175 114  INFO WoundController GetMyWounds userId: 3 | 
+23:39:09.472 120  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:39:10.876 118  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:39:11.889 125  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:39:13.292 125  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:39:15.795 120  INFO AppointmentController GetAppointmentSummary appointmentId: 1007 | 
+23:39:23.690 120  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:39:25.763 121  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:39:29.812 121  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:39:52.108 114  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:39:52.146 132  INFO UserController GetMedicalData: 3 | 
+23:39:57.482 133  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:39:59.519 114  INFO WoundController GetMyWounds userId: 3 | 
+23:40:02.179 114  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:40:03.391 114  INFO WoundTypesController GetWoundTypes | 
+23:40:03.485 114  INFO WoundTypesController GetWoundLocations | 
+23:40:03.542 121  INFO WoundTypesController GetWoundSizes | 
+23:40:03.573 121  INFO WoundTypesController GetWoundColors | 
+23:40:03.590 121  INFO WoundTypesController GetWoundOdors | 
+23:40:03.612 121  INFO WoundTypesController GetWoundExudates | 
+23:40:03.640 121  INFO WoundTypesController GetWoundBleedings | 
+23:40:03.668 121  INFO WoundTypesController GetSurroundingSkins | 
+23:40:03.693 121  INFO WoundTypesController GetPainTypes | 
+23:40:03.767 121  INFO WoundTypesController GetPainLevels | 
+23:40:04.882 121  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:40:05.782 121  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:40:07.752 132  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:40:13.233 132  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:40:15.174 132  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:40:17.577 132  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:40:19.107 131  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:40:27.986 132  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:40:29.840 131  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:40:33.936 132  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:40:40.332 132  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:40:43.989 114  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:41:01.088 121  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:41:01.955 121  INFO WoundTypesController GetWoundTypes | 
+23:41:02.042 133  INFO WoundTypesController GetWoundLocations | 
+23:41:02.084 133  INFO WoundTypesController GetWoundSizes | 
+23:41:02.103 121  INFO WoundTypesController GetWoundColors | 
+23:41:02.123 114  INFO WoundTypesController GetWoundOdors | 
+23:41:02.145 132  INFO WoundTypesController GetWoundExudates | 
+23:41:02.161 132  INFO WoundTypesController GetWoundBleedings | 
+23:41:02.184 132  INFO WoundTypesController GetSurroundingSkins | 
+23:41:02.198 132  INFO WoundTypesController GetPainTypes | 
+23:41:02.221 132  INFO WoundTypesController GetPainLevels | 
+23:41:05.773 138  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:41:07.089 138  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:41:08.676 138  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:41:16.028 138  INFO WoundController GetWoundDetails woundId: 13 | 
+23:41:16.063 132  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:41:19.004 132  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:41:24.774 132  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:41:24.774 132  INFO UserController GetMedicalData: 3 | 
+23:41:27.512 132  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:41:29.119 121  INFO WoundController GetMyWounds userId: 3 | 
+23:41:30.688 132  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:41:31.736 132  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:41:32.752 138  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:42:00.304 132  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:42:00.304 144  INFO UserController GetUserAuthByUserId: 6 | 
+23:42:00.363 140  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:42:03.820 140  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:42:13.763 142  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:42:20.161 140  INFO UserController GetUserByEmail: doc1@doc.pl | 
+23:42:20.161 144  INFO UserController GetUserAuthByUserId: 5 | 
+23:42:20.189 140  INFO AppointmentController GetMyAppointmentsDoc doctorId: 5 | 
+23:42:23.071 140  INFO AppointmentController GetMyAppointmentsDoc doctorId: 5 | 
+23:42:28.822 140  INFO AppointmentController GetMyAppointmentsDoc doctorId: 5 | 
+23:42:35.337 140  INFO UserController GetUserByEmail: doc3@o2.pl | 
+23:42:35.337 144  INFO UserController GetUserAuthByUserId: 7 | 
+23:42:35.367 144  INFO AppointmentController GetMyAppointmentsDoc doctorId: 7 | 
+23:42:36.187 144  INFO AppointmentController GetMyAppointmentsDoc doctorId: 7 | 
+23:42:37.691 143  INFO AppointmentController GetMyAppointmentsDoc doctorId: 7 | 
+23:42:41.617 143  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:42:41.631 132  INFO UserController GetUserAuthByUserId: 3 | 
+23:42:41.658 144  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:42:43.785 140  INFO WoundController GetMyWounds userId: 3 | 
+23:42:45.893 144  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:42:47.001 140  INFO WoundController GetMyWounds userId: 3 | 
+23:42:48.378 140  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:42:49.816 140  INFO WoundTypesController GetWoundTypes | 
+23:42:49.914 143  INFO WoundTypesController GetWoundLocations | 
+23:42:49.976 143  INFO WoundTypesController GetWoundSizes | 
+23:42:50.008 143  INFO WoundTypesController GetWoundColors | 
+23:42:50.026 143  INFO WoundTypesController GetWoundOdors | 
+23:42:50.046 143  INFO WoundTypesController GetWoundExudates | 
+23:42:50.073 143  INFO WoundTypesController GetWoundBleedings | 
+23:42:50.085 143  INFO WoundTypesController GetSurroundingSkins | 
+23:42:50.100 143  INFO WoundTypesController GetPainTypes | 
+23:42:50.122 148  INFO WoundTypesController GetPainLevels | 
+23:42:51.414 148  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:42:52.155 148  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:42:55.738 140  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:43:43.540 143  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:43:51.824 143  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:43:59.817 150  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:44:15.510 154  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:44:19.467 152  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:44:22.778 154  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:44:22.790 153  INFO UserController GetMedicalData: 3 | 
+23:44:26.727 143  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:44:30.044 153  INFO WoundController GetMyWounds userId: 3 | 
+23:44:32.418 143  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:44:34.468 157  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:44:34.491 152  INFO UserController GetMedicalData: 3 | 
+23:44:39.235 153  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:44:53.932 153  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:44:54.775 153  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:45:04.347 154  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:45:04.355 154  INFO UserController GetUserAuthByUserId: 3 | 
+23:45:04.382 153  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:45:29.594 157  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:45:29.602 161  INFO UserController GetUserAuthByUserId: 6 | 
+23:45:29.649 157  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:45:47.335 157  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:45:50.295 160  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:45:51.352 163  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:46:05.924 160  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:47:05.815 165  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:47:05.827 169  INFO UserController GetUserAuthByUserId: 6 | 
+23:47:05.867 168  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:47:07.757 165  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:47:15.557 172  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:47:16.041 165  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:47:17.961 165  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:52:43.011 183  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:52:43.032 189  INFO UserController GetUserAuthByUserId: 3 | 
+23:52:43.074 189  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:52:50.240 189  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:52:51.531 189  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:52:52.828 187  INFO WoundController GetWoundDetails woundId: 13 | 
+23:52:52.871 183  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:52:54.034 183  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:52:58.589 187  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:52:58.801 186  INFO UserController GetMedicalData: 3 | 
+23:53:00.158 186  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:53:01.386 182  INFO WoundController GetMyWounds userId: 3 | 
+23:53:02.574 186  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:53:08.224 186  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:53:12.871 185  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:53:12.885 183  INFO UserController GetUserAuthByUserId: 3 | 
+23:53:12.942 183  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:53:15.248 183  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:53:16.565 189  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:53:31.053 189  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:53:31.053 189  INFO UserController GetUserAuthByUserId: 6 | 
+23:53:31.112 182  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:53:35.330 182  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:55:21.752 193  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:55:21.774 197  INFO UserController GetUserAuthByUserId: 3 | 
+23:55:21.827 196  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:55:23.061 193  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:55:23.913 193  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:55:24.867 193  INFO WoundController GetWoundDetails woundId: 13 | 
+23:55:24.906 193  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:55:26.565 193  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:55:38.893 196  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:55:38.969 192  INFO UserController GetUserAuthByUserId: 6 | 
+23:55:39.105 196  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:55:42.830 192  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:56:49.054 127  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:56:49.069 124  INFO UserController GetUserAuthByUserId: 3 | 
+23:56:49.116 125  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:57:00.893 124  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:57:00.909 125  INFO UserController GetUserAuthByUserId: 6 | 
+23:57:00.953 125  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:57:02.692 124  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:57:03.643 124  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:57:59.305 123  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:57:59.305 120  INFO UserController GetUserAuthByUserId: 6 | 
+23:57:59.361 120  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:58:01.188 120  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:58:02.307 120  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:58:04.490 116  INFO WoundController GetWoundDetails woundId: 3 | 
+23:58:04.525 116  INFO WoundController GetWoundPhotoDetails: 3 | 
+23:59:58.947 112  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:59:58.982 113  INFO UserController GetUserAuthByUserId: 3 | 
+23:59:59.038 108  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:00:00.583 109  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:00:01.479 112  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:00:02.385 112  INFO WoundController GetWoundDetails woundId: 13 | 
+00:00:02.451 110  INFO WoundController GetWoundPhotoDetails: 13 | 
+00:00:04.572 110  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:00:14.047 110  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:00:14.060 110  INFO UserController GetUserAuthByUserId: 6 | 
+00:00:14.115 104  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:00:15.954 99  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:00:17.136 99  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:00:19.129 99  INFO WoundController GetWoundDetails woundId: 3 | 
+00:00:19.163 110  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:00:51.218 110  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:00:51.748 102  INFO WoundController GetWoundDetails woundId: 3 | 
+00:00:51.761 102  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:00:53.340 103  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:00:56.366 102  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:00:56.366 101  INFO UserController GetMedicalData: 6 | 
+00:00:56.383 101 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:00:56.408 101 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:01:27.471 96  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:11:05.673 76  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:11:05.695 73  INFO UserController GetUserAuthByUserId: 6 | 
+00:11:05.734 73  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:11:08.587 73  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:11:09.457 78  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:16:22.952 63  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:16:22.966 63  INFO UserController GetUserAuthByUserId: 6 | 
+00:16:23.019 60  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:16:24.173 58  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:16:25.069 60  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:40:40.014 89  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:40:56.583 95  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:40:56.596 94  INFO UserController GetUserAuthByUserId: 6 | 
+00:40:56.650 89  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:40:58.934 96  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:40:59.677 96  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:41:03.812 98  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:42:07.436 98  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+00:42:07.474 98  INFO UserController GetUserAuthByUserId: 3 | 
+00:42:07.581 102  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:42:20.645 98  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:42:20.654 98  INFO UserController GetUserAuthByUserId: 6 | 
+00:42:20.712 102  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:42:42.788 100  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:42:43.883 103  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:42:58.032 101  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:42:58.041 103  INFO UserController GetMedicalData: 6 | 
+00:42:58.054 103 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:42:58.054 103 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:43:01.047 101  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:43:04.466 101  INFO WoundController GetWoundDetails woundId: 3 | 
+00:43:04.503 100  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:43:06.233 101  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:43:10.972 100  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:43:11.008 101  INFO UserController GetMedicalData: 6 | 
+00:43:11.008 101 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:43:11.008 101 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:43:16.016 100  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:43:20.381 100  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:43:28.873 100  INFO WoundController GetWoundDetails woundId: 3 | 
+00:43:28.909 101  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:43:30.455 100  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:43:40.435 103  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:43:42.181 103  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:43:43.620 100  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:43:44.716 100  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:44:05.701 100  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:44:05.711 100  INFO UserController GetUserAuthByUserId: 6 | 
+00:44:05.771 100  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:50:36.933 67  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:50:36.965 196  INFO UserController GetUserAuthByUserId: 6 | 
+00:50:37.015 196  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:50:47.749 67  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:50:49.695 56  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:50:53.538 56  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:51:32.537 58  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:51:32.537 54  INFO UserController GetUserAuthByUserId: 6 | 
+00:51:32.584 54  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:51:37.050 58  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:51:41.204 54  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:52:15.892 132  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:52:17.461 194  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:52:23.645 132  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:52:24.375 53  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:26.162 53  INFO WoundController GetWoundDetails woundId: 3 | 
+00:52:26.193 53  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:52:27.544 132  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:31.181 194  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:52:31.196 53  INFO UserController GetMedicalData: 6 | 
+00:52:31.196 53 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:52:31.196 53 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:52:32.750 194  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:35.356 194  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:38.172 191  INFO WoundController GetWoundDetails woundId: 3 | 
+00:52:38.184 191  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:52:39.770 191  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:56.613 191  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:52:56.618 121  INFO UserController GetMedicalData: 6 | 
+00:52:56.618 121 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:52:56.618 121 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:52:57.752 191  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:52:58.259 191  INFO WoundController GetWoundDetails woundId: 3 | 
+00:52:58.297 53  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:53:00.505 191  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:05.823 184  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:18.134 184  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:53:18.147 184  INFO UserController GetMedicalData: 6 | 
+00:53:18.147 184 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:53:18.147 184 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:53:20.053 184  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:30.226 184  INFO WoundController GetWoundDetails woundId: 3 | 
+00:53:30.264 185  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:53:31.900 184  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:34.253 184  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:53:34.259 184  INFO UserController GetMedicalData: 6 | 
+00:53:34.259 184 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:53:34.259 184 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:53:36.037 194  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:38.124 191  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:39.450 191  INFO WoundController GetWoundDetails woundId: 3 | 
+00:53:39.499 192  INFO WoundController GetWoundPhotoDetails: 3 | 
+00:53:41.128 191  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:43.251 192  INFO UserController GetUserByEmail: doc2@o2.pl | 
+00:53:43.259 191  INFO UserController GetMedicalData: 6 | 
+00:53:43.259 191 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+00:53:43.259 191 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+00:53:44.585 192  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:53:47.996 192  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+00:54:03.475 185  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:54:04.284 191  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:54:09.554 191  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:54:10.661 185  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+00:54:19.848 185  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+00:54:19.848 191  INFO UserController GetUserAuthByUserId: 3 | 
+00:54:19.896 191  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:54:21.075 185  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+00:54:21.217 185  INFO UserController GetMedicalData: 3 | 
+00:54:23.154 185  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:54:23.741 185  INFO WoundController GetMyWounds userId: 3 | 
+00:54:51.976 192  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:54:53.711 192  INFO WoundController GetMyWounds userId: 3 | 
+00:54:55.180 180  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:54:55.706 180  INFO WoundTypesController GetWoundTypes | 
+00:54:55.849 180  INFO WoundTypesController GetWoundLocations | 
+00:54:55.896 180  INFO WoundTypesController GetWoundSizes | 
+00:54:55.938 194  INFO WoundTypesController GetWoundColors | 
+00:54:55.952 194  INFO WoundTypesController GetWoundOdors | 
+00:54:55.972 180  INFO WoundTypesController GetWoundExudates | 
+00:54:56.002 180  INFO WoundTypesController GetWoundBleedings | 
+00:54:56.013 183  INFO WoundTypesController GetSurroundingSkins | 
+00:54:56.034 179  INFO WoundTypesController GetPainTypes | 
+00:54:56.057 194  INFO WoundTypesController GetPainLevels | 
+00:54:57.130 181  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:54:57.783 181  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:55:01.202 183  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:55:05.044 183  INFO WoundController GetWoundDetails woundId: 13 | 
+00:55:05.080 180  INFO WoundController GetWoundPhotoDetails: 13 | 
+00:55:08.098 183  INFO WoundController GetWoundPhoto: 2 | 
+00:55:08.103 183  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+00:55:14.249 183  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:55:18.431 183  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+00:55:18.491 184  INFO UserController GetMedicalData: 3 | 
+00:55:20.653 183  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:55:21.252 184  INFO WoundController GetMyWounds userId: 3 | 
+00:55:22.859 183  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:55:24.098 183  INFO WoundController GetMyWounds userId: 3 | 
+00:55:25.367 184  INFO AppointmentController GetFastestAppointment | 
+00:55:25.448 181  INFO UserController GetDoctors | 
+00:55:25.674 180  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-28T00:55:24.089Z","DoctorId":null} | 
+00:55:50.384 192  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-28T01:55:24.089Z","DoctorId":7} | 
+00:56:11.642 192  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:56:23.673 192  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:56:24.286 170  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:45.892 128  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+00:56:45.907 117  INFO UserController GetMedicalData: 3 | 
+00:56:47.146 117  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:47.846 120  INFO WoundController GetMyWounds userId: 3 | 
+00:56:49.001 122  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:49.487 122  INFO WoundTypesController GetWoundTypes | 
+00:56:49.559 122  INFO WoundTypesController GetWoundLocations | 
+00:56:49.602 170  INFO WoundTypesController GetWoundSizes | 
+00:56:49.628 170  INFO WoundTypesController GetWoundColors | 
+00:56:49.647 128  INFO WoundTypesController GetWoundOdors | 
+00:56:49.668 122  INFO WoundTypesController GetWoundExudates | 
+00:56:49.725 120  INFO WoundTypesController GetWoundBleedings | 
+00:56:49.725 120  INFO WoundTypesController GetSurroundingSkins | 
+00:56:49.760 170  INFO WoundTypesController GetPainTypes | 
+00:56:49.786 170  INFO WoundTypesController GetPainLevels | 
+00:56:50.749 128  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:51.446 128  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:56:53.020 171  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:53.962 120  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:56:55.147 120  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:55.609 122  INFO WoundController GetMyWounds userId: 3 | 
+00:56:56.633 122  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:56:58.973 171  INFO WoundController GetMyWounds userId: 3 | 
+00:57:00.658 122  INFO WoundController GetMyWoundAppointments userId: 3 | 
+00:57:01.166 117  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:57:02.353 122  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:57:06.053 122  INFO WoundController GetWoundDetails woundId: 13 | 
+00:57:06.092 120  INFO WoundController GetWoundPhotoDetails: 13 | 
+00:57:07.981 122  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+00:57:13.377 120  INFO AppointmentController GetMyAppointments patientId: 3 | 
+00:57:14.394 117  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:02:49.229 99  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+01:02:49.244 92  INFO UserController GetUserAuthByUserId: 3 | 
+01:02:49.285 92  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:19:41.471  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+01:19:43.802  9  INFO UserController GetUserAuthByUserId: 3 | 
+01:19:43.954  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:19:54.151 13  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+01:19:54.187  9  INFO UserController GetMedicalData: 3 | 
+01:20:05.469  4  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test slcslcslcslcl","Allergies":"stupid p","Medication":"none","Pregnancy":false,"Tobacco":false,"Alcohol":false,"Drugs":false} | 
+01:20:05.759 13  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+01:20:08.334 13  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:20:09.916 11  INFO WoundController GetMyWounds userId: 3 | 
+01:20:13.649 13  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:20:14.786 14  INFO WoundTypesController GetWoundTypes | 
+01:20:14.936 14  INFO WoundTypesController GetWoundLocations | 
+01:20:14.986 14  INFO WoundTypesController GetWoundSizes | 
+01:20:15.022 16  INFO WoundTypesController GetWoundColors | 
+01:20:15.061 16  INFO WoundTypesController GetWoundOdors | 
+01:20:15.096 16  INFO WoundTypesController GetWoundExudates | 
+01:20:15.138 11  INFO WoundTypesController GetWoundBleedings | 
+01:20:15.191 11  INFO WoundTypesController GetSurroundingSkins | 
+01:20:15.230 11  INFO WoundTypesController GetPainTypes | 
+01:20:15.270 11  INFO WoundTypesController GetPainLevels | 
+01:20:20.524 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:20:21.787 16  INFO AppointmentController GetMyAppointments patientId: 3 | 
+01:20:32.407 14  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+01:20:46.673 13  INFO WoundController GetWoundDetails woundId: 13 | 
+01:20:46.740 14  INFO WoundController GetWoundPhotoDetails: 13 | 
+01:20:55.899 15  INFO WoundController UploadWoundPhoto woundId: 13, filename: photo1.PNG | 
+01:20:55.899 15  INFO WoundController files count: 1, filename: photo1.PNG | 
+01:20:55.914 15  INFO WoundRequestHandler fileName: photo1.PNG | 
+01:20:55.914 15  INFO WoundRequestHandler fileExtension: .PNG | 
+01:20:55.914 15  INFO WoundRequestHandler newFileName: 80cd0709-e03d-4fa1-8a0f-6db3261cb3fc.PNG | 
+01:20:56.069 13  INFO WoundRequestHandler Wound photo uploaded for id: 13 | 
+01:21:00.843 13  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+01:21:02.190 16  INFO WoundController GetWoundDetails woundId: 13 | 
+01:21:02.227 13  INFO WoundController GetWoundPhotoDetails: 13 | 
+01:21:09.113 14  INFO WoundController GetWoundPhoto: 3 | 
+01:21:09.161 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:14.283 13  INFO WoundController GetWoundPhoto: 2 | 
+01:21:14.294 22  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:18.565 13  INFO WoundController GetWoundPhoto: 3 | 
+01:21:18.574 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:19.099 22  INFO WoundController GetWoundPhoto: 2 | 
+01:21:19.106 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:19.581 16  INFO WoundController GetWoundPhoto: 3 | 
+01:21:19.589 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:20.584  9  INFO WoundController GetWoundPhoto: 2 | 
+01:21:20.584 13  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:21.009  9  INFO WoundController GetWoundPhoto: 2 | 
+01:21:21.009  9  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:21.563 24  INFO WoundController GetWoundPhoto: 3 | 
+01:21:21.568 24  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:22.091 24  INFO WoundController GetWoundPhoto: 3 | 
+01:21:22.091 24  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:29.741 22  INFO WoundController GetWoundPhoto: 2 | 
+01:21:29.741 19  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:31.227 22  INFO WoundController GetWoundPhoto: 2 | 
+01:21:31.227 22  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:32.220 23  INFO WoundController GetWoundPhoto: 3 | 
+01:21:32.224 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:32.635 23  INFO WoundController GetWoundPhoto: 2 | 
+01:21:32.635 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:33.090 23  INFO WoundController GetWoundPhoto: 3 | 
+01:21:33.090 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:34.013 23  INFO WoundController GetWoundPhoto: 2 | 
+01:21:34.013 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:34.396 23  INFO WoundController GetWoundPhoto: 3 | 
+01:21:34.396 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:34.855 24  INFO WoundController GetWoundPhoto: 3 | 
+01:21:34.855 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:35.439 19  INFO WoundController GetWoundPhoto: 3 | 
+01:21:35.439 16  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+01:21:39.098 19  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+01:21:45.043  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+01:21:45.059  9  INFO UserController GetMedicalData: 3 | 
+01:21:48.631 19  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+01:21:50.222 22  INFO WoundController GetMyWounds userId: 3 | 
+01:21:52.180 19  INFO AppointmentController GetFastestAppointment | 
+01:21:52.222 19  INFO UserController GetDoctors | 
+01:21:52.262 23  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-28T01:21:50.209Z","DoctorId":null} | 
+01:21:56.098  9  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-29T00:00:00Z","DoctorId":null} | 
+01:22:01.666  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+01:22:09.905  9  INFO AppointmentController GetMyAppointments patientId: 3 | 
+01:22:10.664  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:22:16.894 19  INFO WoundController GetMyWounds userId: 3 | 
+01:22:18.130 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+01:22:35.122 24  INFO UserController GetUserByEmail: doc2@o2.pl | 
+01:22:35.133 19  INFO UserController GetUserAuthByUserId: 6 | 
+01:22:35.180  9  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+01:22:51.466 19  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+01:22:53.780 20  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+01:22:58.884 20  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+01:23:01.497 19  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+01:23:06.181 22  INFO WoundController GetWoundDetails woundId: 3 | 
+01:23:06.232 31  INFO WoundController GetWoundPhotoDetails: 3 | 
+01:23:09.637 22  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+01:23:11.312 24  INFO UserController GetUserByEmail: doc2@o2.pl | 
+01:23:11.323 31  INFO UserController GetMedicalData: 6 | 
+01:23:11.323 31 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+01:23:11.338 31 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+01:23:17.913 22  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+01:23:19.178 22  INFO UserController GetUserByEmail: doc2@o2.pl | 
+01:23:19.178 32  INFO UserController GetMedicalData: 6 | 
+01:23:19.178 32 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+01:23:19.178 32 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+01:23:20.524 24  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+01:24:40.315 35  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:01:05.930 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:01:07.688  6  INFO UserController GetUserAuthByUserId: 3 | 
+19:01:07.787  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:09:26.205 27  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:09:27.483 27  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:13:44.137 42  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:13:44.150 42  INFO UserController GetUserAuthByUserId: 3 | 
+19:13:44.186 42  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:13:47.408 42  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:13:52.387 44  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+19:53:09.900 61  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:53:09.912 54  INFO UserController GetUserAuthByUserId: 3 | 
+19:53:09.948 61  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:53:16.117 61  INFO AppointmentController GetMyAppointments patientId: 3 | 
+19:53:17.473 61  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:24:41.247  6  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:24:41.260 11  INFO UserController GetUserAuthByUserId: 3 | 
+20:24:41.300  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:24:43.250  8  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:24:44.466  6  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:25:42.094  6  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:25:42.111  6  INFO UserController GetUserAuthByUserId: 3 | 
+20:25:42.162 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:25:43.870 15  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:25:44.848 16  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:30:26.077 29  INFO WoundController GetWoundDetails woundId: 13 | 
+20:30:26.147 29  INFO WoundController GetWoundPhotoDetails: 13 | 
+20:32:56.614 39  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:43:54.783 61  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:43:54.803 62  INFO UserController GetUserAuthByUserId: 3 | 
+20:43:54.831 62  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:43:57.195 63  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:43:58.174 58  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:44:45.880 58  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:44:45.880 58  INFO UserController GetUserAuthByUserId: 3 | 
+20:44:45.912 58  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:44:47.500 67  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:44:49.029 67  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:45:20.350 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:45:20.350 65  INFO UserController GetUserAuthByUserId: 3 | 
+20:45:20.380 69  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:45:21.101 71  INFO WoundTypesController GetWoundTypes | 
+20:45:21.219 65  INFO WoundTypesController GetWoundLocations | 
+20:45:21.257 65  INFO WoundTypesController GetWoundSizes | 
+20:45:21.284 69  INFO WoundTypesController GetWoundColors | 
+20:45:21.301 71  INFO WoundTypesController GetWoundOdors | 
+20:45:21.334 71  INFO WoundTypesController GetWoundExudates | 
+20:45:21.369 65  INFO WoundTypesController GetWoundBleedings | 
+20:45:21.395 65  INFO WoundTypesController GetSurroundingSkins | 
+20:45:21.432 65  INFO WoundTypesController GetPainTypes | 
+20:45:21.467 71  INFO WoundTypesController GetPainLevels | 
+20:45:22.540 72  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:45:24.137 72  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:45:25.075 69  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:48:28.340 51  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:48:28.353 84  INFO UserController GetUserAuthByUserId: 3 | 
+20:48:28.377 87  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:48:29.707 86  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:48:30.707 87  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:49:42.948 88  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:49:42.948 88  INFO UserController GetUserAuthByUserId: 3 | 
+20:49:42.981 92  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:49:52.925 92  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:49:53.836 91  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:50:59.437 93  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:50:59.447 93  INFO UserController GetUserAuthByUserId: 3 | 
+20:50:59.471 93  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:51:01.050 93  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:51:02.118 93  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:51:47.110 95  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:51:47.117 100  INFO UserController GetUserAuthByUserId: 3 | 
+20:51:47.146 99  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:51:48.652 95  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:51:49.496 101  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:52:53.791 104  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:52:53.791 106  INFO UserController GetUserAuthByUserId: 3 | 
+20:52:53.830 107  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:52:55.069 107  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:52:55.950 104  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+20:54:04.700 109  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:54:04.717 113  INFO UserController GetUserAuthByUserId: 3 | 
+20:54:04.755 112  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:54:05.922 109  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:54:06.821 115  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:09:00.596 140  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:09:00.606 139  INFO UserController GetUserAuthByUserId: 3 | 
+21:09:00.647 139  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:09:02.000 139  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:09:02.893 147  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:09:03.606 140  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:09:03.625 147  INFO UserController GetMedicalData: 3 | 
+21:09:05.422 147  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:09:43.637 144  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:09:43.653 147  INFO UserController GetUserAuthByUserId: 3 | 
+21:09:43.688 144  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:09:44.938 142  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:09:45.875 149  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:10:27.534 150  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:10:27.545 150  INFO UserController GetUserAuthByUserId: 3 | 
+21:10:27.578 152  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:10:28.635 152  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:10:29.509 150  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:13:44.117 157  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:13:44.134 157  INFO UserController GetUserAuthByUserId: 3 | 
+21:13:44.174 149  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:13:48.395 154  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:13:49.790 157  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:14:21.084 157  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:14:21.101 142  INFO UserController GetUserAuthByUserId: 3 | 
+21:14:21.138 141  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:14:22.417 154  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:14:23.365 141  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:45:24.242 98  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:45:24.262 91  INFO UserController GetUserAuthByUserId: 3 | 
+21:45:24.305 98  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:45:28.065 91  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:45:29.151 93  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:53:58.334 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:54:00.577 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:54:00.586  8  INFO UserController GetUserAuthByUserId: 3 | 
+21:54:00.639 10  INFO UserController GetUserAuthByUserId: 3 | 
+21:54:00.680  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:54:02.152  8  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:54:03.098  8  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+21:57:01.040 12  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+21:58:04.167  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:58:04.326  9  INFO UserController GetUserAuthByUserId: 3 | 
+21:58:04.404 18  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:58:05.642 20  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:58:06.462 22  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:00:20.562 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:00:20.586 26  INFO UserController GetUserAuthByUserId: 3 | 
+22:00:20.646 31  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:00:21.643 28  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:00:22.884 31  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:13:52.499 58  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:13:52.531 65  INFO UserController GetUserAuthByUserId: 3 | 
+22:13:52.583 61  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:13:53.940 57  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:13:55.100 61  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:14:01.154 61  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+22:14:43.763 66  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:14:43.787 66  INFO UserController GetUserAuthByUserId: 3 | 
+22:14:43.830 66  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:14:45.506 68  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:14:46.457 69  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:26:15.293 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:26:16.921 15  INFO UserController GetUserAuthByUserId: 3 | 
+22:26:17.064 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:26:18.331 15  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:26:19.365  8  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:26:20.521  4  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:27:53.891 12  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:27:53.913  9  INFO UserController GetUserAuthByUserId: 3 | 
+22:27:53.966  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:27:55.051  9  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:27:56.722 18  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:27:57.422 18  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:28:52.104 21  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:28:52.138 25  INFO UserController GetUserAuthByUserId: 3 | 
+22:28:52.185 25  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:28:53.283 25  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:28:54.138 23  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:28:54.911 23  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:31:58.000 33  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:31:58.026 33  INFO UserController GetUserAuthByUserId: 3 | 
+22:31:58.114 33  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:31:58.972 33  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:32:00.064 36  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:33:15.647 34  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:33:15.663 43  INFO UserController GetUserAuthByUserId: 3 | 
+22:33:15.698 43  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:33:16.861 43  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:33:17.822 42  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:33:30.725 42  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:34:32.460 48  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:34:32.486 49  INFO UserController GetUserAuthByUserId: 3 | 
+22:34:32.580 49  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:34:33.656 49  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:34:34.736 49  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:34:34.760 48  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:35:43.780 48  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:35:54.175 48  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:35:54.191 48  INFO UserController GetUserAuthByUserId: 3 | 
+22:35:54.286 61  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:35:55.193 57  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:35:56.139 61  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:35:56.162 55  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:37:50.396 65  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:37:50.413 63  INFO UserController GetUserAuthByUserId: 3 | 
+22:37:50.457 64  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:37:51.651 55  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:37:52.833 68  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:37:54.267 69  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:38:30.259 68  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:38:30.273 68  INFO UserController GetUserAuthByUserId: 3 | 
+22:38:30.310 70  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:38:31.441 68  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:38:32.354 69  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:38:33.348 69  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:44:23.520 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:44:25.127 12  INFO UserController GetUserAuthByUserId: 3 | 
+22:44:25.288 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:44:26.439 11  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:44:27.441 12  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:44:28.200  4  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:45:35.359 12  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:45:35.380 15  INFO UserController GetUserAuthByUserId: 3 | 
+22:45:35.427 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:45:36.102 15  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:45:37.134 17  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:45:37.749 17  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:45:44.066 17  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+22:48:16.591 21  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:48:16.612 21  INFO UserController GetUserAuthByUserId: 3 | 
+22:48:16.660 30  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:48:17.776 28  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:48:19.095 28  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:48:19.684 32  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:48:26.031 21  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+22:48:28.534 32  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:48:33.509 32  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+22:49:53.228 31  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:49:55.144 35  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+22:51:07.937 39  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:51:07.961 40  INFO UserController GetUserAuthByUserId: 3 | 
+22:51:08.000 43  INFO WoundController GetMyWoundAppointments userId: 3 | 
+22:51:09.202 44  INFO AppointmentController GetMyAppointments patientId: 3 | 
+22:51:10.251 39  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:51:10.863 39  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:51:14.304 43  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:51:16.795 42  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:51:19.375 43  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:51:19.396 43  INFO UserController GetMedicalData: 3 | 
+22:51:21.001 41  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:51:22.036 42  INFO WoundController GetMyWounds userId: 3 | 
+22:51:23.560 43  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:57:04.214 57  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+22:57:06.665 62  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:57:06.678 60  INFO UserController GetMedicalData: 3 | 
+22:57:09.538 57  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:57:10.892 63  INFO WoundController GetWoundDetails woundId: 13 | 
+22:57:10.935 64  INFO WoundController GetWoundPhotoDetails: 13 | 
+22:57:13.626 61  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:57:15.165 63  INFO WoundController GetMyWounds userId: 3 | 
+22:57:23.222 63  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:57:25.670 64  INFO WoundController GetMyWounds userId: 3 | 
+22:57:28.254 63  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+22:57:29.661 64  INFO WoundController GetMyWounds userId: 3 | 
+23:27:38.840  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:27:40.962  9  INFO UserController GetUserAuthByUserId: 3 | 
+23:27:41.087  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:27:49.991  5  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:27:50.028 11  INFO UserController GetMedicalData: 3 | 
+23:27:53.795 12  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test slcslcslcslcllv,dvdvlxp","Allergies":"stupid p","Medication":"none","Pregnancy":false,"Tobacco":false,"Alcohol":false,"Drugs":false} | 
+23:27:54.072 11  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+23:27:59.414 13  INFO UserController SaveMedicalData request: {"UserId":3,"ChronicDiseases":"test slcslcslcslcllv,dvdvlxp","Allergies":"stupid p","Medication":"none","Pregnancy":true,"Tobacco":true,"Alcohol":false,"Drugs":false} | 
+23:27:59.433 11  INFO MedicalDataRequestHandler Medical data updated: WoundHealingDb.Models.MedicalData | 
+23:28:04.369 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:28:05.939  5  INFO WoundController GetMyWounds userId: 3 | 
+23:28:09.470 16  INFO WoundController DeleteWound id: 19 | 
+23:28:09.623 16  INFO WoundRequestHandler Wound deleted id: 19 | 
+23:28:09.631 16  INFO WoundController GetMyWounds userId: 3 | 
+23:28:11.189  5  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:28:12.471 13  INFO WoundTypesController GetWoundTypes | 
+23:28:12.597  9  INFO WoundTypesController GetWoundLocations | 
+23:28:12.640  5  INFO WoundTypesController GetWoundSizes | 
+23:28:12.672  9  INFO WoundTypesController GetWoundColors | 
+23:28:12.705  9  INFO WoundTypesController GetWoundOdors | 
+23:28:12.734 13  INFO WoundTypesController GetWoundExudates | 
+23:28:12.756 13  INFO WoundTypesController GetWoundBleedings | 
+23:28:12.786 13  INFO WoundTypesController GetSurroundingSkins | 
+23:28:12.834 13  INFO WoundTypesController GetPainTypes | 
+23:28:12.868 14  INFO WoundTypesController GetPainLevels | 
+23:28:16.934 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:28:17.722 14  INFO AppointmentController GetMyAppointments patientId: 3 | 
+23:28:21.005 11  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:28:29.309  5  INFO WoundController GetWoundDetails woundId: 13 | 
+23:28:29.396  5  INFO WoundController GetWoundPhotoDetails: 13 | 
+23:28:34.452  5  INFO WoundController GetWoundPhoto: 3 | 
+23:28:34.488 12  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+23:28:37.269 12  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:28:40.800 14  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+23:28:40.852 19  INFO UserController GetMedicalData: 3 | 
+23:28:42.398 14  INFO AppointmentController GetAppointmentSummary appointmentId: 1008 | 
+23:28:43.308 14  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+23:28:46.141 19  INFO WoundController GetMyWounds userId: 3 | 
+23:28:47.845 14  INFO AppointmentController GetFastestAppointment | 
+23:28:47.896 12  INFO UserController GetDoctors | 
+23:28:47.947 12  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-28T23:28:46.117Z","DoctorId":null} | 
+23:28:49.871 19  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-30T00:00:00Z","DoctorId":null} | 
+23:28:53.390 12  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-30T01:00:00Z","DoctorId":7} | 
+23:28:54.476 14  INFO AppointmentController CreateAppointment request: {"WoundId":1016,"DoctorId":7,"PatientId":3,"AppointmentDate":"2022-01-30T10:00:00"} | 
+23:28:54.662 12  INFO AppointmentRequestHandler treatment created id: 1011 | 
+23:28:54.679 14  INFO AppointmentRequestHandler appointment created id: 1013 | 
+23:28:55.810 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+23:29:11.770 11  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:29:11.781 11  INFO UserController GetUserAuthByUserId: 6 | 
+23:29:11.830 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:29:15.288 13  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+23:29:17.015  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:29:19.452 11  INFO WoundController GetWoundDetails woundId: 3 | 
+23:29:19.502 16  INFO WoundController GetWoundPhotoDetails: 3 | 
+23:29:23.884  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:29:26.372 11  INFO UserController GetUserByEmail: doc2@o2.pl | 
+23:29:26.384 16  INFO UserController GetMedicalData: 6 | 
+23:29:26.399 16 ERROR MedicalDataQueryHandler medical data for userId: 6 not found! | 
+23:29:26.419 16 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+23:29:28.682 11  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:29:29.854 19  INFO AppointmentController GetAppointmentNote appointmentId: 1011 | 
+23:29:32.741 22  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+23:30:10.054 12  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:30:17.594 25  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+23:30:22.068 12  INFO WoundController GetWoundDetails woundId: 3 | 
+23:30:22.103 12  INFO WoundController GetWoundPhotoDetails: 3 | 
+23:30:24.086 25  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 

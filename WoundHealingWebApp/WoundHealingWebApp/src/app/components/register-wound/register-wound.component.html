@@ -1,0 +1,232 @@
+<div class="main-container">
+  <div>
+    <div class="image cursor" (click)="goToMain()"></div>
+  </div>
+  <div>
+    <button mat-mini-fab (click)="goBack()" color="primary">
+      <span class="material-icons">
+        arrow_back
+      </span>
+      </button>
+  </div>
+  <div>
+    <div class="container-register">
+      <div class="item-register">
+        <div class="element center" *ngIf="!woundCreated">
+            <h1>Register wound</h1>
+        </div>
+        <div class="element center" *ngIf="woundCreated && !visitWanted">
+            <h1>Wound registered</h1>
+        </div>
+        <div class="element center" *ngIf="visitWanted">
+          <h1>Fastest available appointment:</h1><br/><br/>
+        </div>
+        <div class="element" *ngIf="!woundCreated" style="padding-bottom: 50px;">
+            <mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+                <!-- Wound Type -->
+                <mat-step [stepControl]="woundTypeFormGroup">
+                  <form [formGroup]="woundTypeFormGroup">
+                    <ng-template matStepLabel>Wound type</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundTypeCtrl">
+                      <mat-list-option *ngFor="let woundType of woundTypes" [value]="woundType?.woundTypeId">
+                         {{woundType?.woundTypeName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Location -->
+                <mat-step [stepControl]="woundLocationFormGroup">
+                  <form [formGroup]="woundLocationFormGroup">
+                    <ng-template matStepLabel>Wound location</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundLocationCtrl">
+                      <mat-list-option *ngFor="let woundLocation of woundLocations" [value]="woundLocation?.woundLocationId">
+                         {{woundLocation?.woundLocationName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Size -->
+                <mat-step [stepControl]="woundSizeFormGroup">
+                  <form [formGroup]="woundSizeFormGroup">
+                    <ng-template matStepLabel>Wound size</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundSizeCtrl">
+                      <mat-list-option *ngFor="let woundSize of woundSizes" [value]="woundSize?.woundSizeId">
+                         {{woundSize?.woundSizeName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Color -->
+                <mat-step [stepControl]="woundColorFormGroup">
+                  <form [formGroup]="woundColorFormGroup">
+                    <ng-template matStepLabel>Wound color</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundColorCtrl">
+                      <mat-list-option *ngFor="let woundColor of woundColors" [value]="woundColor?.woundColorId">
+                         {{woundColor?.woundColorName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Odor -->
+                <mat-step [stepControl]="woundOdorFormGroup">
+                  <form [formGroup]="woundOdorFormGroup">
+                    <ng-template matStepLabel>Wound odor</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundOdorCtrl">
+                      <mat-list-option *ngFor="let woundOdor of woundOdors" [value]="woundOdor?.woundOdorId">
+                         {{woundOdor?.woundOdorName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Exudate -->
+                <mat-step [stepControl]="woundExudateFormGroup">
+                  <form [formGroup]="woundExudateFormGroup">
+                    <ng-template matStepLabel>Wound exudate</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundExudateCtrl">
+                      <mat-list-option *ngFor="let woundExudate of woundExudates" [value]="woundExudate?.woundExudateId">
+                         {{woundExudate?.woundExudateName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Wound Bleeding -->
+                <mat-step [stepControl]="woundBleedingFormGroup">
+                  <form [formGroup]="woundBleedingFormGroup">
+                    <ng-template matStepLabel>Wound bleeding</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="woundBleedingCtrl">
+                      <mat-list-option *ngFor="let woundBleeding of woundBleedings" [value]="woundBleeding?.woundBleedingId">
+                         {{woundBleeding?.woundBleedingName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Surrounding Skin -->
+                <mat-step [stepControl]="surroundingSkinFormGroup">
+                  <form [formGroup]="surroundingSkinFormGroup">
+                    <ng-template matStepLabel>Surrounding skin</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="surroundingSkinCtrl">
+                      <mat-list-option *ngFor="let surroundingSkin of surroundingSkins" [value]="surroundingSkin?.surroundingSkinId">
+                         {{surroundingSkin?.surroundingSkinName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Pain Type -->
+                <mat-step [stepControl]="painTypeFormGroup">
+                  <form [formGroup]="painTypeFormGroup">
+                    <ng-template matStepLabel>Pain type</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="painTypeCtrl">
+                      <mat-list-option *ngFor="let painType of painTypes" [value]="painType?.painTypeId">
+                         {{painType?.painTypeName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+  
+                <!-- Pain Level -->
+                <mat-step [stepControl]="painLevelFormGroup">
+                  <form [formGroup]="painLevelFormGroup">
+                    <ng-template matStepLabel>Pain level</ng-template>
+                    <mat-selection-list [multiple]="false" formControlName="painLevelCtrl">
+                      <mat-list-option *ngFor="let painLevel of painLevels" [value]="painLevel?.painLevelId">
+                         {{painLevel?.painLevelName}}
+                      </mat-list-option>
+                    </mat-selection-list>
+                    <div>
+                      <button mat-button matStepperPrevious>Back</button>
+                      <button mat-button matStepperNext>Next</button>
+                    </div>
+                  </form>
+                </mat-step>
+            </mat-stepper>
+        </div>
+        <div class="element center" *ngIf="!woundCreated" style="padding-bottom: 50px;">
+            <button mat-fab (click)="onRegister()" [disabled] = "!painLevel?.value[0]">
+                <span class="material-icons">
+                    add
+                </span>
+            </button>
+        </div>
+        <div class="element center" *ngIf="woundCreated && !visitWanted">
+          <p>Do you want to make an appointment?</p><br/><br/>
+        </div>
+        <div class="element center" *ngIf="woundCreated && !visitWanted">
+          <button mat-fab (click)="onCreateAppointment()">
+            <span class="material-icons">
+                done
+            </span>
+          </button>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <button mat-fab (click)="onCancel()">
+            <span class="material-icons">
+                close
+            </span>
+          </button>
+        </div>
+        <div class="element center" *ngIf="visitWanted">
+          <br/>
+          <p>
+            Doctor: {{fastestAppointment?.doctorFullname}} &nbsp; &nbsp; 
+            Date: {{fastestAppointment?.appointmentDate}}
+          </p>
+        </div>
+        <div class="element center" *ngIf="visitWanted">
+          <button mat-fab (click)="onApproveAppointment()">
+            <span class="material-icons">
+                done
+            </span>
+          </button>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+          <button mat-fab (click)="onOtherAppointment()">
+            <span class="material-icons">
+                close
+            </span>
+          </button>
+        </div>
+      </div>
+  </div>
+  </div>
+</div>

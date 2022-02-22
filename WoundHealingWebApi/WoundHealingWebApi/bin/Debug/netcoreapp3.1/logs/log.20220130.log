@@ -1,0 +1,444 @@
+15:57:32.615 12  INFO AppointmentController GetAppointmentNote appointmentId: 1008 | 
+16:49:04.960 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:49:06.248  8  INFO UserController GetUserAuthByUserId: 3 | 
+16:49:06.345  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:49:10.717 10  INFO WoundTypesController GetWoundTypes | 
+16:49:10.829 10  INFO WoundTypesController GetWoundLocations | 
+16:49:10.872  8  INFO WoundTypesController GetWoundSizes | 
+16:49:10.903 10  INFO WoundTypesController GetWoundColors | 
+16:49:10.942  8  INFO WoundTypesController GetWoundOdors | 
+16:49:10.983 13  INFO WoundTypesController GetWoundExudates | 
+16:49:11.019 13  INFO WoundTypesController GetWoundBleedings | 
+16:49:11.094 13  INFO WoundTypesController GetSurroundingSkins | 
+16:49:11.138 13  INFO WoundTypesController GetPainTypes | 
+16:49:11.169 13  INFO WoundTypesController GetPainLevels | 
+16:49:12.156 13  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:49:13.072  6  INFO AppointmentController GetMyAppointments patientId: 3 | 
+16:49:14.173  9  INFO AppointmentController GetAppointmentSummary appointmentId: 1013 | 
+16:52:31.942 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:52:31.964 15  INFO UserController GetUserAuthByUserId: 3 | 
+16:52:32.005 25  INFO WoundController GetMyWoundAppointments userId: 3 | 
+16:53:03.551 25  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:53:03.578 25  INFO UserController GetUserAuthByUserId: 3 | 
+16:53:03.625 25  INFO WoundController GetMyWoundAppointments userId: 3 | 
+17:38:26.330  8  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:02:59.651  4  INFO ChatController GetChatMessages chatId: 1 | 
+18:04:59.802  9  INFO ChatController GetChatMessages chatId: 1 | 
+18:06:21.197 10  INFO ChatController GetChatMessages chatId: 1 | 
+18:08:21.239  9  INFO ChatController GetChatMessages chatId: 1 | 
+18:11:58.818 23  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:11:59.010 27  INFO UserController GetUserAuthByUserId: 3 | 
+18:11:59.105 27  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:12:00.138 29  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:12:00.183 27  INFO ChatController GetChatMessages chatId: 1 | 
+18:12:57.009 25  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:12:57.047 25  INFO UserController GetUserAuthByUserId: 3 | 
+18:12:57.086 32  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:12:58.419 32  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:12:58.438 35  INFO ChatController GetChatMessages chatId: 1 | 
+18:18:34.960 44  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:18:34.978 45  INFO UserController GetUserAuthByUserId: 3 | 
+18:18:35.006 44  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:18:35.813 45  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:18:35.834 45  INFO ChatController GetChatMessages chatId: 1 | 
+18:20:51.711 52  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:20:51.734 52  INFO UserController GetUserAuthByUserId: 3 | 
+18:20:51.772 54  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:20:53.079 54  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:20:53.108 56  INFO ChatController GetChatMessages chatId: 1 | 
+18:21:46.834 47  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:21:46.859 59  INFO UserController GetUserAuthByUserId: 3 | 
+18:21:46.891 59  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:21:48.337 59  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:21:48.365 47  INFO ChatController GetChatMessages chatId: 1 | 
+18:23:59.242 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:23:59.271 69  INFO UserController GetUserAuthByUserId: 3 | 
+18:23:59.309 69  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:24:00.608 65  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:24:00.631 69  INFO ChatController GetChatMessages chatId: 1 | 
+18:24:44.431 71  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:24:44.466 75  INFO UserController GetUserAuthByUserId: 3 | 
+18:24:44.503 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:24:45.663 75  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:24:45.679 74  INFO ChatController GetChatMessages chatId: 1 | 
+18:25:35.397 75  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:25:35.420 77  INFO UserController GetUserAuthByUserId: 3 | 
+18:25:35.453 74  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:25:36.342 74  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:25:36.367 78  INFO ChatController GetChatMessages chatId: 1 | 
+18:25:56.772 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:25:56.789 81  INFO UserController GetUserAuthByUserId: 3 | 
+18:25:56.828 81  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:25:57.386 78  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:25:57.407 77  INFO ChatController GetChatMessages chatId: 1 | 
+18:28:48.875 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:28:48.895 90  INFO UserController GetUserAuthByUserId: 3 | 
+18:28:48.931 87  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:28:50.070 87  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:28:50.096 91  INFO ChatController GetChatMessages chatId: 1 | 
+18:33:03.391 96  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:33:03.416 102  INFO UserController GetUserAuthByUserId: 3 | 
+18:33:03.452 103  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:33:04.354 103  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:33:04.376 104  INFO ChatController GetChatMessages chatId: 1 | 
+18:39:35.324 115  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:39:35.353 109  INFO UserController GetUserAuthByUserId: 3 | 
+18:39:35.381 115  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:39:36.538 115  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:39:36.563 101  INFO ChatController GetChatMessages chatId: 1 | 
+18:43:29.087 100  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:43:29.103 100  INFO UserController GetUserAuthByUserId: 3 | 
+18:43:29.133 100  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:43:29.751 91  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:43:29.773 91  INFO ChatController GetChatMessages chatId: 1 | 
+18:44:14.255 92  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:44:14.255 89  INFO UserController GetUserAuthByUserId: 3 | 
+18:44:14.299 89  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:44:14.910 92  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:44:14.932 90  INFO ChatController GetChatMessages chatId: 1 | 
+18:44:40.356 92  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:44:40.366 92  INFO UserController GetUserAuthByUserId: 3 | 
+18:44:40.392 85  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:44:41.051 90  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:44:41.073 85  INFO ChatController GetChatMessages chatId: 1 | 
+18:45:10.985 83  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:45:10.997 83  INFO UserController GetUserAuthByUserId: 3 | 
+18:45:11.024 85  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:45:11.543 79  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:45:11.572 83  INFO ChatController GetChatMessages chatId: 1 | 
+18:46:09.722 83  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:46:09.746 74  INFO UserController GetUserAuthByUserId: 3 | 
+18:46:09.778 83  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:46:10.333 83  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:46:10.355 74  INFO ChatController GetChatMessages chatId: 1 | 
+18:46:52.976 70  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:46:52.992 70  INFO UserController GetUserAuthByUserId: 3 | 
+18:46:53.026 68  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:46:53.601 70  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:46:53.626 68  INFO ChatController GetChatMessages chatId: 1 | 
+18:47:21.876 70  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:47:21.893 64  INFO UserController GetUserAuthByUserId: 3 | 
+18:47:21.923 64  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:47:23.078 63  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:47:23.100 64  INFO ChatController GetChatMessages chatId: 1 | 
+18:48:19.042 60  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:48:19.042 58  INFO UserController GetUserAuthByUserId: 3 | 
+18:48:19.078 61  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:48:19.682 61  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:48:19.703 61  INFO ChatController GetChatMessages chatId: 1 | 
+18:49:10.864 56  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:49:10.888 56  INFO UserController GetUserAuthByUserId: 3 | 
+18:49:10.916 55  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:49:11.465 55  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:49:11.486 55  INFO ChatController GetChatMessages chatId: 1 | 
+18:49:52.479 46  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:49:52.495 48  INFO UserController GetUserAuthByUserId: 3 | 
+18:49:52.523 48  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:49:53.096 48  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:49:53.108 48  INFO ChatController GetChatMessages chatId: 1 | 
+18:50:37.376 45  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:50:37.388 42  INFO UserController GetUserAuthByUserId: 3 | 
+18:50:37.416 41  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:50:38.145 40  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:50:38.167 40  INFO ChatController GetChatMessages chatId: 1 | 
+18:50:56.359 45  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:50:56.388 41  INFO UserController GetUserAuthByUserId: 3 | 
+18:50:56.417 41  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:50:57.041 47  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:50:57.064 42  INFO ChatController GetChatMessages chatId: 1 | 
+18:51:26.037 43  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:51:26.064 47  INFO UserController GetUserAuthByUserId: 3 | 
+18:51:26.094 37  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:51:27.270 37  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:51:27.333 37  INFO ChatController GetChatMessages chatId: 1 | 
+18:52:25.792 34  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:25.803 33  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:25.830 34  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:52:26.464 34  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:52:26.483 34  INFO ChatController GetChatMessages chatId: 1 | 
+18:52:44.584 30  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:44.584 34  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:44.631 30  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:52:45.205 34  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:52:45.227 31  INFO ChatController GetChatMessages chatId: 1 | 
+18:53:09.875 30  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:53:09.891 27  INFO UserController GetUserAuthByUserId: 3 | 
+18:53:09.917 26  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:53:10.480 26  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:53:10.512 24  INFO ChatController GetChatMessages chatId: 1 | 
+18:53:16.892 26  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:53:28.880 26  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:53:28.880 24  INFO UserController GetUserAuthByUserId: 3 | 
+18:53:28.913 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:53:29.529 21  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:53:29.573 21  INFO ChatController GetChatMessages chatId: 1 | 
+18:54:10.860 21  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:54:10.895 19  INFO UserController GetUserAuthByUserId: 3 | 
+18:54:10.923 21  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:54:11.974 21  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:54:11.995 21  INFO ChatController GetChatMessages chatId: 1 | 
+18:56:41.495  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:56:41.513  9  INFO UserController GetUserAuthByUserId: 3 | 
+18:56:41.558 12  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:56:42.214  4  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:56:42.243  4  INFO ChatController GetChatMessages chatId: 1 | 
+18:57:54.610 12  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:57:54.629 118  INFO UserController GetUserAuthByUserId: 3 | 
+18:57:54.674 118  INFO WoundController GetMyWoundAppointments userId: 3 | 
+18:57:55.292 116  INFO ChatController GetChats userId: 3, isPatient: True | 
+18:57:55.316 116  INFO ChatController GetChatMessages chatId: 1 | 
+19:00:00.354 122  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:00:00.372 125  INFO UserController GetUserAuthByUserId: 3 | 
+19:00:00.414 124  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:00:00.978 124  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:00:01.005 124  INFO ChatController GetChatMessages chatId: 1 | 
+19:00:40.419 126  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:00:40.440 131  INFO UserController GetUserAuthByUserId: 3 | 
+19:00:40.482 131  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:00:41.067 131  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:00:41.101 132  INFO ChatController GetChatMessages chatId: 1 | 
+19:01:15.968 130  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:01:15.982 133  INFO UserController GetUserAuthByUserId: 3 | 
+19:01:16.020 130  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:01:16.718 134  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:01:16.746 134  INFO ChatController GetChatMessages chatId: 1 | 
+19:01:32.857 130  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:01:32.866 134  INFO UserController GetUserAuthByUserId: 3 | 
+19:01:32.899 137  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:01:33.952 130  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:01:33.975 130  INFO ChatController GetChatMessages chatId: 1 | 
+19:02:14.601 130  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:02:14.621 142  INFO UserController GetUserAuthByUserId: 3 | 
+19:02:14.659 138  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:02:15.742 142  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:02:15.769 142  INFO ChatController GetChatMessages chatId: 1 | 
+19:13:44.415 152  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:13:44.429 153  INFO UserController GetUserAuthByUserId: 3 | 
+19:13:44.462 150  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:13:45.467 152  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:13:45.493 153  INFO ChatController GetChatMessages chatId: 1 | 
+19:15:32.267 140  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:15:32.279 150  INFO UserController GetUserAuthByUserId: 6 | 
+19:15:32.320 136  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:34.033 136  INFO ChatController GetChats userId: 6, isPatient: False | 
+19:15:34.059 137  INFO ChatController GetChatMessages chatId: 1 | 
+19:16:22.339 136  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:16:22.359 137  INFO UserController GetUserAuthByUserId: 3 | 
+19:16:22.391 137  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:16:23.306 136  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:16:23.324 137  INFO ChatController GetChatMessages chatId: 1 | 
+19:16:34.975 133  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:16:34.975 137  INFO UserController GetUserAuthByUserId: 6 | 
+19:16:34.998 137  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:16:36.068 137  INFO ChatController GetChats userId: 6, isPatient: False | 
+19:16:36.084 137  INFO ChatController GetChatMessages chatId: 1 | 
+19:26:37.305 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:26:38.408 11  INFO UserController GetUserAuthByUserId: 3 | 
+19:26:38.498 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:26:43.641  4  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:26:43.654 11  INFO UserController GetUserAuthByUserId: 6 | 
+19:26:43.681 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:26:46.482 11  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:26:46.525 11  INFO ChatController GetChatMessages chatId: 1 | 
+19:26:47.801  9  INFO ChatController GetChats userId: 6, isPatient: False | 
+19:26:47.825 11  INFO ChatController GetChatMessages chatId: 1 | 
+19:26:55.065 10  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"pacjent pisze","MessageDate":"2022-01-30T18:26:54.924Z","IsPatientMessage":true} | 
+19:26:55.286 10 ERROR SaveMessageRequestHandler SaveMessageRequest error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ChatId1'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:20d6b8e1-d5d3-4206-941e-cd69bf61f921
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.SaveMessageRequestHandler.Handle(SaveMessageRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\SaveMessageRequestHandler.cs:line 64 | 
+19:30:15.412 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:30:16.632  8  INFO UserController GetUserAuthByUserId: 3 | 
+19:30:16.698 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:30:20.888 10  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:30:20.913 11  INFO UserController GetUserAuthByUserId: 6 | 
+19:30:20.947  6  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:30:22.058 11  INFO ChatController GetChats userId: 6, isPatient: False | 
+19:30:22.101 11  INFO ChatController GetChatMessages chatId: 1 | 
+19:30:22.777 11  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:30:22.799  8  INFO ChatController GetChatMessages chatId: 1 | 
+19:30:25.842 10  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"test","MessageDate":"2022-01-30T18:30:25.713Z","IsPatientMessage":true} | 
+19:30:26.046 10 ERROR SaveMessageRequestHandler SaveMessageRequest error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ChatId1'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:79c9fd2b-476d-4903-9ecf-1574c5e6d9a6
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.SaveMessageRequestHandler.Handle(SaveMessageRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\SaveMessageRequestHandler.cs:line 64 | 
+19:32:54.962 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:32:56.468  8  INFO UserController GetUserAuthByUserId: 3 | 
+19:32:56.531  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:32:57.430  8  INFO ChatController GetChats userId: 3, isPatient: True | 
+19:32:57.466  6  INFO ChatController GetChatMessages chatId: 1 | 
+19:33:01.935 11  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"test","MessageDate":"2022-01-30T18:33:01.771Z","IsPatientMessage":true} | 
+19:33:02.169 11 ERROR SaveMessageRequestHandler SaveMessageRequest error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'ChatId1'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:0b908c7c-f059-47ee-b8d7-99b0941e8b4c
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.SaveMessageRequestHandler.Handle(SaveMessageRequest request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\SaveMessageRequestHandler.cs:line 64 | 
+20:05:58.395  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:05:59.854  4  INFO UserController GetUserAuthByUserId: 3 | 
+20:05:59.918  9  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:06:11.152  4  INFO UserController GetUserByEmail: doc2@o2.pl | 
+20:06:11.162  9  INFO UserController GetUserAuthByUserId: 6 | 
+20:06:11.189  8  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+20:06:13.796  8  INFO ChatController GetChats userId: 6, isPatient: False | 
+20:06:13.838 11  INFO ChatController GetChatMessages chatId: 1 | 
+20:06:16.260 10  INFO ChatController GetChats userId: 3, isPatient: True | 
+20:06:16.287 10  INFO ChatController GetChatMessages chatId: 1 | 
+20:06:20.259 11  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"test","MessageDate":"2022-01-30T19:06:20.067Z","IsPatientMessage":true} | 
+20:06:20.440 11  INFO SaveMessageRequestHandler chat message created id: 5 | 
+20:06:29.487 15  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"czyzby dzialalo","MessageDate":"2022-01-30T19:06:29.421Z","IsPatientMessage":false} | 
+20:06:29.503 15  INFO SaveMessageRequestHandler chat message created id: 6 | 
+20:06:35.085 11  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"chyba tak","MessageDate":"2022-01-30T19:06:35.072Z","IsPatientMessage":true} | 
+20:06:35.104 11  INFO SaveMessageRequestHandler chat message created id: 7 | 
+20:21:05.227 49  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:21:05.240 43  INFO UserController GetUserAuthByUserId: 3 | 
+20:21:05.266 49  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:21:13.396 49  INFO UserController GetUserByEmail: doc2@o2.pl | 
+20:21:13.412 49  INFO UserController GetUserAuthByUserId: 6 | 
+20:21:13.445 44  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+20:21:15.163 44  INFO ChatController GetChats userId: 3, isPatient: True | 
+20:21:15.187 49  INFO ChatController GetChatMessages chatId: 1 | 
+20:21:16.463 48  INFO ChatController GetChats userId: 6, isPatient: False | 
+20:21:16.484 44  INFO ChatController GetChatMessages chatId: 1 | 
+20:21:21.873 48  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"dzialala?","MessageDate":"2022-01-30T19:21:21.834Z","IsPatientMessage":true} | 
+20:21:21.887 48  INFO SaveMessageRequestHandler chat message created id: 8 | 
+20:21:25.145 46  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"dziala","MessageDate":"2022-01-30T19:21:25.127Z","IsPatientMessage":false} | 
+20:21:25.158 50  INFO SaveMessageRequestHandler chat message created id: 9 | 
+20:21:29.167 50  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"super","MessageDate":"2022-01-30T19:21:29.151Z","IsPatientMessage":true} | 
+20:21:29.192 46  INFO SaveMessageRequestHandler chat message created id: 10 | 
+20:47:04.476 67  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:47:04.501 66  INFO UserController GetUserAuthByUserId: 3 | 
+20:47:04.525 70  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:47:05.396 65  INFO ChatController GetChats userId: 3, isPatient: True | 
+20:47:05.420 66  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:06.481 63  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:10.138 67  INFO ChatController chat message: {"ChatId":2,"PatientId":3,"DoctorId":5,"PatientName":"Jan Kowalski","DoctorName":"Doctor1 Doctor1","Message":"test","MessageDate":"2022-01-30T19:47:10.132Z","IsPatientMessage":true} | 
+20:47:10.148 66  INFO SaveMessageRequestHandler chat message created id: 11 | 
+20:47:11.639 67  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:15.307 63  INFO ChatController chat message: {"ChatId":1,"PatientId":3,"DoctorId":6,"PatientName":"Jan Kowalski","DoctorName":"Doctor2 Doctor2","Message":"test","MessageDate":"2022-01-30T19:47:15.291Z","IsPatientMessage":true} | 
+20:47:15.330 63  INFO SaveMessageRequestHandler chat message created id: 12 | 
+20:47:20.576 63  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:24.454 70  INFO ChatController chat message: {"ChatId":2,"PatientId":3,"DoctorId":5,"PatientName":"Jan Kowalski","DoctorName":"Doctor1 Doctor1","Message":"hej","MessageDate":"2022-01-30T19:47:24.442Z","IsPatientMessage":true} | 
+20:47:24.467 63  INFO SaveMessageRequestHandler chat message created id: 13 | 
+20:47:27.196 62  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:29.540 67  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:42.634 66  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:43.587 67  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:44.709 67  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:45.205 66  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:45.566 62  INFO ChatController GetChatMessages chatId: 2 | 
+20:47:46.026 62  INFO ChatController GetChatMessages chatId: 1 | 
+20:47:46.408 62  INFO ChatController GetChatMessages chatId: 2 | 
+20:59:04.650  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:59:06.268 11  INFO UserController GetUserAuthByUserId: 3 | 
+20:59:06.340  8  INFO WoundController GetMyWoundAppointments userId: 3 | 
+20:59:14.654  6  INFO AppointmentController GetMyAppointments patientId: 3 | 
+20:59:15.963  6  INFO AppointmentController GetAppointmentSummary appointmentId: 1013 | 
+21:01:56.969 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:01:56.988 15  INFO UserController GetUserAuthByUserId: 3 | 
+21:01:57.018 24  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:01:58.039 24  INFO ChatController GetChats userId: 3, isPatient: True | 
+21:01:58.073 24  INFO ChatController GetChatMessages chatId: 1 | 
+21:01:59.873 16  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:02:01.036 24  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:02:02.005 24  INFO AppointmentController GetAppointmentSummary appointmentId: 1013 | 
+21:02:03.180 22  INFO ChatController GetChats userId: 3, isPatient: True | 
+21:02:03.198 24  INFO ChatController GetChatMessages chatId: 1 | 
+21:02:04.478 22  INFO AppointmentController GetAppointmentSummary appointmentId: 1013 | 
+21:02:18.430 24  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:02:18.430 24  INFO UserController GetUserAuthByUserId: 6 | 
+21:02:18.464 22  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:02:23.601 16  INFO ChatController GetChats userId: 6, isPatient: False | 
+21:02:23.624 24  INFO ChatController GetChatMessages chatId: 1 | 
+21:02:25.409 24  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:02:29.646 23  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:02:30.689 23  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+21:04:38.538 27  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:04:38.559 27  INFO UserController GetUserAuthByUserId: 3 | 
+21:04:38.588 27  INFO WoundController GetMyWoundAppointments userId: 3 | 
+21:04:40.529 29  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:04:41.501 33  INFO AppointmentController GetAppointmentSummary appointmentId: 1013 | 
+21:04:55.891 34  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:04:55.966 26  INFO UserController GetUserAuthByUserId: 6 | 
+21:04:56.022 26  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:05:00.251 26  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:05:02.389 34  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:05:18.964 26  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:05:19.725 28  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+21:11:14.134 46  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:11:14.154 52  INFO UserController GetUserAuthByUserId: 6 | 
+21:11:14.187 52  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:11:21.872 55  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:11:23.344 52  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:11:26.603 49  INFO ChatController GetChats userId: 6, isPatient: False | 
+21:11:26.638 56  INFO ChatController GetChatMessages chatId: 1 | 
+21:11:27.948 52  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:18:26.431 66  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:18:26.444 67  INFO UserController GetUserAuthByUserId: 6 | 
+21:18:26.473 69  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:19:12.833 70  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:19:12.850 65  INFO UserController GetUserAuthByUserId: 6 | 
+21:19:12.882 73  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+21:21:55.590 80  INFO UserController GetUserByEmail: doc2@o2.pl | 
+21:21:55.604 82  INFO UserController GetUserAuthByUserId: 6 | 
+21:21:55.637 85  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 

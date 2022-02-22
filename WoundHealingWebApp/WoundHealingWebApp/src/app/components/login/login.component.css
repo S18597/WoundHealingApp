@@ -1,0 +1,65 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.main-container {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .container {
+    margin: 10px;
+  }
+
+
+/* .absolute-center {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+
+} */
+/* .center {
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} */
+.image {
+    margin: 40px;
+    height: 150px;
+    background-image: url("src/assets/logo.png");
+    background-color: transparent;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image: url("src/assets/background.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* margin-top: 200px;
+    margin-bottom: 200px; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.margin {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}

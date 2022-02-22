@@ -1,0 +1,1176 @@
+16:40:03.390 18  INFO UserController GetUserByEmail: doc2@o2.pl | 
+16:40:07.209 19  INFO UserController GetUserAuthByUserId: 6 | 
+16:40:07.364 19  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+16:40:09.926 18  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+16:40:11.056 19  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+16:45:29.088 24  INFO UserController GetUserByEmail: doc2@o2.pl | 
+16:45:29.112 24 ERROR UserQueryHandler user not found! | 
+16:45:29.170 24 ERROR UserQueryHandler GetUserByEmailQuery error: System.Exception: user not found!
+   at WoundHealingWebApi.Handlers.UserQueryHandler.Handle(GetUserByEmailQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\UserQueryHandler.cs:line 52 | 
+16:52:39.432 43  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Wit","Lastname":"Szczepański","Pesel":"69070470966","Address":"ul. Bazaltowa 4, 92-009 Łódź","PhoneNumber":"539655509","EmailAddress":"witszczepanski@teleworm.us","DateOfBirth":"1969-07-03T23:00:00Z","Salt":"Jw4X","Hash":"2740d5d6c1b25c73ed80351a9d94ef17"} | 
+16:52:39.613 46  INFO UserRequestHandler User created:  | 
+16:54:55.154 52  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Jolanta","Lastname":"Zając","Pesel":"72072642190","Address":"ul. Husytów 3, 80-340 Gdańsk","PhoneNumber":"607413907","EmailAddress":"jolantazajac@dayrep.com","DateOfBirth":"1972-07-25T23:00:00Z","Salt":"ktV3","Hash":"e0f03187ed99f8a36432ad58bfef2406"} | 
+16:54:55.171 52  INFO UserRequestHandler User created:  | 
+16:57:54.563 61  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Karolina","Lastname":"Michalska","Pesel":"87090368205","Address":"ul. Kaleńska 76, 04-367 Warszawa","PhoneNumber":"728717745","EmailAddress":"karolinamichalska@wp.pl","DateOfBirth":"1987-09-02T22:00:00Z","Salt":"bjmT","Hash":"c9300883fd7ff36c629bc2031d73ed58"} | 
+16:57:54.576 65  INFO UserRequestHandler User created:  | 
+16:59:38.583 67  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Henryk","Lastname":"Wieczorek","Pesel":"53112610751","Address":"ul. Ostrobramska 35, 04-026 Warszawa","PhoneNumber":"797596822","EmailAddress":"henrykwieczorek@gmail.com","DateOfBirth":"1953-11-25T23:00:00Z","Salt":"l6oH","Hash":"82463071149beac42248497f7b673777"} | 
+16:59:38.610 71  INFO UserRequestHandler User created:  | 
+17:00:36.251 75  INFO UserController GetUserByEmail: karolinamichalska@wp.pl | 
+17:00:36.264 76  INFO UserController GetUserAuthByUserId: 13 | 
+17:00:36.300 76  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:07:11.640 91  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Aniela","Lastname":"Borkowska","Pesel":"87874544710","Address":"ul. Mozarnik 21 02-967, Warszawa","PhoneNumber":"781551777","EmailAddress":"anielaborkowska@gmail.com","DateOfBirth":"1987-02-07T23:00:00Z","Salt":"VnWc","Hash":"91043939078e55d891d421bde948e7e5"} | 
+17:07:11.656 91  INFO UserRequestHandler User created:  | 
+17:12:57.459 106  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Oskar","Lastname":"Olszewski","Pesel":"94111935559","Address":"Sokołowska 83 01-142 Warszawa","PhoneNumber":"695797818","EmailAddress":"oskarolszewski@gmail.com","DateOfBirth":"1994-11-18T23:00:00Z","Salt":"dbWG","Hash":"0638069fc170bbd88e2d9c148470565c"} | 
+17:12:57.475 102  INFO UserRequestHandler User created:  | 
+17:17:42.104 119  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Oskar","Lastname":"Olszewski","Pesel":"94111935559","Address":"ul. Sokołowska 83 01-142 Warszawa","PhoneNumber":"695797818","EmailAddress":"oskarolszewski@gmail.com","DateOfBirth":"1994-11-18T23:00:00Z","Salt":"oesF","Hash":"807035968eeebb6230d202b05a174151"} | 
+17:17:42.140 119  INFO UserRequestHandler User created:  | 
+17:21:22.851 124  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+17:21:22.851 124  INFO UserController GetUserAuthByUserId: 17 | 
+17:21:22.897 129  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:25:49.743 138  INFO WoundTypesController GetWoundTypes | 
+17:25:49.818 144  INFO WoundTypesController GetWoundLocations | 
+17:25:49.841 144  INFO WoundTypesController GetWoundSizes | 
+17:25:49.862 144  INFO WoundTypesController GetWoundColors | 
+17:25:49.881 142  INFO WoundTypesController GetWoundOdors | 
+17:25:49.903 142  INFO WoundTypesController GetWoundExudates | 
+17:25:49.924 144  INFO WoundTypesController GetWoundBleedings | 
+17:25:49.943 144  INFO WoundTypesController GetSurroundingSkins | 
+17:25:49.962 144  INFO WoundTypesController GetPainTypes | 
+17:25:49.981 142  INFO WoundTypesController GetPainLevels | 
+17:30:54.014 151  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+17:30:54.023 151  INFO UserController GetUserAuthByUserId: 17 | 
+17:30:54.046 155  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:31:11.274 154  INFO WoundTypesController GetWoundTypes | 
+17:31:11.386 157  INFO WoundTypesController GetWoundLocations | 
+17:31:11.428 154  INFO WoundTypesController GetWoundSizes | 
+17:31:11.453 154  INFO WoundTypesController GetWoundColors | 
+17:31:11.472 152  INFO WoundTypesController GetWoundOdors | 
+17:31:11.489 154  INFO WoundTypesController GetWoundExudates | 
+17:31:11.502 151  INFO WoundTypesController GetWoundBleedings | 
+17:31:11.520 154  INFO WoundTypesController GetSurroundingSkins | 
+17:31:11.541 154  INFO WoundTypesController GetPainTypes | 
+17:31:11.559 154  INFO WoundTypesController GetPainLevels | 
+17:31:45.171 151  INFO WoundController CreateWound request: {"UserId":17,"WoundTypeId":2,"WoundLocationId":7,"WoundSizeId":1,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":1002,"PainTypeId":2,"PainLevelId":3} | 
+17:31:45.234 156  INFO WoundRequestHandler Wound created id: 1017 | 
+17:31:45.243 156  INFO WoundController GetUserAuthByUserId: 17 | 
+17:31:49.292 159  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:34:20.812 154  INFO WoundController GetMyWounds userId: 17 | 
+17:34:24.316 155  INFO WoundController GetWoundDetails woundId: 1017 | 
+17:34:24.353 151  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:34:29.638 149  INFO WoundController GetMyWounds userId: 17 | 
+17:34:33.306 151  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:34:43.939 154  INFO WoundController GetMyWounds userId: 17 | 
+17:34:46.626 154  INFO WoundController GetWoundDetails woundId: 1017 | 
+17:34:46.685 153  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:35:38.210 148  INFO WoundController GetMyWounds userId: 17 | 
+17:35:38.944 144  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:35:49.659 144  INFO WoundTypesController GetWoundTypes | 
+17:35:49.715 145  INFO WoundTypesController GetWoundLocations | 
+17:35:49.753 140  INFO WoundTypesController GetWoundSizes | 
+17:35:49.762 141  INFO WoundTypesController GetWoundColors | 
+17:35:49.772 143  INFO WoundTypesController GetWoundOdors | 
+17:35:49.772 143  INFO WoundTypesController GetWoundExudates | 
+17:35:49.789 142  INFO WoundTypesController GetWoundBleedings | 
+17:35:49.789 142  INFO WoundTypesController GetSurroundingSkins | 
+17:35:49.805 140  INFO WoundTypesController GetPainTypes | 
+17:35:49.805 140  INFO WoundTypesController GetPainLevels | 
+17:35:51.572 143  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:36:21.263 140  INFO WoundController GetMyWounds userId: 17 | 
+17:36:23.307 137  INFO WoundController GetWoundDetails woundId: 1017 | 
+17:36:23.356 138  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:36:33.446 138  INFO WoundController UploadWoundPhoto woundId: 1017, filename: w11.jpg | 
+17:36:33.446 138  INFO WoundController files count: 1, filename: w11.jpg | 
+17:36:33.446 138  INFO WoundRequestHandler fileName: w11.jpg | 
+17:36:33.446 138  INFO WoundRequestHandler fileExtension: .jpg | 
+17:36:33.446 138  INFO WoundRequestHandler newFileName: d700dbe0-b9f5-4bd8-b21a-cbeacc69ed58.jpg | 
+17:36:33.478 134  INFO WoundRequestHandler Wound photo uploaded for id: 1017 | 
+17:36:33.478 138  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:36:39.299 134  INFO WoundController UploadWoundPhoto woundId: 1017, filename: w12.jpg | 
+17:36:39.299 134  INFO WoundController files count: 1, filename: w12.jpg | 
+17:36:39.299 134  INFO WoundRequestHandler fileName: w12.jpg | 
+17:36:39.299 134  INFO WoundRequestHandler fileExtension: .jpg | 
+17:36:39.299 134  INFO WoundRequestHandler newFileName: 6ad287c7-26ea-40e2-bb2e-8157d9b9051a.jpg | 
+17:36:39.307 134  INFO WoundRequestHandler Wound photo uploaded for id: 1017 | 
+17:36:39.307 137  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:36:44.141 135  INFO WoundController UploadWoundPhoto woundId: 1017, filename: w13.jpg | 
+17:36:44.141 135  INFO WoundController files count: 1, filename: w13.jpg | 
+17:36:44.141 137  INFO WoundRequestHandler fileName: w13.jpg | 
+17:36:44.141 137  INFO WoundRequestHandler fileExtension: .jpg | 
+17:36:44.141 137  INFO WoundRequestHandler newFileName: 1406abd2-88e0-4061-a478-57bdc1229e77.jpg | 
+17:36:44.158 136  INFO WoundRequestHandler Wound photo uploaded for id: 1017 | 
+17:36:44.164 138  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:36:45.922 138  INFO WoundController GetWoundPhoto: 26 | 
+17:36:45.947 137  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:39:43.003 128  INFO WoundController GetMyWounds userId: 17 | 
+17:39:48.655 117  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:39:52.752 121  INFO WoundController GetMyWounds userId: 17 | 
+17:39:53.985 122  INFO WoundController GetWoundDetails woundId: 1017 | 
+17:39:54.002 117  INFO WoundController GetWoundPhotoDetails: 1017 | 
+17:39:55.570 117  INFO WoundController GetMyWounds userId: 17 | 
+17:39:56.533 117  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:39:58.359 117  INFO WoundController GetMyWounds userId: 17 | 
+17:40:01.996 117  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:40:26.948 124  INFO WoundController GetMyWounds userId: 17 | 
+17:40:29.357 124  INFO AppointmentController GetFastestAppointment | 
+17:40:29.393 124  INFO UserController GetDoctors | 
+17:40:29.445 116  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T17:40:26.909Z","DoctorId":null} | 
+17:40:40.761 118  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T18:40:26.909Z","DoctorId":15} | 
+17:40:43.029 116  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-25T00:00:00Z","DoctorId":15} | 
+17:40:46.219 118  INFO AppointmentController CreateAppointment request: {"WoundId":1017,"DoctorId":15,"PatientId":17,"AppointmentDate":"2022-02-25T10:00:00"} | 
+17:40:46.284 115  INFO AppointmentRequestHandler treatment created id: 1013 | 
+17:40:46.377 115  INFO AppointmentRequestHandler chat created | 
+17:40:46.377 115  INFO AppointmentRequestHandler appointment created id: 1017 | 
+17:40:47.670 115  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:42:33.151 112  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+17:42:33.166 103  INFO MedicalDataController GetMedicalData: 17 | 
+17:42:33.204 110 ERROR MedicalDataQueryHandler medical data for userId: 17 not found! | 
+17:42:33.204 110 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+17:42:33.981 110  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:42:56.236 110  INFO ChatController GetChats userId: 17, isPatient: True | 
+17:42:58.103 110  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:43:15.661 110  INFO WoundController GetMyWounds userId: 17 | 
+17:43:17.708 105  INFO AppointmentController GetFastestAppointment | 
+17:43:17.720 107  INFO UserController GetDoctors | 
+17:43:17.730 105  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T17:43:15.631Z","DoctorId":null} | 
+17:43:20.317 107  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-25T00:00:00Z","DoctorId":null} | 
+17:43:24.649 105  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-25T01:00:00Z","DoctorId":15} | 
+17:43:27.366 112  INFO AppointmentController CreateAppointment request: {"WoundId":1017,"DoctorId":15,"PatientId":17,"AppointmentDate":"2022-02-25T10:00:00"} | 
+17:43:27.366 110  INFO AppointmentRequestHandler treatment created id: 1014 | 
+17:43:27.398 112  INFO AppointmentRequestHandler chat created | 
+17:43:27.398 112  INFO AppointmentRequestHandler appointment created id: 1018 | 
+17:43:28.801 110  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:43:34.853 110  INFO ChatController GetChats userId: 17, isPatient: True | 
+17:43:34.884 110  INFO ChatController GetChatMessages chatId: 7 | 
+17:43:40.626 107  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hi doctor","MessageDate":"2022-02-20T16:43:40.608Z","IsPatientMessage":true} | 
+17:43:40.656 107  INFO SaveMessageRequestHandler chat message created id: 26 | 
+17:43:43.601 107  INFO WoundController GetMyWoundAppointments userId: 17 | 
+17:47:15.680 88  INFO UserController GetUserByEmail: henrykwieczorek@gmail.com | 
+17:47:15.680 86  INFO UserController GetUserAuthByUserId: 14 | 
+17:47:15.714 86  INFO WoundController GetMyWoundAppointments userId: 14 | 
+17:47:18.863 88  INFO WoundTypesController GetWoundTypes | 
+17:47:18.933 87  INFO WoundTypesController GetWoundLocations | 
+17:47:18.958 87  INFO WoundTypesController GetWoundSizes | 
+17:47:18.958 87  INFO WoundTypesController GetWoundColors | 
+17:47:18.982 87  INFO WoundTypesController GetWoundOdors | 
+17:47:18.992 88  INFO WoundTypesController GetWoundExudates | 
+17:47:18.992 88  INFO WoundTypesController GetWoundBleedings | 
+17:47:19.015 85  INFO WoundTypesController GetSurroundingSkins | 
+17:47:19.023 85  INFO WoundTypesController GetPainTypes | 
+17:47:19.023 85  INFO WoundTypesController GetPainLevels | 
+17:50:58.232 76  INFO WoundController CreateWound request: {"UserId":14,"WoundTypeId":7,"WoundLocationId":5,"WoundSizeId":2,"WoundColorId":2,"WoundOdorId":2,"WoundExudateId":1,"WoundBleedingId":1,"SurroundingSkinId":1,"PainTypeId":3,"PainLevelId":2} | 
+17:50:58.248 68  INFO WoundRequestHandler Wound created id: 1018 | 
+17:50:58.248 76  INFO WoundController GetUserAuthByUserId: 14 | 
+17:51:03.738 70  INFO AppointmentController GetFastestAppointment | 
+17:51:05.002 69  INFO WoundController GetMyWounds userId: 14 | 
+17:51:08.369 76  INFO AppointmentController GetFastestAppointment | 
+17:51:08.369 76  INFO UserController GetDoctors | 
+17:51:08.369 70  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T17:51:04.99Z","DoctorId":null} | 
+17:51:17.760 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T18:51:04.99Z","DoctorId":null} | 
+17:51:24.174 70  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T19:51:04.99Z","DoctorId":null} | 
+17:51:29.260 68  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2021-12-15T00:00:00Z","DoctorId":null} | 
+17:51:38.412 68  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2021-12-15T01:00:00Z","DoctorId":15} | 
+17:51:43.513 70  INFO AppointmentController CreateAppointment request: {"WoundId":1018,"DoctorId":15,"PatientId":14,"AppointmentDate":"2021-12-16T12:00:00"} | 
+17:51:43.534 70  INFO AppointmentRequestHandler treatment created id: 1015 | 
+17:51:43.546 66  INFO AppointmentRequestHandler chat created | 
+17:51:43.546 66  INFO AppointmentRequestHandler appointment created id: 1019 | 
+17:51:44.906 67  INFO WoundController GetMyWoundAppointments userId: 14 | 
+17:52:03.974 68  INFO WoundController GetMyWounds userId: 14 | 
+17:52:05.782 68  INFO WoundController GetWoundDetails woundId: 1018 | 
+17:52:05.803 66  INFO WoundController GetWoundPhotoDetails: 1018 | 
+17:52:12.280 69  INFO WoundController UploadWoundPhoto woundId: 1018, filename: w21.png | 
+17:52:12.280 69  INFO WoundController files count: 1, filename: w21.png | 
+17:52:12.291 66  INFO WoundRequestHandler fileName: w21.png | 
+17:52:12.291 66  INFO WoundRequestHandler fileExtension: .png | 
+17:52:12.291 66  INFO WoundRequestHandler newFileName: d8a4ce3b-116d-4913-b705-4ed103207cd5.png | 
+17:52:12.291 66  INFO WoundRequestHandler Wound photo uploaded for id: 1018 | 
+17:52:12.310 69  INFO WoundController GetWoundPhotoDetails: 1018 | 
+17:52:15.136 69  INFO WoundController GetMyWounds userId: 14 | 
+17:52:17.915 66  INFO WoundController GetWoundDetails woundId: 1018 | 
+17:52:17.936 67  INFO WoundController GetWoundPhotoDetails: 1018 | 
+17:52:19.522 67  INFO WoundController GetWoundPhoto: 29 | 
+17:52:19.522 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:52:22.502 66  INFO WoundController GetMyWounds userId: 14 | 
+17:52:46.822 67  INFO UserController GetUserByEmail: karolinamichalska@wp.pl | 
+17:52:46.822 60  INFO UserController GetUserAuthByUserId: 13 | 
+17:52:46.853 60  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:54:28.412 59  INFO WoundTypesController GetWoundTypes | 
+17:54:28.477 58  INFO WoundTypesController GetWoundLocations | 
+17:54:28.504 58  INFO WoundTypesController GetWoundSizes | 
+17:54:28.521 59  INFO WoundTypesController GetWoundColors | 
+17:54:28.530 55  INFO WoundTypesController GetWoundOdors | 
+17:54:28.542 59  INFO WoundTypesController GetWoundExudates | 
+17:54:28.542 58  INFO WoundTypesController GetWoundBleedings | 
+17:54:28.563 59  INFO WoundTypesController GetSurroundingSkins | 
+17:54:28.574 58  INFO WoundTypesController GetPainTypes | 
+17:54:28.591 57  INFO WoundTypesController GetPainLevels | 
+17:55:24.731 57  INFO WoundController CreateWound request: {"UserId":13,"WoundTypeId":3,"WoundLocationId":8,"WoundSizeId":2,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":1,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":3} | 
+17:55:24.743 57  INFO WoundRequestHandler Wound created id: 1019 | 
+17:55:24.743 45  INFO WoundController GetUserAuthByUserId: 13 | 
+17:55:26.816 51  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:55:27.998 51  INFO WoundController GetMyWounds userId: 13 | 
+17:55:29.277 57  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:55:30.424 51  INFO WoundController GetMyWounds userId: 13 | 
+17:55:31.791 51  INFO WoundController GetWoundDetails woundId: 1019 | 
+17:55:31.810 57  INFO WoundController GetWoundPhotoDetails: 1019 | 
+17:55:37.690 57  INFO WoundController UploadWoundPhoto woundId: 1019, filename: w31.jpg | 
+17:55:37.690 57  INFO WoundController files count: 1, filename: w31.jpg | 
+17:55:37.690 52  INFO WoundRequestHandler fileName: w31.jpg | 
+17:55:37.690 52  INFO WoundRequestHandler fileExtension: .jpg | 
+17:55:37.690 52  INFO WoundRequestHandler newFileName: 543e025c-40ea-441f-9b83-88f4f5118faf.jpg | 
+17:55:37.701 52  INFO WoundRequestHandler Wound photo uploaded for id: 1019 | 
+17:55:37.710 52  INFO WoundController GetWoundPhotoDetails: 1019 | 
+17:55:38.642 44  INFO WoundController GetWoundPhoto: 30 | 
+17:55:38.647 57  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:55:43.555 44  INFO WoundController GetMyWounds userId: 13 | 
+17:55:45.117 44  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:55:52.784 50  INFO WoundController GetMyWounds userId: 13 | 
+17:55:55.075 48  INFO AppointmentController GetFastestAppointment | 
+17:55:55.087 51  INFO UserController GetDoctors | 
+17:55:55.087 44  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T17:55:52.776Z","DoctorId":null} | 
+17:55:56.765 51  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T18:55:52.776Z","DoctorId":null} | 
+17:56:00.541 51  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-10T00:00:00Z","DoctorId":null} | 
+17:56:04.311 51  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-01-10T01:00:00Z","DoctorId":15} | 
+17:56:08.221 48  INFO AppointmentController CreateAppointment request: {"WoundId":1019,"DoctorId":15,"PatientId":13,"AppointmentDate":"2022-01-11T13:00:00"} | 
+17:56:08.236 50  INFO AppointmentRequestHandler treatment created id: 1016 | 
+17:56:08.249 50  INFO AppointmentRequestHandler chat created | 
+17:56:08.249 50  INFO AppointmentRequestHandler appointment created id: 1020 | 
+17:56:09.301 51  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:56:11.532 52  INFO AppointmentController GetMyAppointments patientId: 13 | 
+17:56:13.255 50  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:56:14.032 51  INFO WoundController GetMyWounds userId: 13 | 
+17:56:16.187 48  INFO AppointmentController GetFastestAppointment | 
+17:56:16.187 51  INFO UserController GetDoctors | 
+17:56:16.197 48  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T17:56:14.025Z","DoctorId":null} | 
+17:56:20.592 48  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-02T00:00:00Z","DoctorId":null} | 
+17:56:24.406 50  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-02T01:00:00Z","DoctorId":15} | 
+17:56:27.930 48  INFO AppointmentController CreateAppointment request: {"WoundId":1019,"DoctorId":15,"PatientId":13,"AppointmentDate":"2022-02-03T08:00:00"} | 
+17:56:27.943 52  INFO AppointmentRequestHandler appointment created id: 1021 | 
+17:56:28.931 41  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:56:30.706 41  INFO AppointmentController GetMyAppointments patientId: 13 | 
+17:56:33.718 41  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:56:35.068 42  INFO ChatController GetChats userId: 13, isPatient: True | 
+17:56:35.087 42  INFO ChatController GetChatMessages chatId: 9 | 
+17:56:37.239 42  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:56:43.789 52  INFO WoundController GetMyWounds userId: 13 | 
+17:56:45.619 52  INFO WoundController GetMyWoundAppointments userId: 13 | 
+17:57:10.117 50  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+17:57:10.117 37  INFO UserController GetUserAuthByUserId: 15 | 
+17:57:10.148 38  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+17:58:22.500 34  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+17:58:22.541 31  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+17:58:22.541 31  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+17:58:22.541 30  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+17:58:22.570 30  INFO WoundController GetWoundPhoto: 26 | 
+17:58:22.570 31  INFO WoundController GetWoundPhoto: 29 | 
+17:58:22.570 26  INFO WoundController GetWoundPhoto: 30 | 
+17:58:22.601 22  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:58:22.621 30  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:58:22.637 30  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+17:58:23.711 21  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+17:59:58.950 10  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+17:59:59.382  9  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:00:00.137  9  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:00:00.137  9  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:00:00.149  8  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:00:00.186  4  INFO WoundController GetWoundPhoto: 26 | 
+18:00:00.186  9  INFO WoundController GetWoundPhoto: 30 | 
+18:00:00.186  8  INFO WoundController GetWoundPhoto: 29 | 
+18:00:00.255 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:00:00.258 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:00:00.274 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:00:13.018  4  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:00:27.642  9  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:00:40.213  4  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:00:43.897  4  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:00:44.553  9  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:00:44.569 20  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:00:44.569 20  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:00:44.569  9  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:00:44.584  9  INFO WoundController GetWoundPhoto: 29 | 
+18:00:44.584 20  INFO WoundController GetWoundPhoto: 30 | 
+18:00:44.584  4  INFO WoundController GetWoundPhoto: 26 | 
+18:00:44.602 22  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:00:44.621 20  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:00:44.621 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:01:06.454  9  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:01:17.233  9  INFO UserController GetDoctorStats doctorId: 15 | 
+18:01:21.079 31  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:01:29.614 31  INFO UserController GetMyPatients doctorId: 15 | 
+18:01:33.114 30  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:01:33.724 29  INFO UserController GetMyPatients doctorId: 15 | 
+18:01:35.498 30  INFO UserController GetUserByEmail: henrykwieczorek@gmail.com | 
+18:01:35.524 30  INFO MedicalDataController GetMedicalData: 14 | 
+18:01:35.524 31 ERROR MedicalDataQueryHandler medical data for userId: 14 not found! | 
+18:01:35.548 31 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+18:01:37.298 29  INFO UserController GetMyPatients doctorId: 15 | 
+18:01:39.066 31  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:01:40.112 31  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:01:42.109 30  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:07.669  4  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:08.810 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:11.174 13  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:13.613 13  INFO AppointmentController GetAppointmentSummary appointmentId: 1021 | 
+18:02:16.301 10  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:17.687 10  INFO AppointmentController GetAppointmentSummary appointmentId: 1020 | 
+18:02:18.933 10  INFO WoundController GetWoundDetails woundId: 1019 | 
+18:02:18.983 10  INFO WoundController GetWoundPhotoDetails: 1019 | 
+18:02:20.521 13  INFO WoundController GetWoundPhoto: 30 | 
+18:02:20.546  4  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:02:23.364 10  INFO AppointmentController GetAppointmentSummary appointmentId: 1020 | 
+18:02:24.978 13  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:25.979 10  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:02:32.949 10  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:02:32.998  6  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:02:32.998 10  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:02:32.998 13  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:02:33.009 10  INFO WoundController GetWoundPhoto: 29 | 
+18:02:33.009 13  INFO WoundController GetWoundPhoto: 30 | 
+18:02:33.009 11  INFO WoundController GetWoundPhoto: 26 | 
+18:02:33.009  4  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:02:33.009 12  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:02:33.030  6  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:04:32.327 24  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:04:34.048 24  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:04:34.064 27  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:04:34.064 29  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:04:34.064 27  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:04:34.073 29  INFO WoundController GetWoundPhoto: 29 | 
+18:04:34.073 26  INFO WoundController GetWoundPhoto: 30 | 
+18:04:34.073 27  INFO WoundController GetWoundPhoto: 26 | 
+18:04:34.073 24  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:04:34.088 33  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:04:34.088 33  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:05:05.302 35  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:05:07.107 27  INFO UserController GetMyPatients doctorId: 15 | 
+18:05:08.010 38  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:05:08.725 40  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:05:08.725 40  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:05:08.742 40  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:05:08.742 40  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:05:08.742 40  INFO WoundController GetWoundPhoto: 29 | 
+18:05:08.742 35  INFO WoundController GetWoundPhoto: 26 | 
+18:05:08.759 38  INFO WoundController GetWoundPhoto: 30 | 
+18:05:08.835 27  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:05:08.835 27  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:05:08.835 35  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:08:28.779 47  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:08:28.816 44  INFO UserController GetUserAuthByUserId: 15 | 
+18:08:28.856 48  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:08:30.911 48  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:08:30.937 48  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:08:30.937 48  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:08:30.937 48  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:08:30.962 45  INFO WoundController GetWoundPhoto: 26 | 
+18:08:30.962 48  INFO WoundController GetWoundPhoto: 29 | 
+18:08:30.962 47  INFO WoundController GetWoundPhoto: 30 | 
+18:08:31.100 44  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:08:31.100 44  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:08:31.131 48  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:09:04.407 44  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:09:05.670 57  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+18:09:05.685 55  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+18:09:05.685 55  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+18:09:05.685 48  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+18:09:05.694 57  INFO WoundController GetWoundPhoto: 29 | 
+18:09:05.694 48  INFO WoundController GetWoundPhoto: 30 | 
+18:09:05.694 56  INFO WoundController GetWoundPhoto: 26 | 
+18:09:05.782 55  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:09:05.788 48  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:09:05.788 55  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+18:09:07.841 48  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:09:09.032 48  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:09:10.549 55  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:09:11.849 58  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:09:11.883 58  INFO ChatController GetChatMessages chatId: 7 | 
+18:09:31.138 58  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:09:32.464 58  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:09:32.486 58  INFO ChatController GetChatMessages chatId: 7 | 
+18:10:07.658 60  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:10:10.000 62  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:10:10.025 63  INFO ChatController GetChatMessages chatId: 7 | 
+18:11:20.775 65  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:11:22.196 65  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:11:22.223 65  INFO ChatController GetChatMessages chatId: 7 | 
+18:12:31.849 71  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:12:45.942 74  INFO UserController GetUserByEmail: karolinamichalska@wp.pl | 
+18:12:45.950 74  INFO UserController GetUserAuthByUserId: 13 | 
+18:12:45.986 75  INFO WoundController GetMyWoundAppointments userId: 13 | 
+18:12:47.319 75  INFO ChatController GetChats userId: 13, isPatient: True | 
+18:12:47.348 75  INFO ChatController GetChatMessages chatId: 9 | 
+18:13:14.128 79  INFO ChatController chat message: {"ChatId":9,"PatientId":13,"DoctorId":15,"PatientName":"Karolina Michalska","DoctorName":"Aniela Borkowska","Message":"Good morning Doctor Aniela","MessageDate":"2022-02-20T17:13:14.028Z","IsPatientMessage":true} | 
+18:13:14.313 84  INFO SaveMessageRequestHandler chat message created id: 27 | 
+18:13:20.135 84  INFO WoundController GetMyWoundAppointments userId: 13 | 
+18:13:28.892 84  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:13:28.899 83  INFO UserController GetUserAuthByUserId: 15 | 
+18:13:28.925 84  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:13:30.186 84  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:13:30.206 84  INFO ChatController GetChatMessages chatId: 7 | 
+18:13:41.054 84  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:13:43.401 82  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:13:43.426 82  INFO ChatController GetChatMessages chatId: 7 | 
+18:14:17.948 82  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:14:25.011 90  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:14:25.041 90  INFO ChatController GetChatMessages chatId: 7 | 
+18:14:26.646 82  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:14:36.912 89  INFO UserController GetUserByEmail: henrykwieczorek@gmail.com | 
+18:14:36.912 90  INFO UserController GetUserAuthByUserId: 14 | 
+18:14:36.951 93  INFO WoundController GetMyWoundAppointments userId: 14 | 
+18:14:38.963 82  INFO ChatController GetChats userId: 14, isPatient: True | 
+18:14:38.979 82  INFO ChatController GetChatMessages chatId: 8 | 
+18:14:53.373 89  INFO ChatController chat message: {"ChatId":8,"PatientId":14,"DoctorId":15,"PatientName":"Henryk Wieczorek","DoctorName":"Aniela Borkowska","Message":"Hi dr Aniela, are you there?","MessageDate":"2022-02-20T17:14:53.368Z","IsPatientMessage":true} | 
+18:14:53.373 90  INFO SaveMessageRequestHandler chat message created id: 28 | 
+18:14:56.282 90  INFO WoundController GetMyWoundAppointments userId: 14 | 
+18:15:24.159 89  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:15:24.168 89  INFO UserController GetUserAuthByUserId: 15 | 
+18:15:24.190 97  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:15:25.356 89  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:15:25.375 99  INFO ChatController GetChatMessages chatId: 7 | 
+18:16:27.490 97  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hello Patient","MessageDate":"2022-02-20T17:16:27.479Z","IsPatientMessage":false} | 
+18:16:27.490 97  INFO SaveMessageRequestHandler chat message created id: 29 | 
+18:17:43.289 100  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:17:43.289 108  INFO UserController GetUserAuthByUserId: 15 | 
+18:17:43.317 108  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:17:44.560 100  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:17:44.588 109  INFO ChatController GetChatMessages chatId: 7 | 
+18:17:45.595 108  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:46.207 109  INFO ChatController GetChatMessages chatId: 9 | 
+18:17:46.940 100  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:47.358 100  INFO ChatController GetChatMessages chatId: 7 | 
+18:17:50.939 110  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:51.362 106  INFO ChatController GetChatMessages chatId: 9 | 
+18:17:51.725 108  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:52.126 110  INFO ChatController GetChatMessages chatId: 7 | 
+18:17:53.670 107  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:54.501 110  INFO ChatController GetChatMessages chatId: 9 | 
+18:17:54.775 110  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:55.142 109  INFO ChatController GetChatMessages chatId: 7 | 
+18:17:55.634 108  INFO ChatController GetChatMessages chatId: 9 | 
+18:17:55.974 108  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:57.414 107  INFO ChatController GetChatMessages chatId: 9 | 
+18:17:57.811 107  INFO ChatController GetChatMessages chatId: 8 | 
+18:17:58.270 107  INFO ChatController GetChatMessages chatId: 7 | 
+18:18:03.364 110  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:18:05.228 107  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:18:05.243 107  INFO ChatController GetChatMessages chatId: 7 | 
+18:28:19.799 135  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:28:19.810 139  INFO UserController GetUserAuthByUserId: 15 | 
+18:28:19.829 137  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:28:21.064 134  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:28:21.091 135  INFO ChatController GetChatMessages chatId: 7 | 
+18:29:37.031 142  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:29:38.276 145  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:29:38.299 145  INFO ChatController GetChatMessages chatId: 7 | 
+18:29:49.347 144  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:29:49.356 142  INFO UserController GetUserAuthByUserId: 15 | 
+18:29:49.378 145  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:29:50.531 145  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:29:50.548 145  INFO ChatController GetChatMessages chatId: 7 | 
+18:31:00.481 148  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:31:00.481 151  INFO UserController GetUserAuthByUserId: 15 | 
+18:31:00.511 153  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:31:01.591 151  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:31:01.615 151  INFO ChatController GetChatMessages chatId: 7 | 
+18:31:21.896 150  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:31:21.901 157  INFO UserController GetUserAuthByUserId: 15 | 
+18:31:21.921 157  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:31:23.120 157  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:31:23.140 157  INFO ChatController GetChatMessages chatId: 7 | 
+18:31:40.408 157  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:31:40.416 150  INFO UserController GetUserAuthByUserId: 15 | 
+18:31:40.438 150  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:31:41.495 155  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:31:41.526 156  INFO ChatController GetChatMessages chatId: 7 | 
+18:31:56.597 156  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"How are you?","MessageDate":"2022-02-20T17:31:56.591Z","IsPatientMessage":false} | 
+18:31:56.607 163  INFO SaveMessageRequestHandler chat message created id: 30 | 
+18:33:03.910 157  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:33:03.918 152  INFO UserController GetUserAuthByUserId: 15 | 
+18:33:03.940 154  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:33:04.985 154  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:33:05.008 154  INFO ChatController GetChatMessages chatId: 7 | 
+18:33:44.108 154  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:33:44.108 146  INFO UserController GetUserAuthByUserId: 15 | 
+18:33:44.137 146  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:33:45.149 146  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:33:45.167 154  INFO ChatController GetChatMessages chatId: 7 | 
+18:34:46.226 145  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:34:46.226 141  INFO UserController GetUserAuthByUserId: 15 | 
+18:34:46.266 141  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:34:47.219 141  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:34:47.239 143  INFO ChatController GetChatMessages chatId: 7 | 
+18:35:16.153 145  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:35:16.153 138  INFO UserController GetUserAuthByUserId: 15 | 
+18:35:16.187 145  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:35:17.252 138  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:35:17.269 145  INFO ChatController GetChatMessages chatId: 7 | 
+18:36:42.635 135  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:36:42.635 130  INFO UserController GetUserAuthByUserId: 15 | 
+18:36:42.662 130  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:36:43.773 130  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:36:43.792 135  INFO ChatController GetChatMessages chatId: 7 | 
+18:37:15.850 131  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:37:15.860 125  INFO UserController GetUserAuthByUserId: 15 | 
+18:37:15.883 126  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:37:16.817 126  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:37:16.837 126  INFO ChatController GetChatMessages chatId: 7 | 
+18:37:57.126 126  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:37:57.133 122  INFO UserController GetUserAuthByUserId: 15 | 
+18:37:57.160 121  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:37:58.183 121  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:37:58.206 131  INFO ChatController GetChatMessages chatId: 7 | 
+18:38:26.606 131  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:38:26.606 119  INFO UserController GetUserAuthByUserId: 15 | 
+18:38:26.634 114  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:38:27.655 114  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:38:27.674 114  INFO ChatController GetChatMessages chatId: 7 | 
+18:38:44.842 117  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:38:44.849 117  INFO UserController GetUserAuthByUserId: 15 | 
+18:38:44.873 119  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:38:49.264 131  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:38:49.284 131  INFO ChatController GetChatMessages chatId: 7 | 
+18:40:38.573 111  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:40:38.573 111  INFO UserController GetUserAuthByUserId: 15 | 
+18:40:38.606 107  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:40:39.639 107  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:40:39.657 108  INFO ChatController GetChatMessages chatId: 7 | 
+18:41:32.357 106  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+18:41:32.357 103  INFO UserController GetUserAuthByUserId: 17 | 
+18:41:32.389 106  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:41:36.540 106  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+18:41:36.558 106  INFO MedicalDataController GetMedicalData: 17 | 
+18:41:36.591 106 ERROR MedicalDataQueryHandler medical data for userId: 17 not found! | 
+18:41:36.610 106 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+18:42:06.550 100  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:42:07.890 97  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+18:42:07.900 96  INFO MedicalDataController GetMedicalData: 17 | 
+18:42:07.900 96 ERROR MedicalDataQueryHandler medical data for userId: 17 not found! | 
+18:42:07.900 96 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+18:42:15.182 97  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:42:32.078 97  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+18:42:32.116 100  INFO MedicalDataController GetMedicalData: 17 | 
+18:42:32.116 100 ERROR MedicalDataQueryHandler medical data for userId: 17 not found! | 
+18:42:32.116 100 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+18:42:50.220 91  INFO MedicalDataController SaveMedicalData request: {"UserId":17,"ChronicDiseases":"Diabetes","Allergies":"None","Medication":"Medformin","Pregnancy":false,"Tobacco":true,"Alcohol":true,"Drugs":false} | 
+18:42:50.263 91  INFO MedicalDataRequestHandler Medical data created: WoundHealingDb.Models.MedicalData | 
+18:42:53.293 93  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:47:59.100 79  INFO ChatController GetChats userId: 17, isPatient: True | 
+18:47:59.120 79  INFO ChatController GetChatMessages chatId: 7 | 
+18:48:01.030 79  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:49:02.733 81  INFO ChatController GetChats userId: 17, isPatient: True | 
+18:49:02.748 74  INFO ChatController GetChatMessages chatId: 7 | 
+18:49:15.733 70  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:49:48.400 74  INFO ChatController GetChats userId: 17, isPatient: True | 
+18:49:48.421 69  INFO ChatController GetChatMessages chatId: 7 | 
+18:49:55.075 74  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hello dr Aniela","MessageDate":"2022-02-20T17:49:55.068Z","IsPatientMessage":true} | 
+18:49:55.093 69  INFO SaveMessageRequestHandler chat message created id: 31 | 
+18:51:59.905 62  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+18:51:59.913 60  INFO UserController GetUserAuthByUserId: 15 | 
+18:51:59.935 62  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+18:52:01.062 62  INFO ChatController GetChats userId: 15, isPatient: False | 
+18:52:01.086 64  INFO ChatController GetChatMessages chatId: 7 | 
+18:52:10.344 62  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"helllo","MessageDate":"2022-02-20T17:52:10.339Z","IsPatientMessage":true} | 
+18:52:10.353 60  INFO SaveMessageRequestHandler chat message created id: 32 | 
+18:52:17.152 60  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"hi my patient","MessageDate":"2022-02-20T17:52:17.123Z","IsPatientMessage":false} | 
+18:52:17.152 60  INFO SaveMessageRequestHandler chat message created id: 33 | 
+18:53:13.859 55  INFO ChatController GetChatMessages chatId: 7 | 
+18:53:16.635 53  INFO ChatController GetChatMessages chatId: 7 | 
+18:53:21.455 52  INFO WoundController GetMyWoundAppointments userId: 17 | 
+18:53:34.090 52  INFO ChatController GetChats userId: 17, isPatient: True | 
+18:53:34.126 53  INFO ChatController GetChatMessages chatId: 7 | 
+18:53:41.031 49  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hello dr Aniela","MessageDate":"2022-02-20T17:53:41.025Z","IsPatientMessage":true} | 
+18:53:41.052 49  INFO SaveMessageRequestHandler chat message created id: 34 | 
+18:53:51.575 47  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hello Oskar Olszewski","MessageDate":"2022-02-20T17:53:51.561Z","IsPatientMessage":false} | 
+18:53:51.589 48  INFO SaveMessageRequestHandler chat message created id: 35 | 
+18:53:59.340 48  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Hi","MessageDate":"2022-02-20T17:53:59.335Z","IsPatientMessage":true} | 
+18:53:59.340 48  INFO SaveMessageRequestHandler chat message created id: 36 | 
+18:54:05.786 49  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"How are you","MessageDate":"2022-02-20T17:54:05.781Z","IsPatientMessage":false} | 
+18:54:05.800 47  INFO SaveMessageRequestHandler chat message created id: 37 | 
+18:54:10.944 47  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"Fine thanks","MessageDate":"2022-02-20T17:54:10.937Z","IsPatientMessage":true} | 
+18:54:10.944 47  INFO SaveMessageRequestHandler chat message created id: 38 | 
+18:56:57.242 40  INFO ChatController GetChatMessages chatId: 8 | 
+18:56:57.936 40  INFO ChatController GetChatMessages chatId: 7 | 
+18:57:03.270 40  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:04:46.465  5  INFO WoundController GetMyWounds userId: 17 | 
+19:04:47.680  5  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:04:48.705 12  INFO WoundTypesController GetWoundTypes | 
+19:04:48.778  8  INFO WoundTypesController GetWoundLocations | 
+19:04:48.802 14  INFO WoundTypesController GetWoundSizes | 
+19:04:48.819 10  INFO WoundTypesController GetWoundColors | 
+19:04:48.835  4  INFO WoundTypesController GetWoundOdors | 
+19:04:48.855  8  INFO WoundTypesController GetWoundExudates | 
+19:04:48.872  8  INFO WoundTypesController GetWoundBleedings | 
+19:04:48.887  8  INFO WoundTypesController GetSurroundingSkins | 
+19:04:48.905  8  INFO WoundTypesController GetPainTypes | 
+19:04:48.930 14  INFO WoundTypesController GetPainLevels | 
+19:04:49.686 14  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:04:51.768  8  INFO WoundController GetMyWounds userId: 17 | 
+19:04:54.371 12  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:04:54.389 12  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:05:02.383  8  INFO WoundController GetWoundPhoto: 26 | 
+19:05:02.383 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:05:05.225  8  INFO WoundController GetWoundPhoto: 27 | 
+19:05:05.225 10  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:05:13.615  5  INFO WoundController GetWoundPhoto: 28 | 
+19:05:13.624 14  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:05:20.452 13  INFO WoundController GetMyWounds userId: 17 | 
+19:05:23.727 10  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:05:25.746 10  INFO AppointmentController GetMyAppointments patientId: 17 | 
+19:05:27.300  5  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:05:30.950 13  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:05:30.966 14  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:05:33.543  5  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:05:34.459  5  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+19:05:44.630  8  INFO AppointmentController GetMyAppointments patientId: 17 | 
+19:05:51.421  5  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:05:52.237 160  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+19:06:23.847 160  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+19:06:39.570 160  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+19:06:39.570 160  INFO UserController GetUserAuthByUserId: 15 | 
+19:06:39.600 160  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:06:51.548 160  INFO UserController GetMyPatients doctorId: 15 | 
+19:06:56.518 17  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:06:56.530 17  INFO MedicalDataController GetMedicalData: 17 | 
+19:07:04.182 17  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:05.791 17  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:07:05.791 17  INFO MedicalDataController GetMedicalData: 17 | 
+19:07:09.549 156  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:11.533 156  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:07:11.578 17  INFO MedicalDataController GetMedicalData: 17 | 
+19:07:14.394 19  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:16.008 16  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:07:18.935 16  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:20.106 156  INFO UserController GetUserByEmail: karolinamichalska@wp.pl | 
+19:07:20.142 17  INFO MedicalDataController GetMedicalData: 13 | 
+19:07:20.142 157 ERROR MedicalDataQueryHandler medical data for userId: 13 not found! | 
+19:07:20.142 157 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+19:07:22.454 157  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:28.483 157  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:07:31.894 157  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:33.657 157  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:07:33.688 19  INFO MedicalDataController GetMedicalData: 17 | 
+19:07:36.997 16  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:44.561 157  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:07:44.570 17  INFO MedicalDataController GetMedicalData: 17 | 
+19:07:48.473 157  INFO UserController GetMyPatients doctorId: 15 | 
+19:07:50.631 157  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:08:00.874 156  INFO UserController GetMyPatients doctorId: 15 | 
+19:08:04.741 156  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:08:04.782 156  INFO MedicalDataController GetMedicalData: 17 | 
+19:10:09.081 31  INFO UserController GetMyPatients doctorId: 15 | 
+19:10:10.308 33  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:10:11.607 27  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:10:13.796 31  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:10:15.719 27  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:10:17.499 27  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:10:18.467 27  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:10:18.498 30  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:10:18.498 27  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:10:18.498 27  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:10:18.507 30  INFO WoundController GetWoundPhoto: 29 | 
+19:10:18.507 27  INFO WoundController GetWoundPhoto: 30 | 
+19:10:18.507 28  INFO WoundController GetWoundPhoto: 26 | 
+19:10:18.507 39  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:10:18.523 39  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:10:18.523 33  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:11:28.313 40  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:11:29.208 42  INFO ChatController GetChats userId: 15, isPatient: False | 
+19:11:29.227 42  INFO ChatController GetChatMessages chatId: 7 | 
+19:11:30.102 34  INFO ChatController GetChatMessages chatId: 7 | 
+19:11:41.466 34  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:11:43.246 34  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:11:43.274 40  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:11:43.274 40  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:11:43.274 40  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:11:43.274 40  INFO WoundController GetWoundPhoto: 29 | 
+19:11:43.274 34  INFO WoundController GetWoundPhoto: 30 | 
+19:11:43.274 28  INFO WoundController GetWoundPhoto: 26 | 
+19:11:43.274 43  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:11:43.302 42  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:11:43.318 42  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:12:07.419 28  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:12:10.701 50  INFO AppointmentController GetMyAppointments patientId: 17 | 
+19:12:12.331 53  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:12:14.263 53  INFO WoundTypesController GetWoundTypes | 
+19:12:14.308 53  INFO WoundTypesController GetWoundLocations | 
+19:12:14.337 50  INFO WoundTypesController GetWoundSizes | 
+19:12:14.337 52  INFO WoundTypesController GetWoundColors | 
+19:12:14.349 52  INFO WoundTypesController GetWoundOdors | 
+19:12:14.349 52  INFO WoundTypesController GetWoundExudates | 
+19:12:14.349 52  INFO WoundTypesController GetWoundBleedings | 
+19:12:14.369 52  INFO WoundTypesController GetSurroundingSkins | 
+19:12:14.369 53  INFO WoundTypesController GetPainTypes | 
+19:12:14.395 52  INFO WoundTypesController GetPainLevels | 
+19:13:07.667 55  INFO WoundController CreateWound request: {"UserId":17,"WoundTypeId":3,"WoundLocationId":6,"WoundSizeId":2,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":1,"WoundBleedingId":2,"SurroundingSkinId":1003,"PainTypeId":3,"PainLevelId":3} | 
+19:13:07.695 55  INFO WoundRequestHandler Wound created id: 1020 | 
+19:13:07.695 55  INFO WoundController GetUserAuthByUserId: 17 | 
+19:13:09.348 59  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:13:37.566 55  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:13:37.580 58  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:13:37.580 55  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:13:37.580 60  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:13:37.590 56  INFO WoundController GetWoundPhoto: 29 | 
+19:13:37.590 60  INFO WoundController GetWoundPhoto: 30 | 
+19:13:37.590 55  INFO WoundController GetWoundPhoto: 26 | 
+19:13:37.590 58  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:13:37.616 60  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:13:37.616 62  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:13:41.013 55  INFO WoundController GetMyWounds userId: 17 | 
+19:13:49.423 58  INFO WoundController GetWoundDetails woundId: 1020 | 
+19:13:49.443 60  INFO WoundController GetWoundPhotoDetails: 1020 | 
+19:13:57.499 58  INFO WoundController UploadWoundPhoto woundId: 1020, filename: w41.png | 
+19:13:57.499 58  INFO WoundController files count: 1, filename: w41.png | 
+19:13:57.507 58  INFO WoundRequestHandler fileName: w41.png | 
+19:13:57.507 58  INFO WoundRequestHandler fileExtension: .png | 
+19:13:57.507 58  INFO WoundRequestHandler newFileName: 04698dfd-fd4c-4e77-8a11-d8fcae2e287a.png | 
+19:13:57.525 62  INFO WoundRequestHandler Wound photo uploaded for id: 1020 | 
+19:13:57.525 58  INFO WoundController GetWoundPhotoDetails: 1020 | 
+19:13:59.732 58  INFO WoundController GetMyWounds userId: 17 | 
+19:14:00.991 60  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:14:01.622 60  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:14:01.645 60  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:14:01.645 62  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:14:01.648 60  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:14:01.648 62  INFO WoundController GetWoundPhoto: 29 | 
+19:14:01.648 60  INFO WoundController GetWoundPhoto: 30 | 
+19:14:01.648 58  INFO WoundController GetWoundPhoto: 26 | 
+19:14:01.648 56  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:01.664 67  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:01.664 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:05.291 58  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:14:06.746 58  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:14:06.746 62  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:14:06.756 65  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:14:06.756 68  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:14:06.756 68  INFO WoundController GetWoundPhoto: 29 | 
+19:14:06.756 62  INFO WoundController GetWoundPhoto: 30 | 
+19:14:06.756 65  INFO WoundController GetWoundPhoto: 26 | 
+19:14:06.756 67  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:06.778 55  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:06.789 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:09.752 60  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:14:10.586 60  INFO UserController GetMyPatients doctorId: 15 | 
+19:14:13.259 60  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:14:13.289 60  INFO MedicalDataController GetMedicalData: 17 | 
+19:14:15.510 65  INFO UserController GetMyPatients doctorId: 15 | 
+19:14:17.607 65  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:14:18.589 60  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:14:18.601 71  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:14:18.601 64  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:14:18.601 64  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:14:18.601 56  INFO WoundController GetWoundPhoto: 29 | 
+19:14:18.601 64  INFO WoundController GetWoundPhoto: 30 | 
+19:14:18.601 66  INFO WoundController GetWoundPhoto: 26 | 
+19:14:18.601 71  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:18.634 64  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:18.634 64  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:33.846 56  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:14:33.877 66  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:14:36.144 67  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:14:36.170 69  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:14:36.170 67  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:14:36.188 69  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:14:36.188 66  INFO WoundController GetWoundPhoto: 29 | 
+19:14:36.194 69  INFO WoundController GetWoundPhoto: 30 | 
+19:14:36.194 67  INFO WoundController GetWoundPhoto: 26 | 
+19:14:36.194 58  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:36.222 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:36.227 62  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:45.129 71  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+19:14:45.137 71  INFO UserController GetUserAuthByUserId: 15 | 
+19:14:45.162 68  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:14:46.857 71  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:14:46.872 68  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:14:46.872 68  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:14:46.872 71  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:14:46.872 71  INFO WoundController GetWoundPhoto: 29 | 
+19:14:46.872 56  INFO WoundController GetWoundPhoto: 30 | 
+19:14:46.872 58  INFO WoundController GetWoundPhoto: 26 | 
+19:14:46.882 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:46.882 64  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:46.882 71  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:14:58.686 58  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:14:59.776 58  INFO WoundController GetMyWounds userId: 17 | 
+19:15:07.782 58  INFO WoundController GetWoundDetails woundId: 1020 | 
+19:15:07.816 58  INFO WoundController GetWoundPhotoDetails: 1020 | 
+19:15:10.119 64  INFO WoundController GetMyWounds userId: 17 | 
+19:15:13.661 58  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:15:14.917 58  INFO WoundController GetMyWounds userId: 17 | 
+19:15:17.033 58  INFO AppointmentController GetFastestAppointment | 
+19:15:17.063 68  INFO UserController GetDoctors | 
+19:15:17.080 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T19:15:14.912Z","DoctorId":null} | 
+19:15:19.539 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T20:15:14.912Z","DoctorId":null} | 
+19:15:21.371 59  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T21:15:14.912Z","DoctorId":null} | 
+19:15:21.558 52  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T22:15:14.912Z","DoctorId":null} | 
+19:15:22.034 51  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T23:15:14.912Z","DoctorId":null} | 
+19:15:22.603 52  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-21T00:15:14.912Z","DoctorId":null} | 
+19:15:23.480 51  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-21T01:15:14.912Z","DoctorId":null} | 
+19:15:23.994 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-21T02:15:14.912Z","DoctorId":null} | 
+19:15:25.069 52  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-21T03:15:14.912Z","DoctorId":null} | 
+19:15:26.386 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2021-08-10T23:00:00Z","DoctorId":null} | 
+19:15:30.286 71  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2021-08-11T00:00:00Z","DoctorId":15} | 
+19:15:32.739 51  INFO AppointmentController CreateAppointment request: {"WoundId":1020,"DoctorId":15,"PatientId":17,"AppointmentDate":"2021-08-12T15:00:00"} | 
+19:15:32.781 58  INFO AppointmentRequestHandler treatment created id: 1017 | 
+19:15:32.794 58  INFO AppointmentRequestHandler appointment created id: 1022 | 
+19:15:34.070 58  INFO WoundController GetMyWoundAppointments userId: 17 | 
+19:15:37.807 71  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:15:38.456 52  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:15:38.488 52  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:15:38.491 51  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:15:38.491 71  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:15:38.491 71  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:15:38.491 52  INFO WoundController GetWoundPhoto: 29 | 
+19:15:38.510 71  INFO WoundController GetWoundPhoto: 26 | 
+19:15:38.510 51  INFO WoundController GetWoundPhoto: 31 | 
+19:15:38.510 59  INFO WoundController GetWoundPhoto: 30 | 
+19:15:38.531 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:15:38.558 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:15:38.558 52  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:15:38.572 58  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:14.510 43  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:17:15.339 32  INFO UserController GetMyPatients doctorId: 15 | 
+19:17:19.228 37  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:17:19.228 37  INFO MedicalDataController GetMedicalData: 17 | 
+19:17:21.427 46  INFO UserController GetMyPatients doctorId: 15 | 
+19:17:23.920 37  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:17:25.329 37  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:17:25.348 32  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:17:25.348 32  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:17:25.350 32  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:17:25.350 37  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:17:25.350 34  INFO WoundController GetWoundPhoto: 29 | 
+19:17:25.350 46  INFO WoundController GetWoundPhoto: 30 | 
+19:17:25.350 36  INFO WoundController GetWoundPhoto: 31 | 
+19:17:25.350 37  INFO WoundController GetWoundPhoto: 26 | 
+19:17:25.350 33  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:25.368 46  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:25.368 38  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:25.392 36  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:43.064 36  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:17:58.087 37  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:17:58.113 38  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:17:58.113 38  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:17:58.116 36  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:17:58.116 38  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:17:58.116 38  INFO WoundController GetWoundPhoto: 29 | 
+19:17:58.116 37  INFO WoundController GetWoundPhoto: 30 | 
+19:17:58.116 36  INFO WoundController GetWoundPhoto: 26 | 
+19:17:58.116 34  INFO WoundController GetWoundPhoto: 31 | 
+19:17:59.028 42  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:59.041 37  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:59.041 35  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:17:59.041 24  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:01.681 38  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:18:01.703 30  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:18:05.324 30  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:18:05.324 30  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:18:05.324 30  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:18:05.339 30  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:18:05.339 24  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:18:05.339 24  INFO WoundController GetWoundPhoto: 29 | 
+19:18:05.339 26  INFO WoundController GetWoundPhoto: 30 | 
+19:18:05.339 36  INFO WoundController GetWoundPhoto: 31 | 
+19:18:05.339 30  INFO WoundController GetWoundPhoto: 26 | 
+19:18:05.339 34  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:05.358 37  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:05.358 37  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:05.373 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:27.300 24  INFO WoundController FinishTreatment request: {"WoundId":1018,"DoctorId":15,"PatientId":14} | 
+19:18:27.340 30  INFO WoundRequestHandler Treatment finished id: 1015 | 
+19:18:30.772 30  INFO WoundController FinishTreatment request: {"WoundId":1019,"DoctorId":15,"PatientId":13} | 
+19:18:30.772 41  INFO WoundRequestHandler Treatment finished id: 1016 | 
+19:18:33.033 40  INFO WoundController FinishTreatment request: {"WoundId":1020,"DoctorId":15,"PatientId":17} | 
+19:18:33.053 40  INFO WoundRequestHandler Treatment finished id: 1017 | 
+19:18:51.446 41  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:18:52.317 41  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:18:52.332 24  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:18:52.332 24  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:18:52.334 41  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:18:52.334 41  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:18:52.334 23  INFO WoundController GetWoundPhoto: 29 | 
+19:18:52.334 41  INFO WoundController GetWoundPhoto: 30 | 
+19:18:52.334 40  INFO WoundController GetWoundPhoto: 31 | 
+19:18:52.334 32  INFO WoundController GetWoundPhoto: 26 | 
+19:18:53.331 21  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:53.342 41  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:53.363 41  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:18:53.366 40  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:19:01.351 41  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:19:02.438 32  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:19:02.465 40  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:19:02.465 32  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:19:02.465 40  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:19:02.465 24  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:19:02.476 40  INFO WoundController GetWoundPhoto: 29 | 
+19:19:02.513 24  INFO WoundController GetWoundPhoto: 30 | 
+19:19:02.513 41  INFO WoundController GetWoundPhoto: 31 | 
+19:19:02.513 32  INFO WoundController GetWoundPhoto: 26 | 
+19:19:02.541 23  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:19:02.552 48  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:19:02.552 43  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:19:02.552 48  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:19:23.251 46  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:19:23.933 46  INFO UserController GetDoctorStats doctorId: 15 | 
+19:21:21.521 63  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+19:21:21.521 61  INFO UserController GetUserAuthByUserId: 15 | 
+19:21:21.566 63  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:21:23.034 61  INFO UserController GetDoctorStats doctorId: 15 | 
+19:21:28.848 69  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:21:32.303 59  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:21:32.303 57  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:21:32.303 57  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:21:32.318 69  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:21:32.318 69  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:21:32.318 59  INFO WoundController GetWoundPhoto: 29 | 
+19:21:32.318 73  INFO WoundController GetWoundPhoto: 30 | 
+19:21:32.318 63  INFO WoundController GetWoundPhoto: 31 | 
+19:21:32.318 61  INFO WoundController GetWoundPhoto: 26 | 
+19:21:32.318 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:32.340 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:32.340 73  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:32.340 68  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:44.978 61  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:21:45.000 73  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:21:48.874 61  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:21:48.887 63  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:21:48.887 69  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:21:48.887 69  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:21:48.887 69  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:21:48.887 61  INFO WoundController GetWoundPhoto: 29 | 
+19:21:48.897 69  INFO WoundController GetWoundPhoto: 30 | 
+19:21:48.897 73  INFO WoundController GetWoundPhoto: 31 | 
+19:21:48.897 68  INFO WoundController GetWoundPhoto: 26 | 
+19:21:48.897 59  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:48.913 58  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:48.913 64  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:48.913 73  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:21:52.973 73  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:22:46.705 57  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:22:46.742 20  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:22:46.742 20  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:22:46.742 20  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:22:46.742 20  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:22:46.742 57  INFO WoundController GetWoundPhoto: 30 | 
+19:22:46.742 20  INFO WoundController GetWoundPhoto: 29 | 
+19:22:46.742 60  INFO WoundController GetWoundPhoto: 31 | 
+19:22:46.742 62  INFO WoundController GetWoundPhoto: 26 | 
+19:22:46.762 19  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:22:46.762 155  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:22:46.779 55  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:22:46.787 18  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:22:55.575 62  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:22:55.625 60  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:22:57.835 62  INFO WoundController GetWoundPhoto: 26 | 
+19:22:57.835 20  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:23:01.528 62  INFO WoundController GetWoundPhoto: 27 | 
+19:23:01.528 55  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:23:05.579 155  INFO WoundController GetWoundPhoto: 28 | 
+19:23:05.579 57  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:32:47.920 47  INFO UserController GetMyPatientsWounds doctorId: 15 | 
+19:32:47.937 40  INFO UserQueryHandler found wound photo for woundId 1018: 29 | 
+19:32:47.937 48  INFO UserQueryHandler found wound photo for woundId 1019: 30 | 
+19:32:47.937 40  INFO UserQueryHandler found wound photo for woundId 1020: 31 | 
+19:32:47.937 47  INFO UserQueryHandler found wound photo for woundId 1017: 26 | 
+19:32:47.946 40  INFO WoundController GetWoundPhoto: 30 | 
+19:32:47.946 47  INFO WoundController GetWoundPhoto: 29 | 
+19:32:47.946 48  INFO WoundController GetWoundPhoto: 31 | 
+19:32:47.946 46  INFO WoundController GetWoundPhoto: 26 | 
+19:32:47.946 22  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:32:47.966 47  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:32:47.966 25  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:32:47.985 47  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:32:52.576 46  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:32:59.664 47  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:33:00.794 40  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:33:01.342 40  INFO UserController GetMyPatients doctorId: 15 | 
+19:33:02.345 40  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:33:03.122 47  INFO UserController GetDoctorStats doctorId: 15 | 
+19:33:06.425 40  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:33:44.272 26  INFO UserController GetDoctorStats doctorId: 15 | 
+19:37:23.204 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:37:23.878 11  INFO UserController GetDoctorStats doctorId: 15 | 
+19:37:40.297  5  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:37:41.619  5  INFO UserController GetDoctorStats doctorId: 15 | 
+19:37:44.001 10  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:37:55.591  5  INFO UserController GetDoctorStats doctorId: 15 | 
+19:39:13.246 76  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:39:19.627 80  INFO UserController GetMyPatients doctorId: 15 | 
+19:39:25.097 80  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:39:25.109 76  INFO MedicalDataController GetMedicalData: 17 | 
+19:39:26.966 84  INFO UserController GetMyPatients doctorId: 15 | 
+19:39:27.865 83  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:39:28.794 84  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:39:37.077 83  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:39:39.235 83  INFO ChatController GetChats userId: 15, isPatient: False | 
+19:39:39.255 80  INFO ChatController GetChatMessages chatId: 7 | 
+19:39:49.173 83  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:41:09.406 87  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:41:11.153 87  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:41:12.610 92  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:41:16.350 90  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:41:19.941 89  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:41:23.076 90  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:41:28.543 90  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:41:28.577 90  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:41:31.178 90  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:41:40.619 89  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:41:40.619 90  INFO MedicalDataController GetMedicalData: 17 | 
+19:41:42.758 87  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:41:44.557 91  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+19:41:44.557 87  INFO MedicalDataController GetMedicalData: 17 | 
+19:41:46.962 87  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:41:55.143 87  INFO WoundController GetWoundDetails woundId: 1017 | 
+19:41:55.173 87  INFO WoundController GetWoundPhotoDetails: 1017 | 
+19:41:56.088 87  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:42:11.646 87  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+19:42:11.652 87  INFO UserController GetUserAuthByUserId: 15 | 
+19:42:11.679 87  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:42:13.758 87  INFO ChatController GetChats userId: 15, isPatient: False | 
+19:42:13.777 87  INFO ChatController GetChatMessages chatId: 7 | 
+19:42:17.777 87  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:42:19.239 87  INFO ChatController GetChats userId: 15, isPatient: False | 
+19:42:19.264 87  INFO ChatController GetChatMessages chatId: 7 | 
+19:42:25.693 94  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:46:13.801 107  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:48:34.088 109  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:48:36.532 116  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:49:18.619 120  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:49:20.444 122  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:49:22.645 118  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:49:47.520 118  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+19:49:51.047 128  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+19:50:12.604 128  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"https://7760-2a02-a310-e041-1380-7915-3ceb-77c7-fbcb.ngrok.io/?call=uSNIvYlgkyK4EJ2g7Xfo","MessageDate":"2022-02-20T18:50:12.57Z","IsPatientMessage":false} | 
+19:50:12.665 128  INFO SaveMessageRequestHandler chat message created id: 39 | 
+19:56:11.260 124  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:01:06.236 116  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:01:16.687 117  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:01:16.695 119  INFO UserController GetUserAuthByUserId: 15 | 
+20:01:16.730 120  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:01:20.967 120  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:01:22.074 111  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:03:30.294 100  INFO MedicalDataController GetMedicalData: 11 | 
+20:03:30.294 100 ERROR MedicalDataQueryHandler medical data for userId: 11 not found! | 
+20:03:30.294 100 ERROR MedicalDataQueryHandler GetMyMedicalDataQuery error: System.Exception: medical data not found!
+   at WoundHealingWebApi.Handlers.MedicalDataQueryHandler.Handle(GetMyMedicalDataQuery request, CancellationToken cancellationToken) in C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\MedicalDataQueryHandler.cs:line 43 | 
+20:03:36.993 103  INFO MedicalDataController GetMedicalData: 17 | 
+20:04:42.221  4  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:06:21.706 10  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:06:21.961 10  INFO UserController GetUserAuthByUserId: 15 | 
+20:06:22.038 15  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:06:26.907 10  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:06:31.722 15  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:09:27.242 25  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:17:06.939 46  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:17:21.398 51  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:17:21.416 49  INFO UserController GetUserAuthByUserId: 15 | 
+20:17:21.459 51  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:17:27.630 49  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:17:28.614 49  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:18:14.060 53  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:18:22.974 57  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:18:22.995 56  INFO UserController GetUserAuthByUserId: 15 | 
+20:18:23.038 56  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:18:24.472 54  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:18:25.500 54  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:22:01.332 68  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:22:21.812 68  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:22:21.838 71  INFO UserController GetUserAuthByUserId: 15 | 
+20:22:21.914 70  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:22:24.930 68  INFO ChatController GetChats userId: 15, isPatient: False | 
+20:22:24.994 63  INFO ChatController GetChatMessages chatId: 7 | 
+20:22:33.069 72  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:22:33.069 70  INFO UserController GetUserAuthByUserId: 15 | 
+20:22:33.112 70  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:23:11.860 63  INFO ChatController GetChatMessages chatId: 7 | 
+20:23:52.627 76  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:23:55.115 78  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:24:11.216 81  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"https://4075-2a02-a310-e041-1380-7915-3ceb-77c7-fbcb.ngrok.io/?call=zpIHHlyQS54ntix2F6zF","MessageDate":"2022-02-20T19:24:10.964Z","IsPatientMessage":false} | 
+20:24:11.631 79  INFO SaveMessageRequestHandler chat message created id: 40 | 
+20:27:57.626 93  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:28:36.383 94  INFO ChatController GetChatMessages chatId: 7 | 
+20:28:37.596 98  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:28:44.145 98  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:28:44.155 93  INFO UserController GetUserAuthByUserId: 15 | 
+20:28:44.188 98  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:28:46.445 94  INFO ChatController GetChats userId: 15, isPatient: False | 
+20:28:46.481 103  INFO ChatController GetChatMessages chatId: 7 | 
+20:29:28.791 102  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:29:31.043 107  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:29:43.671 102  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"https://4075-2a02-a310-e041-1380-7915-3ceb-77c7-fbcb.ngrok.io/?call=PHx3pQiG3Ku228bVyj8o","MessageDate":"2022-02-20T19:29:43.66Z","IsPatientMessage":false} | 
+20:29:43.705 106  INFO SaveMessageRequestHandler chat message created id: 41 | 
+20:33:18.748 117  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:35:11.799 122  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:35:11.810 122  INFO UserController GetUserAuthByUserId: 15 | 
+20:35:11.843 122  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:35:13.075 117  INFO ChatController GetChats userId: 15, isPatient: False | 
+20:35:13.119 117  INFO ChatController GetChatMessages chatId: 7 | 
+20:35:14.653 118  INFO ChatController GetChatMessages chatId: 7 | 
+20:35:19.572 118  INFO UserController GetUserByEmail: anielaborkowska@gmail.com | 
+20:35:19.572 116  INFO UserController GetUserAuthByUserId: 15 | 
+20:35:19.606 122  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:36:08.387 117  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:36:10.242 117  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:36:27.060 111  INFO ChatController chat message: {"ChatId":7,"PatientId":17,"DoctorId":15,"PatientName":"Oskar Olszewski","DoctorName":"Aniela Borkowska","Message":"https://5607-2a02-a310-e041-1380-7915-3ceb-77c7-fbcb.ngrok.io/?call=xKlIBUWntH9gY4rvMZ8T","MessageDate":"2022-02-20T19:36:27.05Z","IsPatientMessage":false} | 
+20:36:27.099 113  INFO SaveMessageRequestHandler chat message created id: 42 | 
+20:48:49.671 82  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:51:49.741 74  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:51:51.540 74  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:51:55.432 71  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:51:58.819 66  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:52:00.936 73  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:52:02.228 66  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:52:03.446 71  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:52:04.921 70  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:52:46.180 71  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+20:53:05.018 65  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+20:53:05.976 61  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+20:53:06.890 67  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+20:53:09.383 60  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+20:53:20.131 60  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+20:53:43.783 57  INFO AppointmentController SaveAppointmentNote request: WoundHealingWebApi.DTOs.AppointmentNoteDto | 
+20:55:13.233 56  INFO AppointmentController GetMyAppointmentsDoc doctorId: 15 | 
+20:55:22.363 56  INFO UserController GetUserByEmail: oskarolszewski@gmail.com | 
+20:55:22.372 51  INFO UserController GetUserAuthByUserId: 17 | 
+20:55:22.406 53  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:55:24.567 53  INFO AppointmentController GetMyAppointments patientId: 17 | 
+20:55:26.230 53  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:55:33.068 47  INFO AppointmentController GetMyAppointments patientId: 17 | 
+20:55:41.782 56  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:55:47.550 56  INFO AppointmentController GetMyAppointments patientId: 17 | 
+20:55:48.484 47  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:56:01.942 47  INFO AppointmentController GetMyAppointments patientId: 17 | 
+20:56:03.320 52  INFO AppointmentController GetAppointmentSummary appointmentId: 1018 | 
+20:56:04.966 47  INFO AppointmentController GetAppointmentNote appointmentId: 1018 | 
+20:56:09.704 52  INFO WoundController GetMyWounds userId: 17 | 
+20:56:13.852 50  INFO AppointmentController GetFastestAppointment | 
+20:56:13.895 50  INFO UserController GetDoctors | 
+20:56:13.974 47  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T20:56:09.632Z","DoctorId":null} | 
+20:56:18.296 47  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T21:56:09.632Z","DoctorId":15} | 
+20:56:20.797 56  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-02-20T22:56:09.632Z","DoctorId":15} | 
+20:56:21.780 42  INFO AppointmentController GetAppointmentsPerDate request: {"Date":"2022-03-06T00:00:00Z","DoctorId":15} | 
+20:56:25.453 56  INFO AppointmentController CreateAppointment request: {"WoundId":1017,"DoctorId":15,"PatientId":17,"AppointmentDate":"2022-03-07T08:00:00"} | 
+20:56:25.696 47  INFO AppointmentRequestHandler appointment created id: 1023 | 
+20:56:27.160 56  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:58:37.287 36  INFO WoundTypesController GetWoundTypes | 
+20:58:37.435 35  INFO WoundTypesController GetWoundLocations | 
+20:58:37.483 36  INFO WoundTypesController GetWoundSizes | 
+20:58:37.516 36  INFO WoundTypesController GetWoundColors | 
+20:58:37.543 35  INFO WoundTypesController GetWoundOdors | 
+20:58:37.565 44  INFO WoundTypesController GetWoundExudates | 
+20:58:37.593 35  INFO WoundTypesController GetWoundBleedings | 
+20:58:37.619 35  INFO WoundTypesController GetSurroundingSkins | 
+20:58:37.659 44  INFO WoundTypesController GetPainTypes | 
+20:58:37.693 44  INFO WoundTypesController GetPainLevels | 
+20:58:38.804 41  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:58:39.427 36  INFO WoundController GetMyWounds userId: 17 | 
+20:58:41.567 41  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:58:42.486 41  INFO AppointmentController GetMyAppointments patientId: 17 | 
+20:58:43.718 37  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:58:44.456 37  INFO WoundController GetMyWounds userId: 17 | 
+20:58:45.652 39  INFO WoundController GetMyWoundAppointments userId: 17 | 
+20:58:46.685 39  INFO ChatController GetChats userId: 17, isPatient: True | 
+20:58:46.714 35  INFO ChatController GetChatMessages chatId: 7 | 

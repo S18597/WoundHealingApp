@@ -1,0 +1,81 @@
+<div class="main-container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+        </button>
+    </div>
+    <div>
+        <mat-drawer-container>
+            <mat-drawer #drawer mode="side" opened="true"> <!--[(ngModel)]="appointmentSummary"-->
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <!-- chats -->
+                    <div class="item2" fxFlex>
+                        <span class="title-big">CHAT WITH</span><br/><br/>
+                        <div *ngIf="isPatient">
+                            <mat-list>
+                                <mat-list-item *ngFor="let chat of chats">
+                                    <span class="title cursor" (click)="selectChat(chat)">{{chat?.doctorName}}</span>
+                                    <mat-divider></mat-divider><br/><br/>
+                                </mat-list-item>
+                            </mat-list>
+                        </div>
+                        <div *ngIf="isDoctor">
+                            <mat-list>
+                                <mat-list-item *ngFor="let chat of chats">
+                                    <span class="title cursor" (click)="selectChat(chat)">{{chat?.patientName}}</span>
+                                    <mat-divider></mat-divider><br/><br/>
+                                </mat-list-item>
+                            </mat-list>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <button mat-mini-fab mat-button color="white" (click)="drawer.toggle()">
+                <span class="material-icons">
+                    chat
+                </span>
+            </button>
+            <div style="margin-left:35px;min-height:600px">
+                <mat-list>
+                    <mat-list-item *ngFor="let message of messages">
+                        <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0" *ngIf="!message?.isPatientMessage"> <!--doctor-->
+                            <div class="item-mini item-1" fxFlex="50%"> 
+                              <span style="min-width: 600px;">{{message?.message}}</span>
+                            </div>
+                            <div class="item-mini empty" fxFlex>
+                                
+                            </div>
+                        </div>
+                        <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0" *ngIf="message?.isPatientMessage"> <!--patient-->
+                            <div class="item-mini empty" fxFlex>
+                                
+                            </div>
+                            <div class="item-mini item-2" fxFlex="50%"> 
+                                <span>{{message?.message}}</span>
+                              </div>
+                        </div>
+                        <br/>
+                    </mat-list-item>
+                </mat-list>
+                <!-- send -->
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0"> <!--doctor-->
+                    <div class="item-mini item-send" fxFlex="85%"> 
+                        <mat-form-field appearance="legacy" class="note">
+                            <textarea matInput [(ngModel)]="msg" style="width:800px"></textarea>
+                        </mat-form-field>
+                      </div>
+                    <div class="item-mini item center" fxFlex> 
+                        <button mat-mini-fab color="primary" (click)="sendMessage()">
+                            <mat-icon>send</mat-icon>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </mat-drawer-container>    
+    </div>
+</div>

@@ -1,0 +1,68 @@
+<div class="main-container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+          </button>
+    </div>
+    <div>
+        <mat-drawer-container>
+            <mat-drawer #drawer mode="side" [(ngModel)]="appointmentSummary" opened="true">
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <!-- for patient -->
+                    <div class="item2" fxFlex>
+                        <span class="title-big">APPOINTMENT SUMMARY</span><br/><br/>
+                        <div>
+                            <span class="title">Doctor: {{appointmentSummary?.doctor}}</span><br/>
+                            <mat-divider></mat-divider><br/><br/>
+                            <span class="title">Patient: {{appointmentSummary?.patient}}</span><br/>
+                            <mat-divider></mat-divider><br/><br/>
+                            <span class="title">Wound: {{appointmentSummary?.woundType}}</span><br/>
+                            <mat-divider></mat-divider><br/><br/>
+                            <span class="title">Date: {{appointmentSummary?.date}}</span><br/>
+                            <mat-divider></mat-divider>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <button mat-mini-fab mat-button color="white" (click)="drawer.toggle()">
+                <span class="material-icons">
+                    healing
+                </span>
+            </button>
+            <div style="margin-left:35px">
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item item-1 cursor" (click)="onWoundDetails()" fxFlex>
+                      <span>WOUND DETAILS</span>
+                    </div>
+                    <div class="item item-2 cursor" (click)="onAppointmentNotes()" fxFlex>
+                      <span>APPOINTMENT NOTES</span>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item item-3 cursor" (click)="onChat()" fxFlex>
+                      <span>CHAT</span>
+                    </div>
+                    <div class="item item-4 cursor" (click)="onMedicalData()" *ngIf="isPatient" fxFlex>
+                        <span>MY MEDICAL HISTORY</span>
+                    </div>
+                    <div class="item item-4 cursor" (click)="onMedicalData()" *ngIf="isDoctor" fxFlex>
+                        <span>PATIENT MEDICAL HISTORY</span>
+                      </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item item-5 cursor" (click)="onSetUpAppointment()" *ngIf="isPatient" fxFlex>
+                        <span>SET UP ANOTHER APPOINTMENT</span>
+                    </div>
+                    <div class="item item-5 cursor" (click)="onVideoCall()" *ngIf="isDoctor" fxFlex>
+                        <span>VIDEO CALL</span>
+                    </div>
+                </div>
+            </div>
+        </mat-drawer-container>    
+    </div>
+</div>

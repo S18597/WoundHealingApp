@@ -1,0 +1,67 @@
+19:08:05.565 18  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:08:07.494 18  INFO UserController GetUserAuthByUserId: 3 | 
+19:08:07.558 11  INFO WoundController GetMyWoundAppointments userId: 3 | 
+19:08:11.801 11  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:08:11.814 13  INFO UserController GetUserAuthByUserId: 6 | 
+19:08:11.835 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:08:15.746 11  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:08:16.719 11  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:08:59.675 14  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:10:20.331 25  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:10:20.353  6  INFO UserController GetUserAuthByUserId: 6 | 
+19:10:20.376 26  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:10:21.805 29  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:10:22.657 29  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:12:10.978 31  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:13:29.141 33  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:14:01.834 37  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:14:38.038 41  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:15:11.110 45  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:15:12.230 44  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:13.794 45  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:16.109 50  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:16.534 50  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:22.005 48  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:15:22.019 45  INFO UserController GetUserAuthByUserId: 6 | 
+19:15:22.048 48  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:24.094 48  INFO UserController GetMyPatients doctorId: 6 | 
+19:15:24.600 50  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:25.873 48  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:15:26.884 50  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:15:27.922 45  INFO WoundController GetWoundDetails woundId: 3 | 
+19:15:27.966 50  INFO WoundController GetWoundPhotoDetails: 3 | 
+19:15:29.044 47  INFO WoundController GetWoundPhoto: 20 | 
+19:15:29.072 50  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:15:33.297 47  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:15:37.292 45  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:30:48.571 75  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:30:48.588 75  INFO UserController GetUserAuthByUserId: 6 | 
+19:30:48.608 79  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:31:27.345 74  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:31:28.495 80  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:35:04.843 90  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:36:40.819 91  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:36:44.750 98  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:36:44.760 97  INFO UserController GetUserAuthByUserId: 6 | 
+19:36:44.791 99  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:36:48.251 97  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:36:48.946 98  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:39:45.464 100  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:39:45.476 109  INFO UserController GetUserAuthByUserId: 6 | 
+19:39:45.510 100  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:39:46.600 100  INFO UserController GetMyPatientsWounds doctorId: 6 | 
+19:39:46.636 109  INFO UserQueryHandler found wound photo for woundId 8: 23 | 
+19:39:46.636 109  INFO UserQueryHandler found wound photo for woundId 3: 20 | 
+19:39:46.636 112  INFO UserQueryHandler found wound photo for woundId 15: 17 | 
+19:39:46.659 111  INFO WoundController GetWoundPhoto: 23 | 
+19:39:46.659 112  INFO WoundController GetWoundPhoto: 20 | 
+19:39:46.662 110  INFO WoundController GetWoundPhoto: 17 | 
+19:39:46.662 113  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:39:46.678 113  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:39:46.678 109  INFO WoundQueryHandler wound photo data: System.Byte[] | 
+19:39:48.469 116  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:39:49.432 111  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:39:50.352 100  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:40:40.639 117  INFO AppointmentController GetAppointmentSummary appointmentId: 1011 | 
+19:40:45.586 121  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 
+19:40:46.321 117  INFO AppointmentController GetMyAppointmentsDoc doctorId: 6 | 

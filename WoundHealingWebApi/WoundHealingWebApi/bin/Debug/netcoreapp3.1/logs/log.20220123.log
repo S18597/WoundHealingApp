@@ -1,0 +1,880 @@
+11:13:49.722 12  INFO WoundTypesController GetWoundTypes | 
+11:14:20.902 12  INFO WoundTypesController GetWoundLocations | 
+11:14:27.596 17  INFO WoundTypesController GetWoundSizes | 
+11:14:32.566 17  INFO WoundTypesController GetWoundColors | 
+11:14:37.706 17  INFO WoundTypesController GetWoundOdors | 
+11:14:42.411 12  INFO WoundTypesController GetWoundExudates | 
+11:14:46.958 12  INFO WoundTypesController GetWoundBleedings | 
+11:14:52.312 15  INFO WoundTypesController GetSurroundingSkins | 
+11:14:57.407 15  INFO WoundTypesController GetPainTypes | 
+11:15:02.997 21  INFO WoundTypesController GetPainLevels | 
+11:44:36.070 73  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+11:44:36.213 78  INFO UserController GetUserAuthByUserId: 3 | 
+11:44:43.432 76  INFO WoundTypesController GetWoundTypes | 
+11:44:43.456 76  INFO WoundTypesController GetWoundLocations | 
+11:44:43.534 76  INFO WoundTypesController GetWoundSizes | 
+11:44:43.549 80  INFO WoundTypesController GetWoundColors | 
+11:44:43.568 80  INFO WoundTypesController GetWoundOdors | 
+11:44:43.581 81  INFO WoundTypesController GetWoundExudates | 
+11:44:43.592 74  INFO WoundTypesController GetWoundBleedings | 
+11:44:43.605 76  INFO WoundTypesController GetSurroundingSkins | 
+11:44:43.619 76  INFO WoundTypesController GetPainTypes | 
+11:44:43.619 80  INFO WoundTypesController GetPainLevels | 
+11:46:14.832 75  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+11:46:14.851 85  INFO UserController GetUserAuthByUserId: 3 | 
+11:46:15.783 79  INFO WoundTypesController GetWoundTypes | 
+11:46:15.820 75  INFO WoundTypesController GetWoundLocations | 
+11:46:15.820 84  INFO WoundTypesController GetWoundSizes | 
+11:46:15.843 75  INFO WoundTypesController GetWoundColors | 
+11:46:15.854 85  INFO WoundTypesController GetWoundOdors | 
+11:46:15.866 84  INFO WoundTypesController GetWoundExudates | 
+11:46:15.866 84  INFO WoundTypesController GetWoundBleedings | 
+11:46:15.882 84  INFO WoundTypesController GetSurroundingSkins | 
+11:46:15.882 85  INFO WoundTypesController GetPainTypes | 
+11:46:15.907 83  INFO WoundTypesController GetPainLevels | 
+11:58:05.933 61  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+11:58:05.955 61  INFO UserController GetUserAuthByUserId: 3 | 
+11:58:06.823 61  INFO WoundTypesController GetWoundTypes | 
+11:58:06.875 58  INFO WoundTypesController GetWoundLocations | 
+11:58:06.894 58  INFO WoundTypesController GetWoundSizes | 
+11:58:06.910 55  INFO WoundTypesController GetWoundColors | 
+11:58:06.923 58  INFO WoundTypesController GetWoundOdors | 
+11:58:06.941 55  INFO WoundTypesController GetWoundExudates | 
+11:58:06.954 58  INFO WoundTypesController GetWoundBleedings | 
+11:58:06.968 55  INFO WoundTypesController GetSurroundingSkins | 
+11:58:06.975 58  INFO WoundTypesController GetPainTypes | 
+11:58:06.975 60  INFO WoundTypesController GetPainLevels | 
+12:00:49.399 53  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:00:49.417 53  INFO UserController GetUserAuthByUserId: 3 | 
+12:00:50.258 49  INFO WoundTypesController GetWoundTypes | 
+12:00:50.320 53  INFO WoundTypesController GetWoundLocations | 
+12:00:50.361 49  INFO WoundTypesController GetWoundSizes | 
+12:00:50.369 48  INFO WoundTypesController GetWoundColors | 
+12:00:50.401 49  INFO WoundTypesController GetWoundOdors | 
+12:00:50.433 47  INFO WoundTypesController GetWoundExudates | 
+12:00:50.446 49  INFO WoundTypesController GetWoundBleedings | 
+12:00:50.466 45  INFO WoundTypesController GetSurroundingSkins | 
+12:00:50.519 45  INFO WoundTypesController GetPainTypes | 
+12:00:50.534 45  INFO WoundTypesController GetPainLevels | 
+12:01:23.259 53  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:01:23.277 42  INFO UserController GetUserAuthByUserId: 3 | 
+12:01:25.873 43  INFO WoundTypesController GetWoundTypes | 
+12:01:25.915 43  INFO WoundTypesController GetWoundLocations | 
+12:01:25.937 43  INFO WoundTypesController GetWoundSizes | 
+12:01:25.948 53  INFO WoundTypesController GetWoundColors | 
+12:01:25.948 53  INFO WoundTypesController GetWoundOdors | 
+12:01:25.961 41  INFO WoundTypesController GetWoundExudates | 
+12:01:25.961 53  INFO WoundTypesController GetWoundBleedings | 
+12:01:25.977 53  INFO WoundTypesController GetSurroundingSkins | 
+12:01:25.977 53  INFO WoundTypesController GetPainTypes | 
+12:01:25.991 53  INFO WoundTypesController GetPainLevels | 
+12:02:00.791 42  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:02:00.804 39  INFO UserController GetUserAuthByUserId: 3 | 
+12:02:06.548 39  INFO WoundTypesController GetWoundTypes | 
+12:02:06.586 37  INFO WoundTypesController GetWoundLocations | 
+12:02:06.602 41  INFO WoundTypesController GetWoundSizes | 
+12:02:06.602 41  INFO WoundTypesController GetWoundColors | 
+12:02:06.621 42  INFO WoundTypesController GetWoundOdors | 
+12:02:06.621 41  INFO WoundTypesController GetWoundExudates | 
+12:02:06.635 41  INFO WoundTypesController GetWoundBleedings | 
+12:02:06.635 39  INFO WoundTypesController GetSurroundingSkins | 
+12:02:06.650 42  INFO WoundTypesController GetPainTypes | 
+12:02:06.650 39  INFO WoundTypesController GetPainLevels | 
+12:02:45.163 39  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:02:45.163 33  INFO UserController GetUserAuthByUserId: 3 | 
+12:02:46.289 42  INFO WoundTypesController GetWoundTypes | 
+12:02:46.331 42  INFO WoundTypesController GetWoundLocations | 
+12:02:46.353 39  INFO WoundTypesController GetWoundSizes | 
+12:02:46.353 39  INFO WoundTypesController GetWoundColors | 
+12:02:46.368 39  INFO WoundTypesController GetWoundOdors | 
+12:02:46.368 42  INFO WoundTypesController GetWoundExudates | 
+12:02:46.384 42  INFO WoundTypesController GetWoundBleedings | 
+12:02:46.384 42  INFO WoundTypesController GetSurroundingSkins | 
+12:02:46.399 39  INFO WoundTypesController GetPainTypes | 
+12:02:46.399 39  INFO WoundTypesController GetPainLevels | 
+12:04:33.953 30  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:04:33.968 30  INFO UserController GetUserAuthByUserId: 3 | 
+12:04:35.516 26  INFO WoundTypesController GetWoundTypes | 
+12:04:35.552 26  INFO WoundTypesController GetWoundLocations | 
+12:04:35.582 25  INFO WoundTypesController GetWoundSizes | 
+12:04:35.588 26  INFO WoundTypesController GetWoundColors | 
+12:04:35.588 30  INFO WoundTypesController GetWoundOdors | 
+12:04:35.605 25  INFO WoundTypesController GetWoundExudates | 
+12:04:35.617 25  INFO WoundTypesController GetWoundBleedings | 
+12:04:35.617 26  INFO WoundTypesController GetSurroundingSkins | 
+12:04:35.636 26  INFO WoundTypesController GetPainTypes | 
+12:04:35.656 26  INFO WoundTypesController GetPainLevels | 
+12:08:58.662 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:08:58.677 13  INFO UserController GetUserAuthByUserId: 3 | 
+12:09:00.167 14  INFO WoundTypesController GetWoundTypes | 
+12:09:00.207 13  INFO WoundTypesController GetWoundLocations | 
+12:09:00.237 13  INFO WoundTypesController GetWoundSizes | 
+12:09:00.243 13  INFO WoundTypesController GetWoundColors | 
+12:09:00.243 14  INFO WoundTypesController GetWoundOdors | 
+12:09:00.263 14  INFO WoundTypesController GetWoundExudates | 
+12:09:00.274 14  INFO WoundTypesController GetWoundBleedings | 
+12:09:00.291 14  INFO WoundTypesController GetSurroundingSkins | 
+12:09:00.307 17  INFO WoundTypesController GetPainTypes | 
+12:09:00.319 17  INFO WoundTypesController GetPainLevels | 
+12:11:36.617  5  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:11:36.632  5  INFO UserController GetUserAuthByUserId: 3 | 
+12:11:39.332  9  INFO WoundTypesController GetWoundTypes | 
+12:11:39.369 86  INFO WoundTypesController GetWoundLocations | 
+12:11:39.392  4  INFO WoundTypesController GetWoundSizes | 
+12:11:39.401 86  INFO WoundTypesController GetWoundColors | 
+12:11:39.401 86  INFO WoundTypesController GetWoundOdors | 
+12:11:39.421 86  INFO WoundTypesController GetWoundExudates | 
+12:11:39.433 86  INFO WoundTypesController GetWoundBleedings | 
+12:11:39.446 85  INFO WoundTypesController GetSurroundingSkins | 
+12:11:39.446 85  INFO WoundTypesController GetPainTypes | 
+12:11:39.465 85  INFO WoundTypesController GetPainLevels | 
+12:13:47.077 88  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:13:47.089 88  INFO UserController GetUserAuthByUserId: 3 | 
+12:13:51.071 92  INFO WoundTypesController GetWoundTypes | 
+12:13:51.115 88  INFO WoundTypesController GetWoundLocations | 
+12:13:51.145 91  INFO WoundTypesController GetWoundSizes | 
+12:13:51.151 89  INFO WoundTypesController GetWoundColors | 
+12:13:51.151 92  INFO WoundTypesController GetWoundOdors | 
+12:13:51.167 92  INFO WoundTypesController GetWoundExudates | 
+12:13:51.167 92  INFO WoundTypesController GetWoundBleedings | 
+12:13:51.190 92  INFO WoundTypesController GetSurroundingSkins | 
+12:13:51.201 92  INFO WoundTypesController GetPainTypes | 
+12:13:51.214 90  INFO WoundTypesController GetPainLevels | 
+12:16:15.470 97  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:16:15.485 103  INFO UserController GetUserAuthByUserId: 3 | 
+12:16:17.063 105  INFO WoundTypesController GetWoundTypes | 
+12:16:17.101 104  INFO WoundTypesController GetWoundLocations | 
+12:16:17.117 97  INFO WoundTypesController GetWoundSizes | 
+12:16:17.117 103  INFO WoundTypesController GetWoundColors | 
+12:16:17.142 102  INFO WoundTypesController GetWoundOdors | 
+12:16:17.148 103  INFO WoundTypesController GetWoundExudates | 
+12:16:17.148 103  INFO WoundTypesController GetWoundBleedings | 
+12:16:17.163 102  INFO WoundTypesController GetSurroundingSkins | 
+12:16:17.163 103  INFO WoundTypesController GetPainTypes | 
+12:16:17.178 97  INFO WoundTypesController GetPainLevels | 
+12:16:30.983 102  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:16:30.995 97  INFO UserController GetUserAuthByUserId: 3 | 
+12:16:31.758 97  INFO WoundTypesController GetWoundTypes | 
+12:16:31.794 97  INFO WoundTypesController GetWoundLocations | 
+12:16:31.811 102  INFO WoundTypesController GetWoundSizes | 
+12:16:31.820 106  INFO WoundTypesController GetWoundColors | 
+12:16:31.820 106  INFO WoundTypesController GetWoundOdors | 
+12:16:31.837 106  INFO WoundTypesController GetWoundExudates | 
+12:16:31.837 106  INFO WoundTypesController GetWoundBleedings | 
+12:16:31.854 106  INFO WoundTypesController GetSurroundingSkins | 
+12:16:31.854 106  INFO WoundTypesController GetPainTypes | 
+12:16:31.868 102  INFO WoundTypesController GetPainLevels | 
+12:18:55.321 110  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:18:55.321 110  INFO UserController GetUserAuthByUserId: 3 | 
+12:18:55.944 109  INFO WoundTypesController GetWoundTypes | 
+12:18:55.982 109  INFO WoundTypesController GetWoundLocations | 
+12:18:56.005 116  INFO WoundTypesController GetWoundSizes | 
+12:18:56.025 116  INFO WoundTypesController GetWoundColors | 
+12:18:56.025 117  INFO WoundTypesController GetWoundOdors | 
+12:18:56.043 116  INFO WoundTypesController GetWoundExudates | 
+12:18:56.043 117  INFO WoundTypesController GetWoundBleedings | 
+12:18:56.060 117  INFO WoundTypesController GetSurroundingSkins | 
+12:18:56.060 110  INFO WoundTypesController GetPainTypes | 
+12:18:56.078 115  INFO WoundTypesController GetPainLevels | 
+13:20:49.624 102  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:20:49.637 102  INFO UserController GetUserAuthByUserId: 3 | 
+13:20:50.433 102  INFO WoundTypesController GetWoundTypes | 
+13:20:50.471 102  INFO WoundTypesController GetWoundLocations | 
+13:20:50.488 98  INFO WoundTypesController GetWoundSizes | 
+13:20:50.510 96  INFO WoundTypesController GetWoundColors | 
+13:20:50.522 96  INFO WoundTypesController GetWoundOdors | 
+13:20:50.522 101  INFO WoundTypesController GetWoundExudates | 
+13:20:50.539 101  INFO WoundTypesController GetWoundBleedings | 
+13:20:50.539 96  INFO WoundTypesController GetSurroundingSkins | 
+13:20:50.553 97  INFO WoundTypesController GetPainTypes | 
+13:20:50.568 97  INFO WoundTypesController GetPainLevels | 
+13:21:33.526 97  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:21:33.526 95  INFO UserController GetUserAuthByUserId: 3 | 
+13:21:34.359 97  INFO WoundTypesController GetWoundTypes | 
+13:21:34.396 97  INFO WoundTypesController GetWoundLocations | 
+13:21:34.413 95  INFO WoundTypesController GetWoundSizes | 
+13:21:34.431 95  INFO WoundTypesController GetWoundColors | 
+13:21:34.444 97  INFO WoundTypesController GetWoundOdors | 
+13:21:34.444 94  INFO WoundTypesController GetWoundExudates | 
+13:21:34.444 94  INFO WoundTypesController GetWoundBleedings | 
+13:21:34.464 95  INFO WoundTypesController GetSurroundingSkins | 
+13:21:34.476 94  INFO WoundTypesController GetPainTypes | 
+13:21:34.491 94  INFO WoundTypesController GetPainLevels | 
+13:21:59.241 95  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:21:59.241 91  INFO UserController GetUserAuthByUserId: 3 | 
+13:21:59.858 89  INFO WoundTypesController GetWoundTypes | 
+13:21:59.896 95  INFO WoundTypesController GetWoundLocations | 
+13:21:59.919 90  INFO WoundTypesController GetWoundSizes | 
+13:21:59.939 95  INFO WoundTypesController GetWoundColors | 
+13:21:59.953 91  INFO WoundTypesController GetWoundOdors | 
+13:21:59.968 89  INFO WoundTypesController GetWoundExudates | 
+13:21:59.977 91  INFO WoundTypesController GetWoundBleedings | 
+13:21:59.977 90  INFO WoundTypesController GetSurroundingSkins | 
+13:22:00.002 90  INFO WoundTypesController GetPainTypes | 
+13:22:00.045 90  INFO WoundTypesController GetPainLevels | 
+13:22:30.472 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:22:30.483 86  INFO UserController GetUserAuthByUserId: 3 | 
+13:22:31.024 86  INFO WoundTypesController GetWoundTypes | 
+13:22:31.072 86  INFO WoundTypesController GetWoundLocations | 
+13:22:31.091 86  INFO WoundTypesController GetWoundSizes | 
+13:22:31.111 88  INFO WoundTypesController GetWoundColors | 
+13:22:31.123 86  INFO WoundTypesController GetWoundOdors | 
+13:22:31.138 88  INFO WoundTypesController GetWoundExudates | 
+13:22:31.154 88  INFO WoundTypesController GetWoundBleedings | 
+13:22:31.170 88  INFO WoundTypesController GetSurroundingSkins | 
+13:22:31.183 88  INFO WoundTypesController GetPainTypes | 
+13:22:31.196 88  INFO WoundTypesController GetPainLevels | 
+13:22:59.004 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:22:59.013 88  INFO UserController GetUserAuthByUserId: 3 | 
+13:22:59.721  5  INFO WoundTypesController GetWoundTypes | 
+13:22:59.770  9  INFO WoundTypesController GetWoundLocations | 
+13:22:59.789  9  INFO WoundTypesController GetWoundSizes | 
+13:22:59.809  9  INFO WoundTypesController GetWoundColors | 
+13:22:59.824  9  INFO WoundTypesController GetWoundOdors | 
+13:22:59.841  9  INFO WoundTypesController GetWoundExudates | 
+13:22:59.868  8  INFO WoundTypesController GetWoundBleedings | 
+13:22:59.868  8  INFO WoundTypesController GetSurroundingSkins | 
+13:22:59.885  9  INFO WoundTypesController GetPainTypes | 
+13:22:59.885  8  INFO WoundTypesController GetPainLevels | 
+13:27:19.191 95  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:27:19.208 91  INFO UserController GetUserAuthByUserId: 3 | 
+13:27:20.080 104  INFO WoundTypesController GetWoundTypes | 
+13:27:20.134 91  INFO WoundTypesController GetWoundLocations | 
+13:27:20.162 104  INFO WoundTypesController GetWoundSizes | 
+13:27:20.184 104  INFO WoundTypesController GetWoundColors | 
+13:27:20.199 98  INFO WoundTypesController GetWoundOdors | 
+13:27:20.222 91  INFO WoundTypesController GetWoundExudates | 
+13:27:20.249 96  INFO WoundTypesController GetWoundBleedings | 
+13:27:20.269 96  INFO WoundTypesController GetSurroundingSkins | 
+13:27:20.286 98  INFO WoundTypesController GetPainTypes | 
+13:27:20.308 98  INFO WoundTypesController GetPainLevels | 
+13:27:52.028 98  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:27:52.039 101  INFO UserController GetUserAuthByUserId: 3 | 
+13:27:52.588 98  INFO WoundTypesController GetWoundTypes | 
+13:27:52.644 101  INFO WoundTypesController GetWoundLocations | 
+13:27:52.665 92  INFO WoundTypesController GetWoundSizes | 
+13:27:52.682 92  INFO WoundTypesController GetWoundColors | 
+13:27:52.694 98  INFO WoundTypesController GetWoundOdors | 
+13:27:52.712 103  INFO WoundTypesController GetWoundExudates | 
+13:27:52.739 103  INFO WoundTypesController GetWoundBleedings | 
+13:27:52.746 98  INFO WoundTypesController GetSurroundingSkins | 
+13:27:52.761 103  INFO WoundTypesController GetPainTypes | 
+13:27:52.774 102  INFO WoundTypesController GetPainLevels | 
+13:30:00.581 108  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:30:00.589 110  INFO UserController GetUserAuthByUserId: 3 | 
+13:30:03.071 110  INFO WoundTypesController GetWoundTypes | 
+13:30:03.133 108  INFO WoundTypesController GetWoundLocations | 
+13:30:03.153 110  INFO WoundTypesController GetWoundSizes | 
+13:30:03.171 110  INFO WoundTypesController GetWoundColors | 
+13:30:03.183 108  INFO WoundTypesController GetWoundOdors | 
+13:30:03.199 110  INFO WoundTypesController GetWoundExudates | 
+13:30:03.225 110  INFO WoundTypesController GetWoundBleedings | 
+13:30:03.225 110  INFO WoundTypesController GetSurroundingSkins | 
+13:30:03.249 110  INFO WoundTypesController GetPainTypes | 
+13:30:03.268 107  INFO WoundTypesController GetPainLevels | 
+13:32:41.720 113  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:32:41.732 123  INFO UserController GetUserAuthByUserId: 3 | 
+13:32:42.578 124  INFO WoundTypesController GetWoundTypes | 
+13:32:42.643 124  INFO WoundTypesController GetWoundLocations | 
+13:32:42.661 125  INFO WoundTypesController GetWoundSizes | 
+13:32:42.679 124  INFO WoundTypesController GetWoundColors | 
+13:32:42.679 125  INFO WoundTypesController GetWoundOdors | 
+13:32:42.711 124  INFO WoundTypesController GetWoundExudates | 
+13:32:42.728 113  INFO WoundTypesController GetWoundBleedings | 
+13:32:42.747 123  INFO WoundTypesController GetSurroundingSkins | 
+13:32:42.763 113  INFO WoundTypesController GetPainTypes | 
+13:32:42.788 113  INFO WoundTypesController GetPainLevels | 
+13:35:12.544 127  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:35:12.557 129  INFO UserController GetUserAuthByUserId: 3 | 
+13:35:13.138 127  INFO WoundTypesController GetWoundTypes | 
+13:35:13.197 132  INFO WoundTypesController GetWoundLocations | 
+13:35:13.219 129  INFO WoundTypesController GetWoundSizes | 
+13:35:13.240 127  INFO WoundTypesController GetWoundColors | 
+13:35:13.240 134  INFO WoundTypesController GetWoundOdors | 
+13:35:13.276 129  INFO WoundTypesController GetWoundExudates | 
+13:35:13.300 132  INFO WoundTypesController GetWoundBleedings | 
+13:35:13.318 129  INFO WoundTypesController GetSurroundingSkins | 
+13:35:13.337 129  INFO WoundTypesController GetPainTypes | 
+13:35:13.355 129  INFO WoundTypesController GetPainLevels | 
+13:36:04.440 132  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:36:04.453 132  INFO UserController GetUserAuthByUserId: 3 | 
+13:36:05.139 137  INFO WoundTypesController GetWoundTypes | 
+13:36:05.197 136  INFO WoundTypesController GetWoundLocations | 
+13:36:05.218 136  INFO WoundTypesController GetWoundSizes | 
+13:36:05.238 136  INFO WoundTypesController GetWoundColors | 
+13:36:05.254 136  INFO WoundTypesController GetWoundOdors | 
+13:36:05.272 138  INFO WoundTypesController GetWoundExudates | 
+13:36:05.305 138  INFO WoundTypesController GetWoundBleedings | 
+13:36:05.305 135  INFO WoundTypesController GetSurroundingSkins | 
+13:36:05.333 138  INFO WoundTypesController GetPainTypes | 
+13:36:05.348 137  INFO WoundTypesController GetPainLevels | 
+13:46:01.709 157  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:46:01.728 82  INFO UserController GetUserAuthByUserId: 3 | 
+13:46:02.290 10  INFO WoundTypesController GetWoundTypes | 
+13:46:02.350 82  INFO WoundTypesController GetWoundLocations | 
+13:46:02.371 10  INFO WoundTypesController GetWoundSizes | 
+13:46:02.391 82  INFO WoundTypesController GetWoundColors | 
+13:46:02.407 82  INFO WoundTypesController GetWoundOdors | 
+13:46:02.425 82  INFO WoundTypesController GetWoundExudates | 
+13:46:02.447 15  INFO WoundTypesController GetWoundBleedings | 
+13:46:02.461 15  INFO WoundTypesController GetSurroundingSkins | 
+13:46:02.461 15  INFO WoundTypesController GetPainTypes | 
+13:46:02.491 82  INFO WoundTypesController GetPainLevels | 
+13:55:12.582 20  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:55:12.601 13  INFO UserController GetUserAuthByUserId: 3 | 
+13:55:13.382 26  INFO WoundTypesController GetWoundTypes | 
+13:55:13.447 26  INFO WoundTypesController GetWoundLocations | 
+13:55:13.464 26  INFO WoundTypesController GetWoundSizes | 
+13:55:13.481 13  INFO WoundTypesController GetWoundColors | 
+13:55:13.495 26  INFO WoundTypesController GetWoundOdors | 
+13:55:13.514 19  INFO WoundTypesController GetWoundExudates | 
+13:55:13.542 19  INFO WoundTypesController GetWoundBleedings | 
+13:55:13.542 26  INFO WoundTypesController GetSurroundingSkins | 
+13:55:13.562 19  INFO WoundTypesController GetPainTypes | 
+13:55:13.576 26  INFO WoundTypesController GetPainLevels | 
+13:56:47.465 23  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:56:47.476 23  INFO UserController GetUserAuthByUserId: 3 | 
+13:56:47.982 11  INFO WoundTypesController GetWoundTypes | 
+13:56:48.069 11  INFO WoundTypesController GetWoundLocations | 
+13:56:48.088 11  INFO WoundTypesController GetWoundSizes | 
+13:56:48.116 24  INFO WoundTypesController GetWoundColors | 
+13:56:48.135 24  INFO WoundTypesController GetWoundOdors | 
+13:56:48.165 24  INFO WoundTypesController GetWoundExudates | 
+13:56:48.183 15  INFO WoundTypesController GetWoundBleedings | 
+13:56:48.210 24  INFO WoundTypesController GetSurroundingSkins | 
+13:56:48.224 24  INFO WoundTypesController GetPainTypes | 
+13:56:48.224 24  INFO WoundTypesController GetPainLevels | 
+13:57:54.697 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:57:54.711 15  INFO UserController GetUserAuthByUserId: 3 | 
+13:57:55.882 24  INFO WoundTypesController GetWoundTypes | 
+13:57:55.943 24  INFO WoundTypesController GetWoundLocations | 
+13:57:55.965 75  INFO WoundTypesController GetWoundSizes | 
+13:57:55.984 75  INFO WoundTypesController GetWoundColors | 
+13:57:55.998 75  INFO WoundTypesController GetWoundOdors | 
+13:57:56.020 24  INFO WoundTypesController GetWoundExudates | 
+13:57:56.042 79  INFO WoundTypesController GetWoundBleedings | 
+13:57:56.059 82  INFO WoundTypesController GetSurroundingSkins | 
+13:57:56.076 82  INFO WoundTypesController GetPainTypes | 
+13:57:56.091 24  INFO WoundTypesController GetPainLevels | 
+14:02:56.643 147  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:02:56.659 148  INFO UserController GetUserAuthByUserId: 3 | 
+14:02:57.388 144  INFO WoundTypesController GetWoundTypes | 
+14:02:57.453 141  INFO WoundTypesController GetWoundLocations | 
+14:02:57.472 140  INFO WoundTypesController GetWoundSizes | 
+14:02:57.491 140  INFO WoundTypesController GetWoundColors | 
+14:02:57.491 144  INFO WoundTypesController GetWoundOdors | 
+14:02:57.523 144  INFO WoundTypesController GetWoundExudates | 
+14:02:57.553 144  INFO WoundTypesController GetWoundBleedings | 
+14:02:57.553 144  INFO WoundTypesController GetSurroundingSkins | 
+14:02:57.576 144  INFO WoundTypesController GetPainTypes | 
+14:02:57.591 147  INFO WoundTypesController GetPainLevels | 
+14:23:40.380 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:23:41.858 10  INFO UserController GetUserAuthByUserId: 3 | 
+14:23:42.770 10  INFO WoundTypesController GetWoundTypes | 
+14:23:42.837  6  INFO WoundTypesController GetWoundLocations | 
+14:23:42.865  6  INFO WoundTypesController GetWoundSizes | 
+14:23:42.899 10  INFO WoundTypesController GetWoundColors | 
+14:23:42.926  8  INFO WoundTypesController GetWoundOdors | 
+14:23:42.971  8  INFO WoundTypesController GetWoundExudates | 
+14:23:42.996  8  INFO WoundTypesController GetWoundBleedings | 
+14:23:43.022  4  INFO WoundTypesController GetSurroundingSkins | 
+14:23:43.051  9  INFO WoundTypesController GetPainTypes | 
+14:23:43.086  6  INFO WoundTypesController GetPainLevels | 
+14:27:11.025 19  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:27:11.052 19  INFO UserController GetUserAuthByUserId: 3 | 
+14:27:11.843 25  INFO WoundTypesController GetWoundTypes | 
+14:27:11.909 25  INFO WoundTypesController GetWoundLocations | 
+14:27:11.932 25  INFO WoundTypesController GetWoundSizes | 
+14:27:11.949 21  INFO WoundTypesController GetWoundColors | 
+14:27:11.967 19  INFO WoundTypesController GetWoundOdors | 
+14:27:11.994 19  INFO WoundTypesController GetWoundExudates | 
+14:27:12.014 19  INFO WoundTypesController GetWoundBleedings | 
+14:27:12.031 19  INFO WoundTypesController GetSurroundingSkins | 
+14:27:12.052 19  INFO WoundTypesController GetPainTypes | 
+14:27:12.083 20  INFO WoundTypesController GetPainLevels | 
+14:27:47.067 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:27:47.085 28  INFO UserController GetUserAuthByUserId: 3 | 
+14:27:47.656 28  INFO WoundTypesController GetWoundTypes | 
+14:27:47.724 28  INFO WoundTypesController GetWoundLocations | 
+14:27:47.756 29  INFO WoundTypesController GetWoundSizes | 
+14:27:47.773 29  INFO WoundTypesController GetWoundColors | 
+14:27:47.788 26  INFO WoundTypesController GetWoundOdors | 
+14:27:47.813 26  INFO WoundTypesController GetWoundExudates | 
+14:27:47.842 27  INFO WoundTypesController GetWoundBleedings | 
+14:27:47.852 26  INFO WoundTypesController GetSurroundingSkins | 
+14:27:47.877 29  INFO WoundTypesController GetPainTypes | 
+14:27:47.890 30  INFO WoundTypesController GetPainLevels | 
+14:28:54.963 31  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:28:54.978 34  INFO UserController GetUserAuthByUserId: 3 | 
+14:28:55.592 34  INFO WoundTypesController GetWoundTypes | 
+14:28:55.647 34  INFO WoundTypesController GetWoundLocations | 
+14:28:55.672 33  INFO WoundTypesController GetWoundSizes | 
+14:28:55.698 34  INFO WoundTypesController GetWoundColors | 
+14:28:55.710 34  INFO WoundTypesController GetWoundOdors | 
+14:28:55.733 38  INFO WoundTypesController GetWoundExudates | 
+14:28:55.755 38  INFO WoundTypesController GetWoundBleedings | 
+14:28:55.773 38  INFO WoundTypesController GetSurroundingSkins | 
+14:28:55.787 36  INFO WoundTypesController GetPainTypes | 
+14:28:55.787 36  INFO WoundTypesController GetPainLevels | 
+14:29:15.459 34  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":4,"WoundLocationId":4,"WoundSizeId":2,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":3,"SurroundingSkinId":2,"PainTypeId":4,"PainLevelId":3} | 
+14:29:15.721 34 ERROR WoundRequestHandler CreateWound error: Newtonsoft.Json.JsonSerializationException: Self referencing loop detected with type 'WoundHealingDb.Models.Wound'. Path 'User.Wounds'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.SerializeObject(Object value)
+   at WoundHealingDb.Models.Wound.ToString() in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\Models\Wound.cs:line 36
+   at System.Text.StringBuilder.AppendFormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object arg0)
+   at WoundHealingWebApi.Handlers.WoundRequestHandler.Handle(CreateWoundRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundRequestHandler.cs:line 58 | 
+14:31:09.966 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:31:11.100  8  INFO UserController GetUserAuthByUserId: 3 | 
+14:32:08.468  8  INFO WoundTypesController GetWoundTypes | 
+14:32:08.554  8  INFO WoundTypesController GetWoundLocations | 
+14:32:08.577 16  INFO WoundTypesController GetWoundSizes | 
+14:32:08.607 16  INFO WoundTypesController GetWoundColors | 
+14:32:08.636 16  INFO WoundTypesController GetWoundOdors | 
+14:32:08.669  8  INFO WoundTypesController GetWoundExudates | 
+14:32:08.709 16  INFO WoundTypesController GetWoundBleedings | 
+14:32:08.767 16  INFO WoundTypesController GetSurroundingSkins | 
+14:32:08.803  8  INFO WoundTypesController GetPainTypes | 
+14:32:08.832  8  INFO WoundTypesController GetPainLevels | 
+14:32:28.420 16  INFO WoundController CreateWound request: {"UserId":0,"WoundTypeId":1,"WoundLocationId":2,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":3,"SurroundingSkinId":2,"PainTypeId":2,"PainLevelId":4} | 
+14:32:28.450  8 ERROR WoundRequestHandler User with id: 0 not found! | 
+14:32:28.467  8 ERROR WoundRequestHandler CreateWound error: System.Exception: User not found!
+   at WoundHealingWebApi.Handlers.WoundRequestHandler.Handle(CreateWoundRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundRequestHandler.cs:line 38 | 
+14:32:51.588 19  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:32:51.603 19  INFO UserController GetUserAuthByUserId: 3 | 
+14:32:52.249 19  INFO WoundTypesController GetWoundTypes | 
+14:32:52.351 22  INFO WoundTypesController GetWoundLocations | 
+14:32:52.379 22  INFO WoundTypesController GetWoundSizes | 
+14:32:52.420 22  INFO WoundTypesController GetWoundColors | 
+14:32:52.444 16  INFO WoundTypesController GetWoundOdors | 
+14:32:52.488 16  INFO WoundTypesController GetWoundExudates | 
+14:32:52.518 22  INFO WoundTypesController GetWoundBleedings | 
+14:32:52.537 21  INFO WoundTypesController GetSurroundingSkins | 
+14:32:52.556 21  INFO WoundTypesController GetPainTypes | 
+14:32:52.579 22  INFO WoundTypesController GetPainLevels | 
+14:33:08.189 22  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":3,"WoundLocationId":8,"WoundSizeId":2,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":4} | 
+14:33:08.391 16 ERROR WoundRequestHandler CreateWound error: Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert duplicate key row in object 'dbo.Wound' with unique index 'IX_Wound_SurroundingSkinId'. The duplicate key value is (2).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:24446081-7da1-44cd-be15-73b347432c7f
+Error Number:2601,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WoundHealingWebApi.Handlers.WoundRequestHandler.Handle(CreateWoundRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\WoundRequestHandler.cs:line 55 | 
+14:44:01.306 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:44:03.180 10  INFO UserController GetUserAuthByUserId: 3 | 
+14:44:03.242 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:44:03.286 11  INFO UserController GetUserAuthByUserId: 3 | 
+14:44:05.063 10  INFO WoundTypesController GetWoundTypes | 
+14:44:05.154  9  INFO WoundTypesController GetWoundLocations | 
+14:44:05.185 10  INFO WoundTypesController GetWoundSizes | 
+14:44:05.219 10  INFO WoundTypesController GetWoundColors | 
+14:44:05.255  4  INFO WoundTypesController GetWoundOdors | 
+14:44:05.289  4  INFO WoundTypesController GetWoundExudates | 
+14:44:05.328 10  INFO WoundTypesController GetWoundBleedings | 
+14:44:05.365 10  INFO WoundTypesController GetSurroundingSkins | 
+14:44:05.403  8  INFO WoundTypesController GetPainTypes | 
+14:44:05.466  8  INFO WoundTypesController GetPainLevels | 
+14:44:20.088  8  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":4,"WoundSizeId":3,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":3,"SurroundingSkinId":2,"PainTypeId":1,"PainLevelId":3} | 
+14:44:20.339  8  INFO WoundRequestHandler Wound created id: 3 | 
+14:46:15.492 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:46:15.511 17  INFO UserController GetUserAuthByUserId: 3 | 
+14:46:16.025 19  INFO WoundTypesController GetWoundTypes | 
+14:46:16.128 14  INFO WoundTypesController GetWoundLocations | 
+14:46:16.152 18  INFO WoundTypesController GetWoundSizes | 
+14:46:16.175 17  INFO WoundTypesController GetWoundColors | 
+14:46:16.193 17  INFO WoundTypesController GetWoundOdors | 
+14:46:16.216 14  INFO WoundTypesController GetWoundExudates | 
+14:46:16.243 19  INFO WoundTypesController GetWoundBleedings | 
+14:46:16.262 19  INFO WoundTypesController GetSurroundingSkins | 
+14:46:16.286  8  INFO WoundTypesController GetPainTypes | 
+14:46:16.304 18  INFO WoundTypesController GetPainLevels | 
+14:46:31.294 15  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":4,"WoundSizeId":3,"WoundColorId":5,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":1,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":3} | 
+14:46:31.318 18  INFO WoundRequestHandler Wound created id: 4 | 
+14:48:34.003 22  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:48:34.028 15  INFO UserController GetUserAuthByUserId: 3 | 
+14:48:34.974 15  INFO WoundTypesController GetWoundTypes | 
+14:48:35.069 23  INFO WoundTypesController GetWoundLocations | 
+14:48:35.086 23  INFO WoundTypesController GetWoundSizes | 
+14:48:35.108 26  INFO WoundTypesController GetWoundColors | 
+14:48:35.120 23  INFO WoundTypesController GetWoundOdors | 
+14:48:35.146 23  INFO WoundTypesController GetWoundExudates | 
+14:48:35.162 23  INFO WoundTypesController GetWoundBleedings | 
+14:48:35.181 15  INFO WoundTypesController GetSurroundingSkins | 
+14:48:35.198 23  INFO WoundTypesController GetPainTypes | 
+14:48:35.221 23  INFO WoundTypesController GetPainLevels | 
+14:48:48.495 23  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":4,"WoundSizeId":3,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":1,"SurroundingSkinId":1,"PainTypeId":3,"PainLevelId":3} | 
+14:48:48.535 24  INFO WoundRequestHandler Wound created id: 5 | 
+14:55:53.776 40  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:55:53.798 44  INFO UserController GetUserAuthByUserId: 3 | 
+14:55:54.465 44  INFO WoundTypesController GetWoundTypes | 
+14:55:54.574 46  INFO WoundTypesController GetWoundLocations | 
+14:55:54.595 43  INFO WoundTypesController GetWoundSizes | 
+14:55:54.621 44  INFO WoundTypesController GetWoundColors | 
+14:55:54.636 40  INFO WoundTypesController GetWoundOdors | 
+14:55:54.668 47  INFO WoundTypesController GetWoundExudates | 
+14:55:54.681 47  INFO WoundTypesController GetWoundBleedings | 
+14:55:54.697 43  INFO WoundTypesController GetSurroundingSkins | 
+14:55:54.721 43  INFO WoundTypesController GetPainTypes | 
+14:55:54.739 43  INFO WoundTypesController GetPainLevels | 
+14:56:07.323 46  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":3,"WoundLocationId":7,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":3,"SurroundingSkinId":3,"PainTypeId":2,"PainLevelId":3} | 
+14:56:07.339 46  INFO WoundRequestHandler Wound created id: 6 | 
+14:57:54.046 41  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:57:54.069 41  INFO UserController GetUserAuthByUserId: 3 | 
+14:57:54.963 41  INFO WoundTypesController GetWoundTypes | 
+14:57:55.081 41  INFO WoundTypesController GetWoundLocations | 
+14:57:55.123 51  INFO WoundTypesController GetWoundSizes | 
+14:57:55.139 52  INFO WoundTypesController GetWoundColors | 
+14:57:55.159 51  INFO WoundTypesController GetWoundOdors | 
+14:57:55.180 52  INFO WoundTypesController GetWoundExudates | 
+14:57:55.213 50  INFO WoundTypesController GetWoundBleedings | 
+14:57:55.228 52  INFO WoundTypesController GetSurroundingSkins | 
+14:57:55.247 50  INFO WoundTypesController GetPainTypes | 
+14:57:55.266 50  INFO WoundTypesController GetPainLevels | 
+14:58:07.800 47  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":4,"WoundLocationId":7,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":3,"PainTypeId":3,"PainLevelId":4} | 
+14:58:07.836 50  INFO WoundRequestHandler Wound created id: 7 | 
+15:12:09.360 75  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Doctor1","Lastname":"Doctor1","Pesel":"12233","Address":"ul. Postepu","PhoneNumber":"12323445","EmailAddress":"doc1@doc.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"5rap","Hash":"15cf95970457f4b6ba38fc848cbd4b76"} | 
+15:12:09.400 80  INFO UserRequestHandler User created:  | 
+15:12:19.482 80  INFO UserController GetUserByEmail: doc1@doc.pl | 
+15:12:19.501 81  INFO UserController GetUserAuthByUserId: 5 | 
+15:12:41.050 81  INFO UserController GetUserByEmail: doc1@doc.pl | 
+15:12:41.065 74  INFO UserController GetUserAuthByUserId: 5 | 
+15:13:18.564 85  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Doctor2","Lastname":"Doctor2","Pesel":"12233","Address":"ul. Postepu","PhoneNumber":"12323445","EmailAddress":"doc2@o2.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"e7eL","Hash":"ffef8505a555558b8c1c22ecd83eeb22"} | 
+15:13:18.592 88  INFO UserRequestHandler User created:  | 
+15:13:28.885 90  INFO UserController GetUserByEmail: doc2@o2.pl | 
+15:13:28.904 90  INFO UserController GetUserAuthByUserId: 6 | 
+15:14:26.160 94  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Doctor3","Lastname":"Doctor3","Pesel":"12345","Address":"ul. Postepu","PhoneNumber":"12323445","EmailAddress":"doc3@o2.pl","DateOfBirth":"2022-01-07T23:00:00Z","Salt":"4Uvv","Hash":"6841e421a616f7ff0b7f8fae34f3f9e0"} | 
+15:14:26.179 93  INFO UserRequestHandler User created:  | 
+15:14:38.099 88  INFO UserController GetUserByEmail: doc3@o2.pl | 
+15:14:38.118 95  INFO UserController GetUserAuthByUserId: 7 | 
+15:16:46.105 103  INFO UserController GetUserByEmail: doc2@o2.pl | 
+15:16:46.118 104  INFO UserController GetUserAuthByUserId: 6 | 
+15:16:48.513 106  INFO UserController GetUserByEmail: doc2@o2.pl | 
+15:16:48.528 106  INFO UserController GetUserAuthByUserId: 6 | 
+15:18:51.295 107  INFO UserController GetUserByEmail: doc2@o2.pl | 
+15:18:51.319 110  INFO UserController GetUserAuthByUserId: 6 | 
+15:19:42.171 112  INFO UserController GetUserByEmail: doc2@o2.pl | 
+15:19:42.183 116  INFO UserController GetUserAuthByUserId: 6 | 
+15:19:50.457 115  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:19:50.469 112  INFO UserController GetUserAuthByUserId: 3 | 
+15:23:26.380 121  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:23:26.394 127  INFO UserController GetUserAuthByUserId: 3 | 
+15:23:34.271 128  INFO WoundTypesController GetWoundTypes | 
+15:23:34.367 128  INFO WoundTypesController GetWoundLocations | 
+15:23:34.408 120  INFO WoundTypesController GetWoundSizes | 
+15:23:34.430 128  INFO WoundTypesController GetWoundColors | 
+15:23:34.480 121  INFO WoundTypesController GetWoundOdors | 
+15:23:34.517 128  INFO WoundTypesController GetWoundExudates | 
+15:23:34.533 129  INFO WoundTypesController GetWoundBleedings | 
+15:23:34.550 121  INFO WoundTypesController GetSurroundingSkins | 
+15:23:34.565 129  INFO WoundTypesController GetPainTypes | 
+15:23:34.583 129  INFO WoundTypesController GetPainLevels | 
+15:23:50.248 121  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":1,"WoundLocationId":3,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":2,"PainLevelId":4} | 
+15:23:50.259 121  INFO WoundRequestHandler Wound created id: 8 | 
+15:24:45.673 131  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:24:45.685 121  INFO UserController GetUserAuthByUserId: 3 | 
+15:24:48.190 135  INFO WoundTypesController GetWoundTypes | 
+15:24:48.294 121  INFO WoundTypesController GetWoundLocations | 
+15:24:48.312 136  INFO WoundTypesController GetWoundSizes | 
+15:24:48.329 121  INFO WoundTypesController GetWoundColors | 
+15:24:48.342 136  INFO WoundTypesController GetWoundOdors | 
+15:24:48.373 136  INFO WoundTypesController GetWoundExudates | 
+15:24:48.386 133  INFO WoundTypesController GetWoundBleedings | 
+15:24:48.400 133  INFO WoundTypesController GetSurroundingSkins | 
+15:24:48.414 131  INFO WoundTypesController GetPainTypes | 
+15:24:48.431 131  INFO WoundTypesController GetPainLevels | 
+15:25:01.911 121  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":3,"WoundLocationId":7,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":1,"PainLevelId":3} | 
+15:25:01.927 134  INFO WoundRequestHandler Wound created id: 9 | 
+15:28:20.855 144  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:28:20.885 150  INFO UserController GetUserAuthByUserId: 3 | 
+15:28:21.559 153  INFO WoundTypesController GetWoundTypes | 
+15:28:21.652 153  INFO WoundTypesController GetWoundLocations | 
+15:28:21.672 153  INFO WoundTypesController GetWoundSizes | 
+15:28:21.693 150  INFO WoundTypesController GetWoundColors | 
+15:28:21.709 150  INFO WoundTypesController GetWoundOdors | 
+15:28:21.731 150  INFO WoundTypesController GetWoundExudates | 
+15:28:21.750 152  INFO WoundTypesController GetWoundBleedings | 
+15:28:21.774 150  INFO WoundTypesController GetSurroundingSkins | 
+15:28:21.791 150  INFO WoundTypesController GetPainTypes | 
+15:28:21.807 153  INFO WoundTypesController GetPainLevels | 
+15:28:36.973 153  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":7,"WoundLocationId":7,"WoundSizeId":2,"WoundColorId":5,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":3,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":3} | 
+15:28:37.001 150  INFO WoundRequestHandler Wound created id: 10 | 
+15:29:36.658 156  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:29:36.674 156  INFO UserController GetUserAuthByUserId: 3 | 
+15:29:37.285 158  INFO WoundTypesController GetWoundTypes | 
+15:29:37.378 159  INFO WoundTypesController GetWoundLocations | 
+15:29:37.401 159  INFO WoundTypesController GetWoundSizes | 
+15:29:37.420 158  INFO WoundTypesController GetWoundColors | 
+15:29:37.435 158  INFO WoundTypesController GetWoundOdors | 
+15:29:37.458 159  INFO WoundTypesController GetWoundExudates | 
+15:29:37.473 158  INFO WoundTypesController GetWoundBleedings | 
+15:29:37.494 158  INFO WoundTypesController GetSurroundingSkins | 
+15:29:37.509 158  INFO WoundTypesController GetPainTypes | 
+15:29:37.524 158  INFO WoundTypesController GetPainLevels | 
+15:29:53.030 155  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":6,"WoundSizeId":3,"WoundColorId":6,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":1,"SurroundingSkinId":1,"PainTypeId":1,"PainLevelId":3} | 
+15:29:53.046 158  INFO WoundRequestHandler Wound created id: 11 | 
+15:30:28.227 159  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:30:28.242 166  INFO UserController GetUserAuthByUserId: 3 | 
+15:30:28.723 164  INFO WoundTypesController GetWoundTypes | 
+15:30:28.838 164  INFO WoundTypesController GetWoundLocations | 
+15:30:28.863 164  INFO WoundTypesController GetWoundSizes | 
+15:30:28.891 164  INFO WoundTypesController GetWoundColors | 
+15:30:28.909 164  INFO WoundTypesController GetWoundOdors | 
+15:30:28.930 164  INFO WoundTypesController GetWoundExudates | 
+15:30:28.970 162  INFO WoundTypesController GetWoundBleedings | 
+15:30:28.991 164  INFO WoundTypesController GetSurroundingSkins | 
+15:30:29.011 164  INFO WoundTypesController GetPainTypes | 
+15:30:29.029 164  INFO WoundTypesController GetPainLevels | 
+15:30:45.311 162  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":3,"WoundLocationId":8,"WoundSizeId":2,"WoundColorId":5,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":3} | 
+15:30:45.324 162  INFO WoundRequestHandler Wound created id: 12 | 
+15:31:05.827 166  INFO WoundTypesController GetWoundTypes | 
+15:31:05.887 166  INFO WoundTypesController GetWoundLocations | 
+15:31:05.904 164  INFO WoundTypesController GetWoundSizes | 
+15:31:05.923 163  INFO WoundTypesController GetWoundColors | 
+15:31:05.937 163  INFO WoundTypesController GetWoundOdors | 
+15:31:05.953 166  INFO WoundTypesController GetWoundExudates | 
+15:31:05.976 163  INFO WoundTypesController GetWoundBleedings | 
+15:31:05.976 164  INFO WoundTypesController GetSurroundingSkins | 
+15:31:05.996 164  INFO WoundTypesController GetPainTypes | 
+15:31:06.012 166  INFO WoundTypesController GetPainLevels | 
+15:31:49.332 161  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:31:49.344 156  INFO UserController GetUserAuthByUserId: 3 | 
+15:31:49.824 160  INFO WoundTypesController GetWoundTypes | 
+15:31:49.916 160  INFO WoundTypesController GetWoundLocations | 
+15:31:49.932 158  INFO WoundTypesController GetWoundSizes | 
+15:31:49.951 157  INFO WoundTypesController GetWoundColors | 
+15:31:49.967 158  INFO WoundTypesController GetWoundOdors | 
+15:31:49.995 156  INFO WoundTypesController GetWoundExudates | 
+15:31:49.995 158  INFO WoundTypesController GetWoundBleedings | 
+15:31:50.014 158  INFO WoundTypesController GetSurroundingSkins | 
+15:31:50.034 158  INFO WoundTypesController GetPainTypes | 
+15:31:50.045 156  INFO WoundTypesController GetPainLevels | 
+15:32:02.332 158  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":4,"WoundLocationId":7,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":1,"WoundExudateId":3,"WoundBleedingId":2,"SurroundingSkinId":1,"PainTypeId":3,"PainLevelId":4} | 
+15:32:02.342 161  INFO WoundRequestHandler Wound created id: 13 | 
+15:32:52.166 155  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+15:32:52.179 153  INFO UserController GetUserAuthByUserId: 3 | 
+15:32:53.348 152  INFO WoundTypesController GetWoundTypes | 
+15:32:53.438 153  INFO WoundTypesController GetWoundLocations | 
+15:32:53.454 152  INFO WoundTypesController GetWoundSizes | 
+15:32:53.473 155  INFO WoundTypesController GetWoundColors | 
+15:32:53.488 154  INFO WoundTypesController GetWoundOdors | 
+15:32:53.516 154  INFO WoundTypesController GetWoundExudates | 
+15:32:53.529 154  INFO WoundTypesController GetWoundBleedings | 
+15:32:53.542 150  INFO WoundTypesController GetSurroundingSkins | 
+15:32:53.562 154  INFO WoundTypesController GetPainTypes | 
+15:32:53.578 155  INFO WoundTypesController GetPainLevels | 
+15:33:06.443 151  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":2,"WoundSizeId":3,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":1,"SurroundingSkinId":3,"PainTypeId":3,"PainLevelId":3} | 
+15:33:06.454 150  INFO WoundRequestHandler Wound created id: 14 | 
+17:57:07.342 10  INFO AppointmentController GetFastestAppointment | 
+17:57:08.444 10 ERROR AppointmentQueryHandler GetUserByEmailQuery error: System.InvalidOperationException: Client side GroupBy is not supported.
+   at Microsoft.EntityFrameworkCore.Query.RelationalShapedQueryCompilingExpressionVisitor.CustomShaperCompilingExpressionVisitor.VisitExtension(Expression extensionExpression)
+   at System.Linq.Expressions.Expression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitBlockExpressions(ExpressionVisitor visitor, BlockExpression block)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBlock(BlockExpression node)
+   at System.Linq.Expressions.BlockExpression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at System.Linq.Expressions.Expression`1.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.RelationalShapedQueryCompilingExpressionVisitor.VisitShapedQueryExpression(ShapedQueryExpression shapedQueryExpression)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.VisitExtension(Expression extensionExpression)
+   at System.Linq.Expressions.Expression.Accept(ExpressionVisitor visitor)
+   at System.Linq.Expressions.ExpressionVisitor.Visit(Expression node)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQueryCore[TFunc](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetEnumerator()
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector, IEqualityComparer`1 comparer)
+   at System.Linq.Enumerable.ToDictionary[TSource,TKey](IEnumerable`1 source, Func`2 keySelector)
+   at WoundHealingWebApi.Handlers.AppointmentQueryHandler.Handle(GetFastestAppointmentQuery request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\AppointmentQueryHandler.cs:line 68 | 
+18:00:22.631 10  INFO AppointmentController GetFastestAppointment | 
+18:00:23.903 10  INFO AppointmentQueryHandler wizyta: 4, 2022-01-24 08:00:00 | 
+18:15:10.439 10  INFO AppointmentController GetFastestAppointment | 
+18:21:39.495 21  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:21:39.681 21  INFO UserController GetUserAuthByUserId: 3 | 
+18:21:40.378 21  INFO WoundTypesController GetWoundTypes | 
+18:21:40.477 18  INFO WoundTypesController GetWoundLocations | 
+18:21:40.516 20  INFO WoundTypesController GetWoundSizes | 
+18:21:40.556 18  INFO WoundTypesController GetWoundColors | 
+18:21:40.584 20  INFO WoundTypesController GetWoundOdors | 
+18:21:40.614 19  INFO WoundTypesController GetWoundExudates | 
+18:21:40.646 23  INFO WoundTypesController GetWoundBleedings | 
+18:21:40.675 19  INFO WoundTypesController GetSurroundingSkins | 
+18:21:40.730 19  INFO WoundTypesController GetPainTypes | 
+18:21:40.773 23  INFO WoundTypesController GetPainLevels | 
+18:21:55.067 19  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":1,"WoundLocationId":5,"WoundSizeId":2,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":1,"SurroundingSkinId":2,"PainTypeId":2,"PainLevelId":3} | 
+18:21:55.286 20  INFO WoundRequestHandler Wound created id: 15 | 
+18:21:58.718 19  INFO AppointmentController GetFastestAppointment | 
+18:24:37.711 33  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:24:37.730 36  INFO UserController GetUserAuthByUserId: 3 | 
+18:24:38.762 33  INFO WoundTypesController GetWoundTypes | 
+18:24:38.858 36  INFO WoundTypesController GetWoundLocations | 
+18:24:38.876 36  INFO WoundTypesController GetWoundSizes | 
+18:24:38.895 33  INFO WoundTypesController GetWoundColors | 
+18:24:38.912 33  INFO WoundTypesController GetWoundOdors | 
+18:24:38.939 33  INFO WoundTypesController GetWoundExudates | 
+18:24:38.958 33  INFO WoundTypesController GetWoundBleedings | 
+18:24:38.976 33  INFO WoundTypesController GetSurroundingSkins | 
+18:24:38.992 36  INFO WoundTypesController GetPainTypes | 
+18:24:39.013 36  INFO WoundTypesController GetPainLevels | 
+18:24:54.152 33  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":6,"WoundSizeId":3,"WoundColorId":5,"WoundOdorId":2,"WoundExudateId":3,"WoundBleedingId":1,"SurroundingSkinId":1,"PainTypeId":1,"PainLevelId":3} | 
+18:24:54.180 33  INFO WoundRequestHandler Wound created id: 16 | 
+18:24:56.001 28  INFO AppointmentController GetFastestAppointment | 
+19:05:59.020  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:06:00.198  4  INFO UserController GetUserAuthByUserId: 3 | 
+19:06:00.929  8  INFO WoundTypesController GetWoundTypes | 
+19:06:01.029 10  INFO WoundTypesController GetWoundLocations | 
+19:06:01.059 10  INFO WoundTypesController GetWoundSizes | 
+19:06:01.095  8  INFO WoundTypesController GetWoundColors | 
+19:06:01.131  8  INFO WoundTypesController GetWoundOdors | 
+19:06:01.167  8  INFO WoundTypesController GetWoundExudates | 
+19:06:01.191  9  INFO WoundTypesController GetWoundBleedings | 
+19:06:01.217  8  INFO WoundTypesController GetSurroundingSkins | 
+19:06:01.264 10  INFO WoundTypesController GetPainTypes | 
+19:06:01.310  8  INFO WoundTypesController GetPainLevels | 
+19:06:17.168  8  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":6,"WoundSizeId":3,"WoundColorId":4,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":2,"PainLevelId":2} | 
+19:06:17.386 11  INFO WoundRequestHandler Wound created id: 17 | 
+19:06:17.403 11  INFO WoundController GetUserAuthByUserId: 3 | 
+19:06:24.446 11  INFO AppointmentController GetFastestAppointment | 
+19:08:37.888 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:08:37.906 23  INFO UserController GetUserAuthByUserId: 3 | 
+19:08:43.544 17  INFO WoundTypesController GetWoundTypes | 
+19:08:43.654 21  INFO WoundTypesController GetWoundLocations | 
+19:08:43.707 21  INFO WoundTypesController GetWoundSizes | 
+19:08:43.734 17  INFO WoundTypesController GetWoundColors | 
+19:08:43.750 21  INFO WoundTypesController GetWoundOdors | 
+19:08:43.774 21  INFO WoundTypesController GetWoundExudates | 
+19:08:43.791 21  INFO WoundTypesController GetWoundBleedings | 
+19:08:43.820 14  INFO WoundTypesController GetSurroundingSkins | 
+19:08:43.835 18  INFO WoundTypesController GetPainTypes | 
+19:08:43.851 22  INFO WoundTypesController GetPainLevels | 
+19:42:36.947  8  INFO WoundController GetMyWounds userId: 3 | 
+19:45:14.184  9  INFO WoundController GetMyWounds userId: 3 | 
+19:47:58.645 31  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:47:58.683 31  INFO UserController GetUserAuthByUserId: 3 | 
+19:47:59.529 39  INFO WoundTypesController GetWoundTypes | 
+19:47:59.630 40  INFO WoundTypesController GetWoundLocations | 
+19:47:59.663 38  INFO WoundTypesController GetWoundSizes | 
+19:47:59.694 39  INFO WoundTypesController GetWoundColors | 
+19:47:59.729 39  INFO WoundTypesController GetWoundOdors | 
+19:47:59.757 39  INFO WoundTypesController GetWoundExudates | 
+19:47:59.784 36  INFO WoundTypesController GetWoundBleedings | 
+19:47:59.811 36  INFO WoundTypesController GetSurroundingSkins | 
+19:47:59.843 39  INFO WoundTypesController GetPainTypes | 
+19:47:59.878 41  INFO WoundTypesController GetPainLevels | 
+19:48:20.874 40  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":1,"WoundLocationId":11,"WoundSizeId":2,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":3,"SurroundingSkinId":3,"PainTypeId":2,"PainLevelId":3} | 
+19:48:21.096 40  INFO WoundRequestHandler Wound created id: 18 | 
+19:48:21.106 40  INFO WoundController GetUserAuthByUserId: 3 | 
+19:48:24.072 41  INFO AppointmentController GetFastestAppointment | 
+19:48:27.945 42  INFO AppointmentController CreateTreatmentWithAppointment request: {"WoundId":18,"DoctorId":5,"PatientId":3,"AppointmentDate":"2022-01-24T08:00:00"} | 
+19:48:28.001 41  INFO AppointmentRequestHandler Treatment created: WoundHealingDb.Models.Treatment | 
+19:48:28.017 43  INFO AppointmentRequestHandler Appointment created: WoundHealingDb.Models.Appointment | 
+19:48:47.236 40  INFO WoundController GetMyWounds userId: 3 | 
+19:50:09.051 40  INFO WoundTypesController GetWoundTypes | 
+19:50:09.117 55  INFO WoundTypesController GetWoundLocations | 
+19:50:09.134 55  INFO WoundTypesController GetWoundSizes | 
+19:50:09.154 51  INFO WoundTypesController GetWoundColors | 
+19:50:09.171 51  INFO WoundTypesController GetWoundOdors | 
+19:50:09.182 50  INFO WoundTypesController GetWoundExudates | 
+19:50:09.182 50  INFO WoundTypesController GetWoundBleedings | 
+19:50:09.208 40  INFO WoundTypesController GetSurroundingSkins | 
+19:50:09.226 40  INFO WoundTypesController GetPainTypes | 
+19:50:09.242 51  INFO WoundTypesController GetPainLevels | 
+19:50:22.264 51  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":3,"WoundLocationId":6,"WoundSizeId":3,"WoundColorId":3,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":3,"PainLevelId":3} | 
+19:50:22.283 51  INFO WoundRequestHandler Wound created id: 19 | 
+19:50:22.298 51  INFO WoundController GetUserAuthByUserId: 3 | 
+19:50:23.776 51  INFO AppointmentController GetFastestAppointment | 
+19:50:28.449 51  INFO AppointmentController CreateTreatmentWithAppointment request: {"WoundId":19,"DoctorId":6,"PatientId":3,"AppointmentDate":"2022-01-24T08:00:00"} | 
+19:50:28.466 46  INFO AppointmentRequestHandler Treatment created: WoundHealingDb.Models.Treatment | 
+19:50:28.466 46  INFO AppointmentRequestHandler Appointment created: WoundHealingDb.Models.Appointment | 
+19:50:31.680 52  INFO WoundTypesController GetWoundTypes | 
+19:50:31.746 54  INFO WoundTypesController GetWoundLocations | 
+19:50:31.764 54  INFO WoundTypesController GetWoundSizes | 
+19:50:31.793 52  INFO WoundTypesController GetWoundColors | 
+19:50:31.808 52  INFO WoundTypesController GetWoundOdors | 
+19:50:31.821 52  INFO WoundTypesController GetWoundExudates | 
+19:50:31.821 52  INFO WoundTypesController GetWoundBleedings | 
+19:50:31.846 55  INFO WoundTypesController GetSurroundingSkins | 
+19:50:31.859 55  INFO WoundTypesController GetPainTypes | 
+19:50:31.872 55  INFO WoundTypesController GetPainLevels | 
+19:50:51.041 50  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":1,"WoundLocationId":5,"WoundSizeId":3,"WoundColorId":6,"WoundOdorId":1,"WoundExudateId":1,"WoundBleedingId":2,"SurroundingSkinId":2,"PainTypeId":2,"PainLevelId":3} | 
+19:50:51.067 50  INFO WoundRequestHandler Wound created id: 20 | 
+19:50:51.075 50  INFO WoundController GetUserAuthByUserId: 3 | 
+19:50:54.194 52  INFO AppointmentController GetFastestAppointment | 
+19:52:23.441 61  INFO UserController GetUserByEmail: doc2@o2.pl | 
+19:52:23.466 61  INFO UserController GetUserAuthByUserId: 6 | 
+19:53:06.318 65  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:53:06.339 65  INFO UserController GetUserAuthByUserId: 3 | 
+20:31:06.385 92  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:31:06.446 87  INFO UserController GetUserAuthByUserId: 3 | 
+20:31:08.721 94  INFO WoundTypesController GetWoundTypes | 
+20:31:08.856 88  INFO WoundTypesController GetWoundLocations | 
+20:31:08.885 93  INFO WoundTypesController GetWoundSizes | 
+20:31:08.937 93  INFO WoundTypesController GetWoundColors | 
+20:31:08.970 88  INFO WoundTypesController GetWoundOdors | 
+20:31:09.011 92  INFO WoundTypesController GetWoundExudates | 
+20:31:09.030 92  INFO WoundTypesController GetWoundBleedings | 
+20:31:09.061 92  INFO WoundTypesController GetSurroundingSkins | 
+20:31:09.104 88  INFO WoundTypesController GetPainTypes | 
+20:31:09.134 83  INFO WoundTypesController GetPainLevels | 
+20:32:12.004 85  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":1,"WoundLocationId":5,"WoundSizeId":2,"WoundColorId":2,"WoundOdorId":2,"WoundExudateId":1,"WoundBleedingId":1,"SurroundingSkinId":2,"PainTypeId":4,"PainLevelId":3} | 
+20:32:12.058 85  INFO WoundRequestHandler Wound created id: 21 | 
+20:32:12.058 85  INFO WoundController GetUserAuthByUserId: 3 | 
+20:32:17.904 85  INFO AppointmentController GetFastestAppointment | 
+20:32:17.937 89  INFO AppointmentController CreateTreatmentWithAppointment request: {"WoundId":21,"DoctorId":0,"PatientId":3,"AppointmentDate":"0001-01-01T00:00:00"} | 
+20:32:17.955 78 ERROR AppointmentRequestHandler Doctor with id: 0 does not exists! | 
+20:32:17.990 78 ERROR AppointmentRequestHandler CreateUser error: System.Exception: Doctor not found!
+   at WoundHealingWebApi.Handlers.AppointmentRequestHandler.Handle(CreateTreatmentWithAppointmentRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\AppointmentRequestHandler.cs:line 39 | 
+20:33:22.347 75  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:33:22.417 75  INFO UserController GetUserAuthByUserId: 3 | 
+20:33:23.329 73  INFO WoundTypesController GetWoundTypes | 
+20:33:23.467 69  INFO WoundTypesController GetWoundLocations | 
+20:33:23.503 78  INFO WoundTypesController GetWoundSizes | 
+20:33:23.531 69  INFO WoundTypesController GetWoundColors | 
+20:33:23.548 70  INFO WoundTypesController GetWoundOdors | 
+20:33:23.723 80  INFO WoundTypesController GetWoundExudates | 
+20:33:23.754 70  INFO WoundTypesController GetWoundBleedings | 
+20:33:23.776 72  INFO WoundTypesController GetSurroundingSkins | 
+20:33:23.804 72  INFO WoundTypesController GetPainTypes | 
+20:33:23.848 78  INFO WoundTypesController GetPainLevels | 
+20:33:43.312 78  INFO WoundController CreateWound request: {"UserId":3,"WoundTypeId":2,"WoundLocationId":3,"WoundSizeId":2,"WoundColorId":2,"WoundOdorId":2,"WoundExudateId":2,"WoundBleedingId":2,"SurroundingSkinId":3,"PainTypeId":3,"PainLevelId":4} | 
+20:33:43.361 71  INFO WoundRequestHandler Wound created id: 22 | 
+20:33:43.367 70  INFO WoundController GetUserAuthByUserId: 3 | 
+20:33:45.279 80  INFO AppointmentController GetFastestAppointment | 
+20:33:57.744 80  INFO AppointmentController CreateTreatmentWithAppointment request: {"WoundId":22,"DoctorId":7,"PatientId":3,"AppointmentDate":"2022-01-24T08:00:00"} | 
+20:33:57.789 78  INFO AppointmentRequestHandler Treatment created: WoundHealingDb.Models.Treatment | 
+20:33:57.789 78  INFO AppointmentRequestHandler Appointment created: WoundHealingDb.Models.Appointment | 

@@ -1,0 +1,132 @@
+<div class="container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+          </button>
+    </div>
+    <div class="item">
+        <div class="element center">
+            <h1>My wounds</h1>
+        </div>
+        <div class="element center" *ngIf="!showMyWounds">
+            <p>You don't have any wounds </p>
+        </div>
+        <div class="element" *ngIf="showMyWounds" style="padding-bottom: 50px;">
+            <!-- My wounds: -->
+            <mat-form-field appearance="standard">
+                <mat-label>Filter</mat-label>
+                <input matInput (keyup)="applyFilter($event)" #input>
+              </mat-form-field>
+              
+              <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+              
+                <!-- Wound Register Date -->
+                <ng-container matColumnDef="woundRegisterDate">
+                  <th mat-header-cell *matHeaderCellDef> Date </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundRegisterDate}} </td>
+                </ng-container>
+              
+                <!-- Wound Type -->
+                <ng-container matColumnDef="woundType">
+                  <th mat-header-cell *matHeaderCellDef> Type </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundType}} </td>
+                </ng-container>
+              
+                <!-- Wound Location -->
+                <ng-container matColumnDef="woundLocation">
+                  <th mat-header-cell *matHeaderCellDef> Location </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundLocation}} </td>
+                </ng-container>
+              
+                <!-- Wound Size -->
+                <ng-container matColumnDef="woundSize">
+                  <th mat-header-cell *matHeaderCellDef> Size </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundSize}} </td>
+                </ng-container>
+
+                <!-- Wound Color -->
+                <ng-container matColumnDef="woundColor">
+                    <th mat-header-cell *matHeaderCellDef> Color </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundColor}} </td>
+                </ng-container>
+
+                <!-- Wound Odor -->
+                <ng-container matColumnDef="woundOdor">
+                    <th mat-header-cell *matHeaderCellDef> Odor </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundOdor}} </td>
+                </ng-container>
+
+                <!-- Wound Exudate -->
+                <ng-container matColumnDef="woundExudate">
+                    <th mat-header-cell *matHeaderCellDef> Exudate </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundExudate}} </td>
+                </ng-container>
+
+                <!-- Wound Bleeding -->
+                <ng-container matColumnDef="woundBleeding">
+                    <th mat-header-cell *matHeaderCellDef> Bleeding </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundBleeding}} </td>
+                </ng-container>
+
+                <!-- Surrounding Skin -->
+                <ng-container matColumnDef="surroundingSkin">
+                    <th mat-header-cell *matHeaderCellDef> Surrounding Skin </th>
+                    <td mat-cell *matCellDef="let element"> {{element.surroundingSkin}} </td>
+                </ng-container>
+
+                <!-- Pain Type -->
+                <ng-container matColumnDef="painType">
+                    <th mat-header-cell *matHeaderCellDef> Pain Type </th>
+                    <td mat-cell *matCellDef="let element"> {{element.painType}} </td>
+                </ng-container>
+
+                <!-- Pain Level -->
+                <ng-container matColumnDef="painLevel">
+                    <th mat-header-cell *matHeaderCellDef> Pain Level </th>
+                    <td mat-cell *matCellDef="let element"> {{element.painLevel}} </td>
+                </ng-container>
+
+                <!-- view  -->
+                <ng-container matColumnDef="view">
+                    <th mat-header-cell *matHeaderCellDef> Details </th>
+                    <td mat-cell *matCellDef="let element">
+                        <div class="center">
+                            <button mat-mini-fab (click)="onWoundDetails(element)" color="primary">
+                                <span class="material-icons">
+                                    info
+                                </span>
+                            </button>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <!-- delete  -->
+                <ng-container matColumnDef="delete">
+                    <th mat-header-cell *matHeaderCellDef> Delete </th>
+                    <td mat-cell *matCellDef="let element">
+                        <div class="center">
+                            <button mat-mini-fab (click)="onDeleteWound(element)" color="primary">
+                                <span class="material-icons">
+                                    delete
+                                </span>
+                            </button>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              
+                <!-- Row shown when there is no matching data. -->
+                <tr class="mat-row" *matNoDataRow>
+                  <td class="mat-cell" colspan="4">No matching wound for filter "{{input.value}}"</td>
+                </tr>
+              </table>
+        </div>
+    </div>
+</div>

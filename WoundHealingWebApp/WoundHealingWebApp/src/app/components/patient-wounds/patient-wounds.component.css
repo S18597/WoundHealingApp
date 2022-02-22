@@ -1,0 +1,80 @@
+.container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .image {
+    margin: 40px;
+    height: 150px;
+    background-image: url("src/assets/logo.png");
+    background-color: transparent;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .cursor {
+    cursor: pointer;
+  }
+  
+  .item {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .element {
+    padding-top: 2px;
+  }
+  
+  .center {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .form {
+    width: 100%;
+  }
+    
+  .form-field {
+    width: 100%;
+    background-color: white;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    background-color: white;
+  }
+  
+  .radio-button {
+    margin: 5px;
+  }
+
+  .mat-stepper-vertical {
+    margin-top: 8px;
+  }
+  
+  .mat-form-field {
+    margin-top: 16px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.demo-inline-calendar-card {
+  width: 200px;
+}
+
+.padding {
+  padding-left: 20px;
+}

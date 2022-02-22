@@ -1,0 +1,215 @@
+<div class="container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+          </button>
+    </div>    
+    <div class="item">
+        <div class="element center">
+            <h1>Register an appointment</h1>
+        </div>
+        <div class="element center" *ngIf="!showMyWounds && !showAppointment">
+            <p>You don't have any wounds to make an appointment</p><br/><br/>
+        </div>
+        <div class="element center" *ngIf="!showMyWounds && !showAppointment">
+            Add wound &nbsp; &nbsp;
+            <button mat-mini-fab (click)="onAddWound()" color="primary">
+                <span class="material-icons">
+                    add
+                </span>
+            </button>
+        </div>
+        <div class="element" *ngIf="showMyWounds && !showAppointment" style="padding-bottom: 50px;">
+            <!-- My wounds: -->
+            <mat-form-field appearance="standard">
+                <mat-label>Filter</mat-label>
+                <input matInput (keyup)="applyFilter($event)" #input>
+              </mat-form-field>
+              
+              <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+              
+                <!-- Wound Register Date -->
+                <ng-container matColumnDef="woundRegisterDate">
+                  <th mat-header-cell *matHeaderCellDef> Date </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundRegisterDate}} </td>
+                </ng-container>
+              
+                <!-- Wound Type -->
+                <ng-container matColumnDef="woundType">
+                  <th mat-header-cell *matHeaderCellDef> Type </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundType}} </td>
+                </ng-container>
+              
+                <!-- Wound Location -->
+                <ng-container matColumnDef="woundLocation">
+                  <th mat-header-cell *matHeaderCellDef> Location </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundLocation}} </td>
+                </ng-container>
+              
+                <!-- Wound Size -->
+                <ng-container matColumnDef="woundSize">
+                  <th mat-header-cell *matHeaderCellDef> Size </th>
+                  <td mat-cell *matCellDef="let element"> {{element.woundSize}} </td>
+                </ng-container>
+
+                <!-- Wound Color -->
+                <ng-container matColumnDef="woundColor">
+                    <th mat-header-cell *matHeaderCellDef> Color </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundColor}} </td>
+                </ng-container>
+
+                <!-- Wound Odor -->
+                <ng-container matColumnDef="woundOdor">
+                    <th mat-header-cell *matHeaderCellDef> Odor </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundOdor}} </td>
+                </ng-container>
+
+                <!-- Wound Exudate -->
+                <ng-container matColumnDef="woundExudate">
+                    <th mat-header-cell *matHeaderCellDef> Exudate </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundExudate}} </td>
+                </ng-container>
+
+                <!-- Wound Bleeding -->
+                <ng-container matColumnDef="woundBleeding">
+                    <th mat-header-cell *matHeaderCellDef> Bleeding </th>
+                    <td mat-cell *matCellDef="let element"> {{element.woundBleeding}} </td>
+                </ng-container>
+
+                <!-- Surrounding Skin -->
+                <ng-container matColumnDef="surroundingSkin">
+                    <th mat-header-cell *matHeaderCellDef> Surrounding Skin </th>
+                    <td mat-cell *matCellDef="let element"> {{element.surroundingSkin}} </td>
+                </ng-container>
+
+                <!-- Pain Type -->
+                <ng-container matColumnDef="painType">
+                    <th mat-header-cell *matHeaderCellDef> Pain Type </th>
+                    <td mat-cell *matCellDef="let element"> {{element.painType}} </td>
+                </ng-container>
+
+                <!-- Pain Level -->
+                <ng-container matColumnDef="painLevel">
+                    <th mat-header-cell *matHeaderCellDef> Pain Level </th>
+                    <td mat-cell *matCellDef="let element"> {{element.painLevel}} </td>
+                </ng-container>
+
+                <!-- Appointment -->
+                <ng-container matColumnDef="appointment">
+                    <th mat-header-cell *matHeaderCellDef> Appointment </th>
+                    <td mat-cell *matCellDef="let element">
+                        <div class="center">
+                            <button mat-mini-fab (click)="onCreateAppointment(element)" color="primary">
+                                <span class="material-icons">
+                                    person_add
+                                </span>
+                            </button>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+              
+                <!-- Row shown when there is no matching data. -->
+                <tr class="mat-row" *matNoDataRow>
+                  <td class="mat-cell" colspan="4">No matching wound for filter "{{input.value}}"</td>
+                </tr>
+              </table>
+        </div>
+        <div class="center" *ngIf="!showMyWounds && showAppointment" style="width:1000px">
+            <div class="element center">
+                <div class="element">
+                    <mat-card class="demo-inline-calendar-card">
+                        <mat-calendar [(selected)]="selectedDate" (click)="onDateChange()"></mat-calendar>
+                    </mat-card>
+                </div>
+                <!-- <div class="element">
+                    &nbsp; &nbsp; <h3>Fastest visit: </h3>
+                </div> -->
+                <div class="element padding">
+                    <h3>Fastest visit: </h3>
+                    <p>
+                      Doctor: &nbsp; {{fastestAppointment?.doctorFullname}} &nbsp; &nbsp; &nbsp; 
+                      Date: &nbsp; {{fastestAppointment?.appointmentDate}}
+                    </p>
+                    <br/>
+                    <div class="center">
+                        <button mat-mini-fab (click)="onApproveFastestAppointment()" color="primary">
+                            <span class="material-icons">
+                                done
+                            </span>
+                          </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="element center" *ngIf="!showMyWounds && showAppointment">
+            <div class="element" *ngIf="!showDoctors">
+                <button mat-button color="primary" (click)="chooseDoctor()">Choose a doctor</button>
+            </div>
+            <div *ngIf="showDoctors">
+                <mat-form-field appearance="fill">
+                    <mat-label>Choose a doctor</mat-label>
+                    <mat-select [(ngModel)]="selectedDoctorId" (selectionChange)="onDoctorChange()">
+                      <mat-option *ngFor="let doc of doctors" [value]="doc.doctorId">
+                        {{doc.doctorName}}
+                      </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
+        </div>
+        <div class="element center" *ngIf="!showMyWounds && showAppointment" style="padding-bottom: 50px;">
+            <div class="element">
+                <mat-form-field appearance="standard">
+                    <mat-label>Filter</mat-label>
+                    <input matInput (keyup)="applyFilterApp($event)" #inputApp>
+                  </mat-form-field>
+                  
+                  <table mat-table [dataSource]="dataSourceApp" class="mat-elevation-z8" style="width:800px">
+                  
+                    <!-- doctor -->
+                    <ng-container matColumnDef="doctorFullname">
+                      <th mat-header-cell *matHeaderCellDef> Doctor </th>
+                      <td mat-cell *matCellDef="let element"> {{element.doctorFullname}} </td>
+                    </ng-container>
+                  
+                    <!-- date -->
+                    <ng-container matColumnDef="appointmentDate">
+                      <th mat-header-cell *matHeaderCellDef> Date </th>
+                      <td mat-cell *matCellDef="let element"> {{element.appointmentDate}} </td>
+                    </ng-container>
+                  
+                    <!-- Appointment -->
+                    <ng-container matColumnDef="appointment">
+                        <th mat-header-cell *matHeaderCellDef> Appointment </th>
+                        <td mat-cell *matCellDef="let element">
+                            <div class="center">
+                                <button mat-mini-fab (click)="onAddAppointment(element)" color="primary">
+                                    <span class="material-icons">
+                                        done
+                                    </span>
+                                </button>
+                            </div>
+                        </td>
+                    </ng-container>
+    
+                    <tr mat-header-row *matHeaderRowDef="displayedColumnsApp"></tr>
+                    <tr mat-row *matRowDef="let row; columns: displayedColumnsApp;"></tr>
+                  
+                    <!-- Row shown when there is no matching data. -->
+                    <tr class="mat-row" *matNoDataRow>
+                      <td class="mat-cell" colspan="4">No matching appointment for filter "{{inputApp.value}}"</td>
+                    </tr>
+                  </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="main-container">
+    <div>
+      <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+      <button mat-mini-fab (click)="goBack()" color="primary">
+        <span class="material-icons">
+          arrow_back
+        </span>
+        </button>
+    </div>
+    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <div class="item item-1" fxFlex>
+          <span>MY PATIENTS: {{myPatients}}</span>
+        </div>
+        <div class="item item-2" fxFlex>
+          <span>MY FINISHED TREATMENTS: {{finishedTreatments}}</span>
+        </div>
+        <div class="item item-3 cursor" fxFlex>
+          <span>MY APPOINTMENTS: {{myAppointments}}</span>
+        </div>
+    </div>
+    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <div class="item item-4 vcenter" fxFlex>
+          <span>AVG TREATMENT TIME: {{avgTreatmentTime}} days</span>
+        </div>
+        <div class="item" fxFlex="66%">
+          <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+            <div class="item" fxFlex="75%" *ngIf="List && List.length > 0">
+              <div class="grafico">
+                <div class="content">
+                    <div class="bars" *ngFor="let item of List">
+                        <span>{{item.value}}</span>
+                        <div class="bar" [style.background-color]="item.color" [style.height]='item.size'></div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="legends">
+                    <span *ngFor="let item of List">{{item.legend}}</span>
+                </div>
+              </div>
+            </div>
+            <div class="item2 item-4 vcenter" fxFlex>
+              <span>NUMBER OF WOUNDS: {{wounds}}</span>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

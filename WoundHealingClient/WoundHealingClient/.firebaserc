@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "woundhealingapp": {
+      "hosting": {
+        "WoundHealingClient": [
+          "woundhealingapp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "woundhealingapp"
+  }
+}

@@ -1,0 +1,110 @@
+<div class="container">
+    <div class="item">
+        <form [formGroup]="registerForm" (ngSubmit)="onRegister()" class="form">
+            <div class="element center">
+                <h1>Register an account</h1>
+            </div>
+            <div class="element">
+                <mat-label>Choose an account type:</mat-label><br/>
+                <mat-radio-group aria-labelledby="radio-group-label" class="radio-group" formControlName="accountType" >
+                    <mat-radio-button class="radio-button" *ngFor="let accountType of accountTypes" [value]="accountType">
+                        {{ accountType }}
+                    </mat-radio-button>
+                </mat-radio-group>
+            </div>
+            <div class="element">
+                <table class="form-field" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Email</mat-label>
+                                <input matInput formControlName="email">
+                            </mat-form-field>
+                        </td>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Phone number</mat-label>
+                                <input matInput formControlName="phoneNumber">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="element">
+                <table class="form-field" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Password</mat-label>
+                                <input matInput type="password" formControlName="password1">
+                            </mat-form-field>
+                        </td>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Repeat password</mat-label>
+                                <input matInput type="password" formControlName="password2">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="element">
+                <table class="form-field" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>First name</mat-label>
+                                <input matInput formControlName="firstname">
+                            </mat-form-field>
+                        </td>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Last name</mat-label>
+                                <input matInput formControlName="lastname">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="element">
+                <table class="form-field" cellspacing="0">
+                    <tr>
+                        <td style="width:50%">
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Date of birth</mat-label>
+                                <input matInput [matDatepicker]="picker" formControlName="dateOfBirth">
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                              </mat-form-field>
+                        </td>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Pesel</mat-label>
+                                <input matInput formControlName="pesel">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="element">
+                <table class="form-field" cellspacing="0">
+                    <tr>
+                        <td>
+                            <mat-form-field class="form-field" appearance="fill">
+                                <mat-label>Address</mat-label>
+                                <textarea matInput formControlName="address"></textarea>
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="element center">
+                <button mat-fab type="submit">
+                    <span class="material-icons">
+                        person_add
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

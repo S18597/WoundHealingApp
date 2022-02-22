@@ -1,0 +1,103 @@
+<div class="main-container">
+    <div>
+        <div class="image"></div>
+    </div>
+    <div>
+        <mat-drawer-container>
+            <mat-drawer #drawer mode="side">
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <!-- for patient -->
+                    <div class="item2" *ngIf="isPatient" fxFlex>
+                        MY WOUNDS<br/><br/>
+                        <div>
+                            <mat-accordion class="example-headers-align" multi>
+                                <mat-expansion-panel *ngFor="let wound of patientWoundAppointments">
+                                    <mat-expansion-panel-header>
+                                        <mat-panel-description>
+                                            <!-- woun type info -->
+                                            {{wound?.woundType}}
+                                        </mat-panel-description>
+                                    </mat-expansion-panel-header>
+                                        <!-- visit related to wound -->
+                                        <div *ngIf="wound?.appointment">
+                                            Appointment:<br/>
+                                            &nbsp; &nbsp; &nbsp; {{ wound.appointment.appointmentDate }}<br/>
+                                            With Doctor:<br/>
+                                            &nbsp; &nbsp; &nbsp; {{ wound.appointment.doctorName }}
+                                        </div>
+                                        <div *ngIf="!wound?.appointment">
+                                            no appointment
+                                        </div>
+                                  </mat-expansion-panel>
+                            </mat-accordion>
+                        </div>
+                    </div>
+                    <div class="item2" *ngIf="isDoctor" fxFlex>
+                        MY SCHEDULE<br/><br/><br/>
+                        <div>
+                            <mat-list>
+                                <mat-list-item *ngFor="let appointment of doctorAppointments">
+                                    <span class="title">{{appointment?.patientName}}</span> &nbsp; &nbsp;
+                                    <span class="value">{{appointment?.appointmentDate}}</span>
+                                    <mat-divider></mat-divider><br/>
+                                </mat-list-item>
+                            </mat-list>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <button mat-mini-fab mat-button color="white" (click)="drawer.toggle()">
+                <span class="material-icons">
+                    healing
+                </span>
+            </button>
+            <div style="margin-left:35px">
+                <div *ngIf="isPatient">
+                    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                        <div class="item item-1 cursor" (click)="myData()" fxFlex="15%">
+                          <span>MY DATA</span>
+                        </div>
+                        <div class="item item-2 cursor" (click)="myWounds($event)" fxFlex="20%">
+                          <span>MY WOUNDS</span>
+                        </div>
+                        <div class="item item-3 cursor" (click)="registerWound($event)" fxFlex>
+                          <span>REGISTER WOUND</span>
+                        </div>
+                    </div>
+                    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                        <div class="item item-4 cursor" (click)="myAppointments($event)" fxFlex="30%">
+                          <span>MY APPOINTMENS</span>
+                        </div>
+                        <div class="item item-5 cursor" (click)="registerAppointment($event)" fxFlex>
+                          <span>REGISTER AN APPOINTMENT</span>
+                        </div>
+                        <div class="item item-6 cursor" (click)="chat($event)" fxFlex="200px">
+                            <span>CHAT</span>
+                        </div>
+                    </div>
+                </div>
+                <div *ngIf="isDoctor">
+                    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                        <div class="item item-1 cursor" (click)="myPatients()" fxFlex="15%">
+                          <span>MY PATIENTS</span>
+                        </div>
+                        <div class="item item-2 cursor" (click)="myAppointments($event)" fxFlex="20%">
+                          <span>MY APPOINTMENTS</span>
+                        </div>
+                        <div class="item item-3 cursor" (click)="wounds()" fxFlex>
+                          <span>WOUNDS</span>
+                        </div>
+                    </div>
+                    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                        <div class="item item-4 cursor" (click)="chat($event)" fxFlex="30%">
+                          <span>CHAT</span>
+                        </div>
+                        <div class="item item-5 cursor" (click)="myStats()" fxFlex>
+                          <span>MY STATS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-drawer-container>    
+    </div>
+</div>

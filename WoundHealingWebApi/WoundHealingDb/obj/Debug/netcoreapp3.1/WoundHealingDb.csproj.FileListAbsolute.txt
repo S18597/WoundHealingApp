@@ -1,0 +1,12 @@
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\bin\Debug\netcoreapp3.1\WoundHealingDb.deps.json
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\bin\Debug\netcoreapp3.1\WoundHealingDb.runtimeconfig.json
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\bin\Debug\netcoreapp3.1\WoundHealingDb.runtimeconfig.dev.json
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\bin\Debug\netcoreapp3.1\WoundHealingDb.dll
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\bin\Debug\netcoreapp3.1\WoundHealingDb.pdb
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.csproj.AssemblyReference.cache
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.AssemblyInfoInputs.cache
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.AssemblyInfo.cs
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.csproj.CoreCompileInputs.cache
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.dll
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.pdb
+C:\Tugba\WoundHealingApp\WoundHealingWebApi\WoundHealingDb\obj\Debug\netcoreapp3.1\WoundHealingDb.genruntimeconfig.cache

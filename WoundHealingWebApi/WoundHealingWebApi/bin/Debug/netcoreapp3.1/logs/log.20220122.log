@@ -1,0 +1,122 @@
+16:50:55.623  8  INFO UserController GetUser | 
+16:52:10.307  9  INFO UserController GetUser | 
+16:54:00.785 23  INFO UserController GetUser | 
+16:54:21.106 26  INFO UserController GetUser | 
+16:55:08.449 31  INFO UserController GetUser | 
+16:55:32.511 31  INFO UserController GetUser | 
+16:56:26.034 38  INFO UserController GetUser | 
+17:04:17.071 10  INFO UserController GetUser | 
+17:06:53.152 13  INFO UserController GetUser | 
+17:07:03.144 13  INFO UserController GetUser | 
+17:07:06.731 17  INFO UserController GetUser | 
+17:08:04.347 21  INFO UserController GetUser | 
+17:10:53.680 35  INFO UserController GetUser | 
+17:11:21.112 10  INFO UserController GetUser | 
+17:11:52.808  4  INFO UserController GetUser | 
+17:14:29.899 24  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Test","Lastname":"Test","Pesel":"12233","Address":"test","PhoneNumber":"12323445","EmailAddress":"test@test.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"7bv8","Hash":"5cc87e5acc28bc81346f3940edc366ef"} | 
+17:15:19.161 24 ERROR UserRequestHandler CreateUser error: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at WoundHealingWebApi.Handlers.UserRequestHandler.Handle(CreateUserRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\UserRequestHandler.cs:line 30
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20 | 
+17:23:01.650  4  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Volkan","Lastname":"Kartal","Pesel":"12233","Address":"ul. Postepu","PhoneNumber":"534369963","EmailAddress":"test@test.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"Z93U","Hash":"ab34c84a635c40428148898c316c04a7"} | 
+17:23:01.960  4  INFO UserRequestHandler CreateUserRequest: {"AccountType":1,"Firstname":"Volkan","Lastname":"Kartal","Pesel":"12233","Address":"ul. Postepu","PhoneNumber":"534369963","EmailAddress":"test@test.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"Z93U","Hash":"ab34c84a635c40428148898c316c04a7"} | 
+17:23:50.621  4 ERROR UserRequestHandler CreateUser error: Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at WoundHealingWebApi.Handlers.UserRequestHandler.Handle(CreateUserRequest request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\UserRequestHandler.cs:line 32
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20 | 
+17:33:27.853  8  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"string","Lastname":"string","Pesel":"string","Address":"string","PhoneNumber":"string","EmailAddress":"string","DateOfBirth":"2022-01-22T16:33:26.045Z","Salt":"string","Hash":"string"} | 
+17:33:28.161  8  INFO UserRequestHandler CreateUserRequest: {"AccountType":1,"Firstname":"string","Lastname":"string","Pesel":"string","Address":"string","PhoneNumber":"string","EmailAddress":"string","DateOfBirth":"2022-01-22T16:33:26.045Z","Salt":"string","Hash":"string"} | 
+17:33:29.761  8  INFO UserRequestHandler User created:  | 
+17:34:12.183 15  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Test","Lastname":"Test","Pesel":"12233","Address":"t","PhoneNumber":"12323445","EmailAddress":"test@test.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"2gWa","Hash":"b15b38c303c1721f1665befc8e9b7817"} | 
+17:34:12.183 15  INFO UserRequestHandler CreateUserRequest: {"AccountType":1,"Firstname":"Test","Lastname":"Test","Pesel":"12233","Address":"t","PhoneNumber":"12323445","EmailAddress":"test@test.pl","DateOfBirth":"2021-12-31T23:00:00Z","Salt":"2gWa","Hash":"b15b38c303c1721f1665befc8e9b7817"} | 
+17:34:12.251  8  INFO UserRequestHandler User created:  | 
+17:45:20.499 14  INFO UserController CreateUser request: {"AccountType":1,"Firstname":"Jan","Lastname":"Kowalski","Pesel":"123456789","Address":"ul. Jakas 1/5 Warszawa","PhoneNumber":"123456789","EmailAddress":"qwe@qwe.pl","DateOfBirth":"1988-12-31T23:00:00Z","Salt":"9R9h","Hash":"c264499e740bb20988647ac75cb7062f"} | 
+17:45:22.029 15  INFO UserRequestHandler User created:  | 
+18:12:31.339  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:19:15.265 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:19:49.007 14  INFO UserController GetUserByEmail: volkan.eaglesoft@gmail.com | 
+18:19:49.079 14 ERROR UserQueryHandler user not found! | 
+18:19:49.104 14 ERROR UserQueryHandler GetUserByEmailQuery error: System.Exception: user not found!
+   at WoundHealingWebApi.Handlers.UserQueryHandler.Handle(GetUserByEmailQuery request, CancellationToken cancellationToken) in C:\Projects\WoundHealingApp\WoundHealingWebApi\WoundHealingWebApi\Handlers\UserQueryHandler.cs:line 43 | 
+18:27:32.119 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:34:48.309 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:35:28.091  8  INFO UserController GetUserAuthByUserId: 3 | 
+18:35:54.002  4  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:37:37.012 19  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:37:37.043 13  INFO UserController GetUserAuthByUserId: 3 | 
+18:46:46.300 39  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:46:46.344 34  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:03.990 23  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:04.009 19  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:13.252 19  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:13.405 19  INFO UserController GetUserAuthByUserId: 3 | 
+18:53:19.852 18  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:53:19.871 24  INFO UserController GetUserAuthByUserId: 3 | 
+18:54:07.911 12  INFO UserController CreateUser request: {"AccountType":2,"Firstname":"Doktor1","Lastname":"Nazwisko","Pesel":"12233","Address":"adres","PhoneNumber":"12323445","EmailAddress":"abc@abc.pl","DateOfBirth":"2022-01-05T23:00:00Z","Salt":"u8R0","Hash":"111dd66ec951b71cda1ce7938adf6a69"} | 
+18:54:08.278 24  INFO UserRequestHandler User created:  | 
+18:54:16.732 24  INFO UserController GetUserByEmail: abc@abc.pl | 
+18:54:16.751 24  INFO UserController GetUserAuthByUserId: 4 | 
+19:12:57.992 64  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:12:58.014 64  INFO UserController GetUserAuthByUserId: 3 | 
+19:14:06.441 66  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:14:06.471 73  INFO UserController GetUserAuthByUserId: 3 | 
+22:43:17.826 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:43:19.092  4  INFO UserController GetUserAuthByUserId: 3 | 

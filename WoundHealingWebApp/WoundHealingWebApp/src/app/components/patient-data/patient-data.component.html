@@ -1,0 +1,106 @@
+<div class="main-container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+          </button>
+    </div>
+    <div>
+        <mat-drawer-container>
+            <mat-drawer #drawer mode="side" opened="true">
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item2" fxFlex>
+                        <span class="title-big">PATIENT</span><br/><br/><br/><br/>
+                        <div [(ngModel)]="patientData">
+                            <span class="title">Name:</span> &nbsp;
+                            <span class="value">{{patientData.firstname}}</span>
+                            <mat-divider></mat-divider><br/>
+                            <span class="title">Surname:</span> &nbsp;
+                            <span class="value">{{patientData.lastname}}</span>
+                            <mat-divider></mat-divider><br/>
+                            <span class="title">Date of Birth:</span> &nbsp;
+                            <span class="value">{{patientData.dateOfBirth}}</span>
+                            <mat-divider></mat-divider><br/>
+                            <span class="title">PESEL:</span> &nbsp;
+                            <span class="value">{{patientData.pesel}}</span>
+                            <mat-divider></mat-divider>
+                        </div>
+                    </div>
+                </div>
+            </mat-drawer>
+            <button mat-mini-fab mat-button color="white" (click)="drawer.toggle()">
+                <span class="material-icons">
+                    person
+                </span>
+            </button>
+            <div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Chronic diseases:</span><br/><br/>
+                        <mat-form-field class="text-area" appearance="fill">
+                            <textarea matInput [(ngModel)]="chronicDiseases" [disabled]="!isEditMode">{{chronicDiseases}}</textarea>
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Pregnancy:</span><br/><br/><br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <mat-slide-toggle [(ngModel)]="isPregnancy" [disabled]="!isEditMode" color="primary">
+                            <span class="title">{{isPregnancy}}</span>
+                        </mat-slide-toggle>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Medication:</span><br/><br/>
+                        <mat-form-field class="text-area" appearance="fill">
+                            <textarea matInput [(ngModel)]="medication" [disabled]="!isEditMode">{{medication}}</textarea>
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Tobacco:</span><br/><br/><br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <mat-slide-toggle [(ngModel)]="isTobacco" [disabled]="!isEditMode" color="primary">
+                            <span class="title">{{isTobacco}}</span>
+                        </mat-slide-toggle>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <span class="title">Allergies:</span><br/><br/>
+                        <mat-form-field class="text-area" appearance="fill">
+                            <textarea matInput [(ngModel)]="allergies" [disabled]="!isEditMode">{{allergies}}</textarea>
+                        </mat-form-field>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Alcohol:</span><br/><br/><br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <mat-slide-toggle [(ngModel)]="isAlcohol" [disabled]="!isEditMode" color="primary">
+                            <span class="title">{{isAlcohol}}</span>
+                        </mat-slide-toggle>
+                    </div>
+                </div>
+                <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+                    <div class="item" fxFlex>
+                        <!-- save button -->
+                        <div class="center" *ngIf="isEditMode">
+                            <button mat-fab color="primary" (click)="saveMedicalData()">
+                                <mat-icon>save</mat-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="item" fxFlex>
+                        <span class="title">Drugs:</span><br/><br/><br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                        <mat-slide-toggle [(ngModel)]="isDrugs" [disabled]="!isEditMode" color="primary">
+                            <span class="title">{{isDrugs}}</span>
+                        </mat-slide-toggle>
+                    </div>
+                </div>
+            </div>
+        </mat-drawer-container>    
+    </div>
+</div>

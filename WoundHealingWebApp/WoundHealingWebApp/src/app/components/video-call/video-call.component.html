@@ -1,0 +1,42 @@
+<div class="main-container">
+    <div>
+        <div class="image cursor" (click)="goToMain()"></div>
+    </div>
+    <div>
+        <button mat-mini-fab (click)="goBack()" color="primary">
+            <span class="material-icons">
+                arrow_back
+            </span>
+          </button>
+    </div>
+    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <div class="item item-1" fxFlex>
+            <span>
+                Doctor:<br/><br/>
+                <video id="webcamVideo" autoplay playsinline #webcamVideo></video>
+            </span>
+        </div>
+        <div class="item item-2" fxFlex>
+            <span>
+                Patient:<br/><br/>
+                <video id="remoteVideo" autoplay playsinline #remoteVideo></video>
+            </span>
+        </div>
+    </div>
+    <div class="container" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <div class="item-small item-4" fxFlex>
+            <div class="center">
+                <button mat-fab (click)="makeCall()" color="primary">
+                    <span class="material-icons">
+                        call
+                    </span>
+                </button>
+            </div>
+            <div class="center" *ngIf="callInput">
+                <mat-form-field appearance="legacy" class="link">
+                    <input matInput class="link" [(ngModel)]="callInput"/>
+                </mat-form-field>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,306 @@
+11:37:54.072 70  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+11:37:54.180 70  INFO UserController GetUserAuthByUserId: 3 | 
+12:30:09.192 27  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:30:09.217 35  INFO UserController GetUserAuthByUserId: 3 | 
+12:33:10.375 44  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+12:33:10.387 44  INFO UserController GetUserAuthByUserId: 3 | 
+13:00:02.116 81  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:00:02.143 81  INFO UserController GetUserAuthByUserId: 3 | 
+13:06:52.789 62  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:06:52.804 57  INFO UserController GetUserAuthByUserId: 3 | 
+13:17:24.918 39  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:17:24.943 36  INFO UserController GetUserAuthByUserId: 3 | 
+13:19:47.055 35  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:19:47.055 35  INFO UserController GetUserAuthByUserId: 3 | 
+13:25:31.091  8  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:25:31.105  8  INFO UserController GetUserAuthByUserId: 3 | 
+13:46:35.556 33  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+13:46:35.576 31  INFO UserController GetUserAuthByUserId: 3 | 
+14:22:13.098 71  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:22:13.115 72  INFO UserController GetUserAuthByUserId: 3 | 
+14:22:46.030 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:22:46.043 69  INFO UserController GetUserAuthByUserId: 3 | 
+14:25:22.612 59  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:25:22.627 51  INFO UserController GetUserAuthByUserId: 3 | 
+14:31:18.192 31  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:31:18.210 30  INFO UserController GetUserAuthByUserId: 3 | 
+14:34:02.933 21  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:34:02.933 22  INFO UserController GetUserAuthByUserId: 3 | 
+14:34:10.649 26  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+14:34:10.649 22  INFO UserController GetUserAuthByUserId: 3 | 
+16:32:42.413 47  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:32:42.430 76  INFO UserController GetUserAuthByUserId: 3 | 
+16:33:29.881 83  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:33:29.881  9  INFO UserController GetUserAuthByUserId: 3 | 
+16:36:58.488 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:36:58.501 15  INFO UserController GetUserAuthByUserId: 3 | 
+16:40:15.987 28  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:40:16.008 35  INFO UserController GetUserAuthByUserId: 3 | 
+16:41:56.318 42  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:41:56.318 45  INFO UserController GetUserAuthByUserId: 3 | 
+16:45:16.768 46  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:45:16.792 46  INFO UserController GetUserAuthByUserId: 3 | 
+16:47:27.004 61  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+16:47:27.015 61  INFO UserController GetUserAuthByUserId: 3 | 
+17:05:31.507 73  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:05:31.507 54  INFO UserController GetUserAuthByUserId: 3 | 
+17:17:56.425 44  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+17:17:56.441 35  INFO UserController GetUserAuthByUserId: 3 | 
+18:06:34.284 56  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:06:34.311 56  INFO UserController GetUserAuthByUserId: 3 | 
+18:14:22.653 29  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:14:22.668 88  INFO UserController GetUserAuthByUserId: 3 | 
+18:14:42.494 87  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:14:42.494 87  INFO UserController GetUserAuthByUserId: 3 | 
+18:21:45.083 79  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:21:45.104 73  INFO UserController GetUserAuthByUserId: 3 | 
+18:24:10.454 80  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:24:10.463 92  INFO UserController GetUserAuthByUserId: 3 | 
+18:27:11.793 95  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:27:11.803 95  INFO UserController GetUserAuthByUserId: 3 | 
+18:27:35.146 71  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:27:35.146 50  INFO UserController GetUserAuthByUserId: 3 | 
+18:28:08.338 29  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:28:08.338 62  INFO UserController GetUserAuthByUserId: 3 | 
+18:29:19.864 57  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:29:19.877 46  INFO UserController GetUserAuthByUserId: 3 | 
+18:29:27.155 60  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:29:27.164 57  INFO UserController GetUserAuthByUserId: 3 | 
+18:49:02.077 11  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:49:02.093 82  INFO UserController GetUserAuthByUserId: 3 | 
+18:50:57.185 10  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:50:57.198 10  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:08.162 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:08.162 24  INFO UserController GetUserAuthByUserId: 3 | 
+18:52:52.453 66  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:52:52.462 66  INFO UserController GetUserAuthByUserId: 3 | 
+18:53:49.123 66  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:53:49.131 85  INFO UserController GetUserAuthByUserId: 3 | 
+18:54:48.512  5  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:54:48.526 99  INFO UserController GetUserAuthByUserId: 3 | 
+18:56:53.197 106  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:56:53.197 106  INFO UserController GetUserAuthByUserId: 3 | 
+18:57:39.154 106  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:57:39.175 106  INFO UserController GetUserAuthByUserId: 3 | 
+18:59:14.051 114  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+18:59:14.067 114  INFO UserController GetUserAuthByUserId: 3 | 
+19:00:51.566 117  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:00:51.581 120  INFO UserController GetUserAuthByUserId: 3 | 
+19:10:56.237 141  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:10:56.255 141  INFO UserController GetUserAuthByUserId: 3 | 
+19:11:12.799 141  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:11:12.809 146  INFO UserController GetUserAuthByUserId: 3 | 
+19:11:52.095 141  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:11:52.113 152  INFO UserController GetUserAuthByUserId: 3 | 
+19:12:52.239 152  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:12:52.239 154  INFO UserController GetUserAuthByUserId: 3 | 
+19:13:48.880 156  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:13:48.898 156  INFO UserController GetUserAuthByUserId: 3 | 
+19:14:31.117 155  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:14:31.117 154  INFO UserController GetUserAuthByUserId: 3 | 
+19:17:11.366 147  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:17:11.400 147  INFO UserController GetUserAuthByUserId: 3 | 
+19:20:18.998 134  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:20:19.009 129  INFO UserController GetUserAuthByUserId: 3 | 
+19:21:52.090 132  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:21:52.103 125  INFO UserController GetUserAuthByUserId: 3 | 
+19:23:35.019 122  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:23:35.029 118  INFO UserController GetUserAuthByUserId: 3 | 
+19:26:26.384 114  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:26:26.384 108  INFO UserController GetUserAuthByUserId: 3 | 
+19:27:55.295 105  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:27:55.312 103  INFO UserController GetUserAuthByUserId: 3 | 
+19:31:30.748 84  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:31:30.759 96  INFO UserController GetUserAuthByUserId: 3 | 
+19:34:05.550 73  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:34:05.563 75  INFO UserController GetUserAuthByUserId: 3 | 
+19:35:29.411 24  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:35:29.411 82  INFO UserController GetUserAuthByUserId: 3 | 
+19:37:31.990 25  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:37:31.990 25  INFO UserController GetUserAuthByUserId: 3 | 
+19:40:40.327 18  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:40:40.338 38  INFO UserController GetUserAuthByUserId: 3 | 
+19:42:46.925 44  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:42:46.934 35  INFO UserController GetUserAuthByUserId: 3 | 
+19:43:42.408 34  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:43:42.419 53  INFO UserController GetUserAuthByUserId: 3 | 
+19:45:36.578 43  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:45:36.593 52  INFO UserController GetUserAuthByUserId: 3 | 
+19:47:07.287 60  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:47:07.287 62  INFO UserController GetUserAuthByUserId: 3 | 
+19:50:24.021 71  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+19:50:24.021 95  INFO UserController GetUserAuthByUserId: 3 | 
+20:16:37.180 63  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:16:37.198 48  INFO UserController GetUserAuthByUserId: 3 | 
+20:16:50.901 48  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:16:50.901 48  INFO UserController GetUserAuthByUserId: 3 | 
+20:19:15.539 30  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:19:15.592 36  INFO UserController GetUserAuthByUserId: 3 | 
+20:19:51.817 36  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:19:51.825 31  INFO UserController GetUserAuthByUserId: 3 | 
+20:21:20.275 18  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:21:20.288 21  INFO UserController GetUserAuthByUserId: 3 | 
+20:22:57.607 23  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:22:57.619 19  INFO UserController GetUserAuthByUserId: 3 | 
+20:30:47.771 74  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:30:47.771 74  INFO UserController GetUserAuthByUserId: 3 | 
+20:32:25.716 75  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:32:25.732 76  INFO UserController GetUserAuthByUserId: 3 | 
+20:34:35.045 16  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:34:35.085 15  INFO UserController GetUserAuthByUserId: 3 | 
+20:34:53.164 15  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:34:53.189 16  INFO UserController GetUserAuthByUserId: 3 | 
+20:37:11.098 17  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:37:11.098 22  INFO UserController GetUserAuthByUserId: 3 | 
+20:43:25.222 32  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:43:25.235 45  INFO UserController GetUserAuthByUserId: 3 | 
+20:57:11.864 58  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:57:11.878 58  INFO UserController GetUserAuthByUserId: 3 | 
+20:58:56.931 88  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+20:58:56.944 88  INFO UserController GetUserAuthByUserId: 3 | 
+21:17:29.991 19  INFO WoundTypesController GetWoundTypes | 
+21:17:30.105 11  INFO WoundTypesController GetWoundLocations | 
+21:17:30.140 11  INFO WoundTypesController GetWoundSizes | 
+21:17:30.158 14  INFO WoundTypesController GetWoundColors | 
+21:17:30.171 11  INFO WoundTypesController GetWoundOdors | 
+21:17:30.171 11  INFO WoundTypesController GetWoundExudates | 
+21:17:30.201 14  INFO WoundTypesController GetWoundBleedings | 
+21:17:30.201 83  INFO WoundTypesController GetSurroundingSkins | 
+21:17:30.238 14  INFO WoundTypesController GetPainTypes | 
+21:17:30.238 14  INFO WoundTypesController GetPainLevels | 
+21:17:38.946 14  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:17:38.946 19  INFO UserController GetUserAuthByUserId: 3 | 
+21:17:41.488 82  INFO WoundController GetMyWounds userId: 3 | 
+21:17:43.679 76  INFO WoundTypesController GetWoundTypes | 
+21:17:43.772 19  INFO WoundTypesController GetWoundLocations | 
+21:17:43.800 76  INFO WoundTypesController GetWoundSizes | 
+21:17:43.819 19  INFO WoundTypesController GetWoundColors | 
+21:17:43.833 11  INFO WoundTypesController GetWoundOdors | 
+21:17:43.863 82  INFO WoundTypesController GetWoundExudates | 
+21:17:43.885 19  INFO WoundTypesController GetWoundBleedings | 
+21:17:43.903 19  INFO WoundTypesController GetSurroundingSkins | 
+21:17:43.943 82  INFO WoundTypesController GetPainTypes | 
+21:17:43.943 82  INFO WoundTypesController GetPainLevels | 
+21:17:54.499 76  INFO WoundTypesController GetWoundTypes | 
+21:17:54.631 83  INFO WoundTypesController GetWoundLocations | 
+21:17:54.663 83  INFO WoundTypesController GetWoundSizes | 
+21:17:54.663 14  INFO WoundTypesController GetWoundColors | 
+21:17:54.697 19  INFO WoundTypesController GetWoundOdors | 
+21:17:54.710 14  INFO WoundTypesController GetWoundExudates | 
+21:17:54.710 14  INFO WoundTypesController GetWoundBleedings | 
+21:17:54.733 83  INFO WoundTypesController GetSurroundingSkins | 
+21:17:54.750 11  INFO WoundTypesController GetPainTypes | 
+21:17:54.759 83  INFO WoundTypesController GetPainLevels | 
+21:17:56.738 11  INFO WoundController GetMyWounds userId: 3 | 
+21:17:59.486 19  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:18:01.225 83  INFO WoundController GetMyWounds userId: 3 | 
+21:22:03.858 67  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:22:03.903 81  INFO UserController GetUserAuthByUserId: 3 | 
+21:22:07.917 81  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:22:07.934 81  INFO UserController GetUserAuthByUserId: 3 | 
+21:22:27.793 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:22:27.804 96  INFO UserController GetUserAuthByUserId: 3 | 
+21:22:36.040 78  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:22:36.053 96  INFO UserController GetUserAuthByUserId: 3 | 
+21:22:39.950 67  INFO WoundController GetMyWounds userId: 3 | 
+21:22:42.639 67  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:22:45.714 67  INFO WoundTypesController GetWoundTypes | 
+21:22:45.799 67  INFO WoundTypesController GetWoundLocations | 
+21:22:45.840 67  INFO WoundTypesController GetWoundSizes | 
+21:22:45.867 67  INFO WoundTypesController GetWoundColors | 
+21:22:45.927 81  INFO WoundTypesController GetWoundOdors | 
+21:22:45.976 81  INFO WoundTypesController GetWoundExudates | 
+21:22:45.976 81  INFO WoundTypesController GetWoundBleedings | 
+21:22:46.002  4  INFO WoundTypesController GetSurroundingSkins | 
+21:22:46.021  4  INFO WoundTypesController GetPainTypes | 
+21:22:46.048  4  INFO WoundTypesController GetPainLevels | 
+21:22:48.375  4  INFO WoundController GetMyWounds userId: 3 | 
+21:27:18.647 104  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:27:18.647 104  INFO UserController GetUserAuthByUserId: 3 | 
+21:27:19.397 108  INFO WoundTypesController GetWoundTypes | 
+21:27:19.484 108  INFO WoundTypesController GetWoundLocations | 
+21:27:19.546 108  INFO WoundTypesController GetWoundSizes | 
+21:27:19.596 108  INFO WoundTypesController GetWoundColors | 
+21:27:19.620 108  INFO WoundTypesController GetWoundOdors | 
+21:27:19.646 108  INFO WoundTypesController GetWoundExudates | 
+21:27:19.655 108  INFO WoundTypesController GetWoundBleedings | 
+21:27:19.674 104  INFO WoundTypesController GetSurroundingSkins | 
+21:27:19.674 104  INFO WoundTypesController GetPainTypes | 
+21:27:19.701 111  INFO WoundTypesController GetPainLevels | 
+21:27:49.122 111  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:27:49.137 106  INFO UserController GetUserAuthByUserId: 3 | 
+21:27:49.973 106  INFO WoundTypesController GetWoundTypes | 
+21:27:50.068 113  INFO WoundTypesController GetWoundLocations | 
+21:27:50.100 106  INFO WoundTypesController GetWoundSizes | 
+21:27:50.123 113  INFO WoundTypesController GetWoundColors | 
+21:27:50.123 106  INFO WoundTypesController GetWoundOdors | 
+21:27:50.159 113  INFO WoundTypesController GetWoundExudates | 
+21:27:50.176 113  INFO WoundTypesController GetWoundBleedings | 
+21:27:50.193 111  INFO WoundTypesController GetSurroundingSkins | 
+21:27:50.210 111  INFO WoundTypesController GetPainTypes | 
+21:27:50.210 111  INFO WoundTypesController GetPainLevels | 
+21:27:54.798 104  INFO WoundController GetMyWounds userId: 3 | 
+21:27:57.660 114  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:28:04.054 112  INFO WoundController GetMyWounds userId: 3 | 
+21:28:08.966 106  INFO WoundTypesController GetWoundTypes | 
+21:28:09.036 104  INFO WoundTypesController GetWoundLocations | 
+21:28:09.061 104  INFO WoundTypesController GetWoundSizes | 
+21:28:09.073 106  INFO WoundTypesController GetWoundColors | 
+21:28:09.085 106  INFO WoundTypesController GetWoundOdors | 
+21:28:09.098 106  INFO WoundTypesController GetWoundExudates | 
+21:28:09.098 112  INFO WoundTypesController GetWoundBleedings | 
+21:28:09.118 106  INFO WoundTypesController GetSurroundingSkins | 
+21:28:09.118 106  INFO WoundTypesController GetPainTypes | 
+21:28:09.148 106  INFO WoundTypesController GetPainLevels | 
+21:28:15.294 106  INFO WoundController GetMyWounds userId: 3 | 
+21:28:18.300 106  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:28:22.228 113  INFO WoundTypesController GetWoundTypes | 
+21:28:22.281 113  INFO WoundTypesController GetWoundLocations | 
+21:28:22.306 114  INFO WoundTypesController GetWoundSizes | 
+21:28:22.317 113  INFO WoundTypesController GetWoundColors | 
+21:28:22.317 114  INFO WoundTypesController GetWoundOdors | 
+21:28:22.342 114  INFO WoundTypesController GetWoundExudates | 
+21:28:22.351 114  INFO WoundTypesController GetWoundBleedings | 
+21:28:22.364 106  INFO WoundTypesController GetSurroundingSkins | 
+21:28:22.364 106  INFO WoundTypesController GetPainTypes | 
+21:28:22.391 106  INFO WoundTypesController GetPainLevels | 
+21:28:24.235 113  INFO WoundController GetMyWounds userId: 3 | 
+21:28:30.554 113  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:28:44.224 113  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:28:44.224 114  INFO UserController GetUserAuthByUserId: 3 | 
+21:28:52.021 111  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+21:28:52.038 111  INFO UserController GetUserAuthByUserId: 3 | 
+21:29:38.257 105  INFO WoundController GetMyWounds userId: 3 | 
+21:30:31.029 111  INFO AppointmentController GetMyAppointments patientId: 3 | 
+21:38:01.924 91  INFO WoundController GetMyWounds userId: 3 | 
+21:38:46.232 41  INFO WoundController GetMyWounds userId: 3 | 
+21:38:48.062  4  INFO WoundTypesController GetWoundTypes | 
+21:38:48.189 96  INFO WoundTypesController GetWoundLocations | 
+21:38:48.250 41  INFO WoundTypesController GetWoundSizes | 
+21:38:48.275 41  INFO WoundTypesController GetWoundColors | 
+21:38:48.275 41  INFO WoundTypesController GetWoundOdors | 
+21:38:48.296 96  INFO WoundTypesController GetWoundExudates | 
+21:38:48.307  4  INFO WoundTypesController GetWoundBleedings | 
+21:38:48.320 96  INFO WoundTypesController GetSurroundingSkins | 
+21:38:48.335 96  INFO WoundTypesController GetPainTypes | 
+21:38:48.353 96  INFO WoundTypesController GetPainLevels | 
+22:02:44.525 44  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:02:44.539 45  INFO UserController GetUserAuthByUserId: 3 | 
+22:02:55.674 93  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:02:55.682 73  INFO UserController GetUserAuthByUserId: 3 | 
+22:03:44.578 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:03:44.578 69  INFO UserController GetUserAuthByUserId: 3 | 
+22:03:49.403 69  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:03:49.403 45  INFO UserController GetUserAuthByUserId: 3 | 
+22:13:18.002  9  INFO UserController GetUserByEmail: qwe@qwe.pl | 
+22:13:18.014  9  INFO UserController GetUserAuthByUserId: 3 | 
+22:14:57.243 86  INFO WoundTypesController GetWoundTypes | 
+22:14:57.318 86  INFO WoundTypesController GetWoundLocations | 
+22:14:57.348 83  INFO WoundTypesController GetWoundSizes | 
+22:14:57.385 83  INFO WoundTypesController GetWoundColors | 
+22:14:57.411 83  INFO WoundTypesController GetWoundOdors | 
+22:14:57.453 24  INFO WoundTypesController GetWoundExudates | 
+22:14:57.464 86  INFO WoundTypesController GetWoundBleedings | 
+22:14:57.475 86  INFO WoundTypesController GetSurroundingSkins | 
+22:14:57.489 156  INFO WoundTypesController GetPainTypes | 
+22:14:57.520 156  INFO WoundTypesController GetPainLevels | 
